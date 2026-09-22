@@ -1,0 +1,153 @@
+{
+  "task_id": "cheap_model_search_only_fresh-66",
+  "question": "How many people were reportedly trapped after a hotel collapse in Anuppur, Madhya Pradesh in April 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_3I42TV4DnBtO5HQm2vKMeSEY",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Anuppur hotel collapse April 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_3I42TV4DnBtO5HQm2vKMeSEY",
+      "content": "ddg_search error: error sending request for url (https://www.mojeek.com/search?q=Anuppur+hotel+collapse+April+2026+news) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_djD3X5yz8EsLxNez4hvTYvMD",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Anuppur hotel collapse April 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_djD3X5yz8EsLxNez4hvTYvMD",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: Madhya Pradesh, 2025 in India"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_uZtBXCL3gNCTWZVO0x1WaOOe",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Anuppur Madhya Pradesh hotel collapse April 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_uZtBXCL3gNCTWZVO0x1WaOOe",
+      "content": "ddg_search error: error sending request for url (https://www.google.com/wml/search?q=Anuppur+Madhya+Pradesh+hotel+collapse+April+2026&sca_esv=1&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_jgxqNE05j8HiugJdZYnIRBvt",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Anuppur hotel collapse news April 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_jgxqNE05j8HiugJdZYnIRBvt",
+      "content": "ddg_search error: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_H2KDekKRBH9FgiyCHVnBsIMO",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Anuppur hotel collapse April 2026 news report\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_H2KDekKRBH9FgiyCHVnBsIMO",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: 2025 in India"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_UXMjcwwnld24OtQIfxZEIfdt",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Anuppur Madhya Pradesh hotel collapse April 2026 details\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_UXMjcwwnld24OtQIfxZEIfdt",
+      "content": "[Madhya Pradesh: One killed, several trapped after three-storey hotel ...] Bhopal: One person was killed, and six others were feared trapped under debris after a three-storey hotel collapsed in the Anuppur district of Madhya Pradesh on Saturday evening, police said.\n[Five-Storey Hotel Collapses at Madhya Pradesh's Kotma Bus Stand: One ...] A hotel building collapsed at the Kotma bus stand in Anuppur district, Madhya Pradesh, leading to widespread panic and ongoing rescue efforts. Teams from police, SDRF, and local authorities are working to clear the debris and rescue those potentially trapped inside. So far, four individuals have been rescued, but one has been confirmed dead.\n[1 Dead, Several Feared Trapped As Five-Storey Hotel Collapses In Madhya ...] Updated 5 April 2026 at 02:36 IST 1 Dead, Several Feared Trapped As Five-Storey Hotel Collapses In Madhya Pradesh's Anuppur | VIDEO Several people are feared to trapped under debris after a five-storey hotel collapsed in Anuppur district, Madhya Pradesh, on Saturday."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Rm0QLJyHvK9GZMNgTEQuC4F8",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Anuppur hotel collapse April 2026 number of people trapped\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Rm0QLJyHvK9GZMNgTEQuC4F8",
+      "content": "ddg_search error: No results found."
+    },
+    {
+      "role": "assistant",
+      "content": "In the hotel collapse in Anuppur, Madhya Pradesh, on April 5, 2026, one person was confirmed dead, and six others were feared trapped under the debris. \n\nFINAL: 6 people were reportedly trapped.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "6 people were reportedly trapped.",
+  "steps_taken": 8
+}

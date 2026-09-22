@@ -4,15 +4,7 @@
 {"id": "fresh-3", "source": "fresh", "question": "What agreement did Ukraine and Romania sign in March 2026?", "answer": "a strategic partnership agreement", "evidence": "12 March – Ukraine and Romania sign a strategic partnership agreement in the defense and energy sectors.", "page": "2026 in Ukraine", "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine", "sonnet_answer": "unknown", "agent_ok": true}
 {"id": "fresh-4", "source": "fresh", "question": "What measure came into force in Victoria, Australia in January 2026?", "answer": "A total fire ban", "evidence": "9 January – A total fire ban comes into force in Victoria in response to an ongoing heatwave.", "page": "2026 in Australia", "url": "https://en.wikipedia.org/wiki/2026_in_Australia", "sonnet_answer": "unknown", "agent_ok": true}
 {"id": "fresh-5", "source": "fresh", "question": "How many people were killed in the car incident in Leipzig, Germany in May 2026?", "answer": "two people", "evidence": "4 May – A car plows into a crowd in Grimmaische Strasse in Leipzig, killing two people and injuring 22 others.", "page": "2026 in Germany", "url": "https://en.wikipedia.org/wiki/2026_in_Germany", "sonnet_answer": "unknown", "agent_ok": false}
-{"id": "fresh-6",
-  "source": "fresh",
-  "question": "How many people are reported missing in Tibet after the floods in August 2026?",
-  "answer": "4,500",
-  "evidence": "August 26 – 2026 Nepal–Tibet floods: At least 1,130 people are killed and nearly 4,500 reported missing in Tibet Autonomous Region after a flash flood strikes between Tibet and Nepal.",
-  "page": "2026",
-  "url": "https://en.wikipedia.org/wiki/2026",
-  "sonnet_answer": "unknown",
-  "agent_ok": false}
+{"id": "fresh-6", "source": "fresh", "question": "How many people are reported missing in Tibet after the floods in August 2026?", "answer": "4,500", "evidence": "August 26 – 2026 Nepal–Tibet floods: At least 1,130 people are killed and nearly 4,500 reported missing in Tibet Autonomous Region after a flash flood strikes between Tibet and Nepal.", "page": "2026", "url": "https://en.wikipedia.org/wiki/2026", "sonnet_answer": "unknown", "agent_ok": false}
 {"id": "fresh-7", "source": "fresh", "question": "Who was imprisoned in Istanbul for insulting President Erdoğan in July 2026?", "answer": "Deniz Göktaş", "evidence": "3 July — A court in Istanbul imprisons comedian Deniz Göktaş for insulting President Erdoğan and religious principles.", "page": "2026 in Turkey", "url": "https://en.wikipedia.org/wiki/2026_in_Turkey", "sonnet_answer": "unknown", "agent_ok": true}
 {"id": "fresh-8", "source": "fresh", "question": "Who was charged by the FSB in Russia on 29 July 2026?", "answer": "Pavel Durov", "evidence": "29 July – The FSB charges Telegram founder Pavel Durov of assisting Ukraine's \"terrorism\".", "page": "2026 in Russia", "url": "https://en.wikipedia.org/wiki/2026_in_Russia", "sonnet_answer": "unknown", "agent_ok": true}
 {"id": "fresh-9", "source": "fresh", "question": "What city hosted the 2026 BWF World Championships in sports in August?", "answer": "New Delhi", "evidence": "August 17 – 23 : 2026 BWF World Championships in New Delhi, India", "page": "2026 in sports", "url": "https://en.wikipedia.org/wiki/2026_in_sports", "sonnet_answer": "Zhengzhou", "agent_ok": true}

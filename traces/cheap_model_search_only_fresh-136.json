@@ -1,0 +1,73 @@
+{
+  "task_id": "cheap_model_search_only_fresh-136",
+  "question": "What date is the one-off extra Bank Holiday granted in Scotland in June 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_AWADyUxehzmsvN6WEVAtZ7nv",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Scotland extra Bank Holiday June 2026 date\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_AWADyUxehzmsvN6WEVAtZ7nv",
+      "content": "ddg_search error: error sending request for url (https://www.mojeek.com/search?q=Scotland+extra+Bank+Holiday+June+2026+date) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_0J4mGlA1cD4vEVtN40NOf3j7",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Scotland extra Bank Holiday June 2026 date\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_0J4mGlA1cD4vEVtN40NOf3j7",
+      "content": "[Public holidays in the United Kingdom] In the United Kingdom, public holidays are days on which most businesses and non-essential services are closed. Many retail businesses (especially the larger ones) do open on some of the public holidays. There are restrictions on trading on Sundays, Easter and Christmas Day in England and Wales and on New Year's Day and Christmas Day in Scotland. Public holidays defined by statute are called \"bank holidays\", but this term can also be used to include common law holidays, which are held by convention. The term \"public holidays\" can refer exclusively to common law holidays. There is no automatic right to paid time off on these days, or any right to a holiday at all, but banks close and the majority of the working population is granted time off work or extra pay for working on these days, depending on their contracts. Before 1980, collective agreements widely included public holidays as part of a standard entitlement to time off. Schedule 11 of the Employment Protection Act 1975 enabled mandatory extension of collective agreements across sectors, but this was repealed with effect from 1980, and the Fair Wages Resolution 1946 (affecting public sector contracts) was repealed with effect from 1983. This meant there was no effective legal mechanism for holidays until the Working Time Regulations 1998, based on the Working Time Directive restored 20 and then 28 days paid holidays - however employers do not need to grant paid holidays on public holiday days. There are eight bank holida | other articles: Bank holiday, List of American films of 2026"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_LfDOH3E2GQw8LzwQB88CXy75",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Scotland June 2026 extra bank holiday details\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_LfDOH3E2GQw8LzwQB88CXy75",
+      "content": "[Extra Bank Holiday for Scotland Fans June 2026 - The HR Booth] The King announced this week that there will be an extra bank holiday on 15th June 2026 for Scotland fans. This is to celebrate Scotland competing at the Fifa World Cup for the first time in 28 years.\n[Full list of Scottish bank holidays in 2026 – including World ...] Feb 5, 2026 · Here’s everything you need to know about Scotland’s 2026 bank holidays – including the extra day for the World Cup.\n[Extra Bank Holiday Approved by King Charles to Celebrate ...] Jun 8, 2026 · Scotland will observe a special one-off bank holiday on Monday, 15 June 2026, in honor of the national men’s football team’s first World Cup appearance in 28 years."
+    },
+    {
+      "role": "assistant",
+      "content": "The one-off extra Bank Holiday granted in Scotland in June 2026 will be on Monday, June 15, 2026. This holiday is to celebrate Scotland's participation in the FIFA World Cup for the first time in 28 years. \n\nFINAL: June 15, 2026",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "June 15, 2026",
+  "steps_taken": 4
+}

@@ -1,0 +1,67 @@
+{
+  "task_id": "cheap_model_search_only_fresh-105",
+  "question": "What is the increase in fuel surcharges by Air China and China Southern Airlines in April 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_3WS9f0dFJKaOVqIIxFY0ux0g",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Air China fuel surcharge increase April 2026\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "call_LAGjYVMIIW1T0dyz8giV5cUM",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"China Southern Airlines fuel surcharge increase April 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_3WS9f0dFJKaOVqIIxFY0ux0g",
+      "content": "ddg_search error: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_LAGjYVMIIW1T0dyz8giV5cUM",
+      "content": "[Chinese carriers to raise fuel surcharges on domestic routes] BEIJING, April 1 (Xinhua) -- Leading Chinese carriers, including Air China and China Southern Airlines, announced Wednesday that fuel surcharges for domestic routes will be raised starting April 5. For routes of 800 kilometers or less, the fuel surcharge will be set at 60 yuan (about 8.69 U.S. dollars), while for routes exceeding 800 kilometers, the fuel surcharge will increase to 120 yuan per ...\n[Chinese carriers to raise fuel surcharges on domestic routes] Leading Chinese carriers, including Air China and China Southern Airlines, announced Wednesday that fuel surcharges for domestic routes will be raised starting April 5. For routes of 800 kilometers or less, the fuel surcharge will be set at 60 yuan (about 8.69 U.S. dollars), while for routes exceeding 800 kilometers, the fuel surcharge will increase to 120 yuan per flight segment. For tickets ...\n[Chinese carriers to raise fuel surcharges on domestic routes] A C919 aircraft operated by China Southern Airlines lands at Haikou Meilan International Airport in Haikou, South China's Hainan province, on Dec 11, 2024. (PHOTO / XINHUA) BEIJING - Leading Chinese carriers, including Air China and China Southern Airlines, announced Wednesday that fuel surcharges for domestic routes will be raised starting April 5. For routes of 800 kilometers or less, the ..."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_zyUtGcMoL649wg9kY9YZzvZB",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Air China China Southern Airlines fuel surcharge April 2026 increase details\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_zyUtGcMoL649wg9kY9YZzvZB",
+      "content": "[Chinese carriers to raise fuel surcharges on domestic routes] BEIJING, April 1 (Xinhua) -- Leading Chinese carriers, including Air China and China Southern Airlines, announced Wednesday that fuel surcharges for domestic routes will be raised starting April 5. For routes of 800 kilometers or less, the fuel surcharge will be set at 60 yuan (about 8.69 U.S. dollars), while for routes exceeding 800 kilometers, the fuel surcharge will increase to 120 yuan per ...\n[Chinese carriers to raise fuel surcharges on domestic routes] Leading Chinese carriers, including Air China and China Southern Airlines, announced Wednesday that fuel surcharges for domestic routes will be raised starting April 5.\n[Chinese carriers to raise fuel surcharges on domestic routes] Leading Chinese carriers, including Air China and China Southern Airlines, announced Wednesday that fuel surcharges for domestic routes will be raised starting April 5. For routes of 800 kilometers or less, the fuel surcharge will be set at 60 yuan (about 8.69 U.S. dollars), while for routes exceeding 800 kilometers, the fuel surcharge will increase to 120 yuan per flight segment. For tickets ..."
+    },
+    {
+      "role": "assistant",
+      "content": "In April 2026, both Air China and China Southern Airlines announced an increase in fuel surcharges for domestic routes, effective from April 5. The new surcharges are as follows:\n\n- For routes of 800 kilometers or less, the fuel surcharge will be set at **60 yuan** (approximately **8.69 U.S. dollars**).\n- For routes exceeding 800 kilometers, the surcharge will increase to **120 yuan** per flight segment.\n\nFINAL: The fuel surcharge increases are 60 yuan for shorter routes and 120 yuan for longer routes.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "The fuel surcharge increases are 60 yuan for shorter routes and 120 yuan for longer routes.",
+  "steps_taken": 3
+}

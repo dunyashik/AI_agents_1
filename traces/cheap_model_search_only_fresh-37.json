@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_only_fresh-37",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_epbPKwWGuVKcVqBruBeOKAxv",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"resident doctors England four-day strike June 2026 date announcement\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_epbPKwWGuVKcVqBruBeOKAxv",
+      "content": "[Resident Doctors England June Strike 2026 NHS Dispute] Four-day resident doctor strike set for 15-19 June 2026 threatens NHS services in England. Latest on BMA action, pay talks and impact.\n[Resident doctors announce four days of strike action in England after ...] Without any meaningful change to the latest offer the resident doctor committee (RDC) has been left with no choice but to call further strike action in England. The action will run from 7.00am Monday 15th June to 6.59am Friday 19th June, with more strike dates in July to be announced in the event of no further progress being made.\n[Resident Doctors in England Announce Fresh Strike Action From June 15 ...] Resident doctors in England will stage a four-day strike from June 15 to June 19 as the long-running NHS pay dispute with the Government continues."
+    },
+    {
+      "role": "assistant",
+      "content": "Resident doctors in England announced a four-day strike scheduled from June 15 to June 19, 2026. \n\nFINAL: June 15, 2026",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "June 15, 2026",
+  "steps_taken": 2
+}

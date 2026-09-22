@@ -1,0 +1,113 @@
+{
+  "task_id": "cheap_model_search_only_fresh-104",
+  "question": "How many people were killed in the bus accident in Udhampur, Jammu and Kashmir?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_mGfqk6ODMhhEBfj7xLK2WioM",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Udhampur bus accident deaths January 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_mGfqk6ODMhhEBfj7xLK2WioM",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_KjhlKBXSMLj1A3STxtZjNQQu",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Udhampur bus accident January 2026 deaths\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_KjhlKBXSMLj1A3STxtZjNQQu",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: List of traffic collisions (2000–present), 2025 in India"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_AgHDno5YSbCsCHo9h3JqWHOe",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Udhampur bus accident January 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_AgHDno5YSbCsCHo9h3JqWHOe",
+      "content": "ddg_search error: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_IqXcvatLtDJFvHo7DMtIxjqT",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Udhampur bus accident January 2026 fatalities\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_IqXcvatLtDJFvHo7DMtIxjqT",
+      "content": "[List of traffic collisions (2000–present)] This list of traffic collisions records serious road traffic accidents, with multiple fatalities. The list includes notable accidents with at least 10 deaths, which either occurred in unusual circumstances, or have some other significance. For crashes that killed notable people, refer to the list of people who died in traffic collisions. This list records crashes from the year 2000. For earlier crashes, see list of traffic collisions (before 2000). | other articles: Tiruchirappalli International Airport, Chhatrapati Shivaji Maharaj International Airport"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_yXLWzUQQGnefsfGgTtXGUCVk",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Udhampur bus accident January 2026 details\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_yXLWzUQQGnefsfGgTtXGUCVk",
+      "content": "[21 Killed, 29 Injured After Bus Rolls Down Hill In J&K's Udhampur; PM ...] At least 21 people were killed and 29 others injured after a bus turned turtle in Udhampur district of Jammu and Kashmir on Monday.\n[21 killed, over 61 injured after bus tumbles down hillside in Jammu's ...] Twenty-one people were killed and more than 61 injured after an overcrowded passenger bus tumbled down a hillside in Udhampur district of Jammu and Kashmir on Monday (April 20, 2026).\n[21 die as overloaded bus rolls down hill, hits auto in Jammu and ...] A bus accident in Udhampur, Jammu and Kashmir, killed 21 and injured over 50 when the overloaded vehicle plunged 100 feet down a hillside."
+    },
+    {
+      "role": "assistant",
+      "content": "In the bus accident in Udhampur, Jammu and Kashmir, 21 people were killed and over 50 were injured when the overloaded bus rolled down a hillside. \n\nFINAL: 21 people were killed.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "21 people were killed.",
+  "steps_taken": 6
+}

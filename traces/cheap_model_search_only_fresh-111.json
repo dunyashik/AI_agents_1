@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_only_fresh-111",
+  "question": "What position did Keir Starmer resign from on June 22, 2026 in the United Kingdom?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_8GfYNtIB9RPKbpsr7EXKFjpY",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Keir Starmer resigns June 22 2026 position\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_8GfYNtIB9RPKbpsr7EXKFjpY",
+      "content": "[Keir Starmer to step down as prime minister two years after historic ...] Keir Starmer has announced he will stand down as prime minister after days of intense pressure from Labour MPs, paving the way for Andy Burnham to take over at Downing Street. Less than two years ...\n[June 22, 2026: Keir Starmer resignation, UK to get sixth PM in seven ...] Keir Starmer announces resignation, UK to get sixth PM in seven years Updated 11:04 AM EDT, Mon June 22, 2026 Starmer announces resignation plans 1:01\n[Keir Starmer resigns: Prime Minister to leave Downing Street within ...] Keir Starmer has announced he will resign as the leader of the Labour Party, bringing his tenure as UK Prime Minister to a close after less than two years. He bowed to pressure from within his own party and agreed to stand down. He said he would do all he could to ensure an \"orderly\" transition of power after announcing his decision to quit."
+    },
+    {
+      "role": "assistant",
+      "content": "On June 22, 2026, Keir Starmer resigned from his position as Prime Minister of the United Kingdom. He also announced his resignation as the leader of the Labour Party. His decision came after facing intense pressure from Labour MPs. \n\nFINAL: Keir Starmer resigned as Prime Minister of the United Kingdom.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Keir Starmer resigned as Prime Minister of the United Kingdom.",
+  "steps_taken": 2
+}

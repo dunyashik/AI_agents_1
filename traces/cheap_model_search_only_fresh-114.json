@@ -1,0 +1,133 @@
+{
+  "task_id": "cheap_model_search_only_fresh-114",
+  "question": "What type of facility opened in St. John's, Newfoundland and Labrador on January 12, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_F4spMXt4MtxNz2xBBqN5P5di",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"St. John's Newfoundland Labrador facility opened January 12 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_F4spMXt4MtxNz2xBBqN5P5di",
+      "content": "[AG finds failures in NLHC's St. John's transitional housing facility ...] A Newfoundland and Labrador housing program intended to help unhoused people get into permanent housing was peppered with \"significant issues\" from the start, according to Auditor General Denise ...\n[One year after new mental health facility opened, advocates want to see ...] One year after the new mental health and addictions facility in St. John's opened its doors to patients, advocates say there are still gaps in care.\n[Newfoundland and Labrador Adult Correctional Facility Replacement] The Newfoundland and Labrador Adult Correctional Facility Replacement Project replaces Her Majesty's Penitentiary in St. John's, which was originally built in 1859. The new facility incorporates thoughtfully programmed spaces that support best practices in secure treatment and rehabilitation."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_NjXXFlT8iHijaoScKfRWD1Dt",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"January 12 2026 St. John's Newfoundland Labrador facility opening news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_NjXXFlT8iHijaoScKfRWD1Dt",
+      "content": "ddg_search error: error sending request for url (https://search.yahoo.com/search;_ylt=ETpfdJECVozhSNBXKpDpwdad;_ylu=QnV1fOpbdHTMtwfi5EUoxfjkR5xxDQgkh0i7N3TnmxEYokQ?p=January+12+2026+St.+John%27s+Newfoundland+Labrador+facility+opening+news) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_1hRRVROxIliyCYNmHFTlf5mj",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"St. John's Newfoundland Labrador new facility January 12 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_1hRRVROxIliyCYNmHFTlf5mj",
+      "content": "[CRA Receives $121.6M Contract for New St. John's Facility] On August 10, 2026, the Government of Canada announced a major construction contract worth $121.6 million awarded to Pomerleau Inc. for a new Canada Revenue Agency (CRA) facility located at 80 Kelsey Drive in St. John's, Newfoundland and Labrador.\n[Mental Health And Addictions Centre Introduces New Facility, Care Model ...] The new Mental Health and Addictions Centre in St. John's, Newfoundland, replaces a 170-year-old facility with a 240,000-square-foot, person-centered design that emphasizes recovery-focused care and reduces stigma around mental health. A unique \"therapeutic mall\" on the second floor integrates ...\n[Government of Canada awards construction contract for a new Canada ...] News release Modern, sustainable workspace to strengthen service delivery and support employees August 10, 2026 - St. John's, Newfoundland and Labrador The Government of Canada is committed to providing modern, efficient and sustainable infrastructure to support the delivery of key public services to Canadians."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Cxftx2ABOCigoKnkvZo5LepI",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"St. John's Newfoundland Labrador transitional housing facility January 12 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Cxftx2ABOCigoKnkvZo5LepI",
+      "content": "ddg_search error: error sending request for url (https://search.yahoo.com/search;_ylt=eTFz_gutDmF--TrhkDAW3_TL;_ylu=Uh707UAYuyNe9HYI2kr9PjTTe1TDASbqXISjyiyyZcJXgVA?p=St.+John%27s+Newfoundland+Labrador+transitional+housing+facility+January+12+2026) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_s5ijsaCKTjAhesTe47nhLurP",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"January 12 2026 St. John's Newfoundland Labrador news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_s5ijsaCKTjAhesTe47nhLurP",
+      "content": "ddg_search error: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_ZVgXQSFoQA8MNQPsa6Y4RBMQ",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"St. John's Newfoundland Labrador January 12 2026 facility opening news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ZVgXQSFoQA8MNQPsa6Y4RBMQ",
+      "content": "[NL Health Services announces Jan. 12 as opening date for Urgent Care ...] Health, News December 27th, 2025 Newfoundland and Labrador Health Services is advising the public that the new Urgent Care Centre (East), located at 28 Stavanger Drive in St. John's, is opening on Monday, Jan. 12, 2026.\n[CRA Receives $121.6M Contract for New St. John's Facility] On August 10, 2026, the Government of Canada announced a major construction contract worth $121.6 million awarded to Pomerleau Inc. for a new Canada Revenue Agency (CRA) facility located at 80 Kelsey Drive in St. John's, Newfoundland and Labrador. This initiative marks a significant step in modernizing federal infrastructure, specifically designed to replace the outdated tax data center ...\n[Pomerleau awarded $121.6 million contract for new CRA facility in St ...] Canadian Design and Construction Report staff writer Pomerleau Inc. has been awarded a $121.6-million contract to construct a new Canada Revenue Agency (CRA) facility in St. John's, Newfoundland and Labrador. The construction award follows an approximately $8.8-million design contract awarded to Moriyama & Teshima Architects on Nov. 30, 2023. The new Crown-owned facility will be built at 80 ..."
+    },
+    {
+      "role": "assistant",
+      "content": "On January 12, 2026, a new Urgent Care Centre (East) opened in St. John's, Newfoundland and Labrador. This facility is located at 28 Stavanger Drive and is part of the efforts to enhance healthcare services in the region. \n\nFINAL: Urgent Care Centre (East)",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Urgent Care Centre (East)",
+  "steps_taken": 7
+}

@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_only_fresh-63",
+  "question": "How many people were killed in the avalanche near Ratschings in March 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_h5d8nPwn2sdGud25bA0vK6KB",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"avalanche near Ratschings March 2026 deaths\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_h5d8nPwn2sdGud25bA0vK6KB",
+      "content": "[25 Skiers Caught, 2 Killed In Avalanche In Italy] The slide occurred at about 2,400 meters (7,874 feet) on the slopes of Hohe Ferse, also known as Monte Tallone Grande, near the town of Ratschings close to the Austrian border. Rescue officials said 25 skiers were caught in the avalanche. Two people were killed, three were seriously injured and two others suffered minor injuries.\n[A deadly Italian alpine avalanche kills 2 skiers, trapping 25] The avalanche happened at an altitude of around 7,874 feet on the slopes of the 8,757-foot Hohe Ferse (also known as Monte Tallone Grande) near the town of Ratschings, close to the border with ...\n[Avalanche Tragedy: 2 Skiers Killed, 5 Injured in Northern Italy ...] The avalanche struck on Saturday, March 21, 2026, at approximately 11:40 a.m. local time, sweeping down the slopes of Hohe Ferse near Ratschings at an altitude of 2,300 meters (7,874 feet), dangerously close to the Austrian border."
+    },
+    {
+      "role": "assistant",
+      "content": "In the avalanche near Ratschings on March 21, 2026, two people were killed. Additionally, three others were seriously injured and two sustained minor injuries. \n\nFINAL: 2 people were killed.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "2 people were killed.",
+  "steps_taken": 2
+}

@@ -1,0 +1,73 @@
+{
+  "task_id": "cheap_model_search_only_fresh-17",
+  "question": "In spaceflight, what was launched by ISRO on September 3, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_7IGyZmjlL05Qd1P692wue7Fe",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"ISRO launch September 3 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_7IGyZmjlL05Qd1P692wue7Fe",
+      "content": "[EOS-05 - Wikipedia] GISAT-1A was launched from Launchpad 2 of the Satish Dhawan Space Centre aboard the GSLV -F17 mission at 2:55 am IST on 4 September 2026. The satellite was placed at the intended Sub- Geosynchronous Transfer Orbit (Sub-GTO) about 18 minutes after lift-off.\n[Launch Missions - Indian Space Research Organisation (ISRO)] 5 days ago · Explore ISRO's launch missions, showcasing India's advancements in space technology and achievements in satellite launches and interplanetary explorations.\n[India notches spaceflight milestone, launches Earth-imaging ...] Sep 3, 2026 · An Indian GSLV Mark II rocket launches the EOS-05 Earth-observing satellite toward geosynchronous orbit on Sept. 3, 2026. (Image credit: ISRO)"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_x0gvVcWExhp7D2HsShxJZL5e",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"ISRO EOS-05 launch September 3 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_x0gvVcWExhp7D2HsShxJZL5e",
+      "content": "[EOS-05] EOS-05 (also known as GISAT-1A) is an Indian Earth observation satellite. It is the second satellite in the GISAT series produced by ISRO. The satellite aims to improve the existing remote sensing capabilities. | other articles: List of spaceflight launches in July–September 2026, Chandrayaan-3"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Tgtja29lnkEl8xpOvmoo8zZW",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"ISRO EOS-05 launch details September 3 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Tgtja29lnkEl8xpOvmoo8zZW",
+      "content": "[EOS-05 - Wikipedia] Retrieved 6 September 2026. Singh, Gurpreet (6 September 2026). \"171 km to 20,000 km: ISRO EOS-05 completes first orbit raise on journey to 35,786 km orbit\". Moneycontrol. Retrieved 6 September 2026. \"New 'eye in the sky': Isro's EOS-05 satellite settles into geosynchronous orbit\". The Indian Express. 8 September 2026. Retrieved 8 September 2026.\n[EOS-05 (GISAT-1A) | GSLV Mk II | Next Spaceflight] A GSLV Mk II rocket launched with EOS-05 (GISAT-1A) from Second Launch Pad at Satish Dhawan Space Centre, India on Thursday September Th, 2026 at 21:25 UTC.\n[Watch Launch launch of GSLV-F17/EOS-05 Mission on Friday, Sep 04, 2026 ...] Watch Launch launch of GSLV-F17/EOS-05 Mission on Friday, Sep 04, 2026 from 02:55 AM ,IST GSLV-F17/EOS-05 Mission - Launch Streaming Home / GSLV-F17/EOS-05 Mission - Launch Streaming"
+    },
+    {
+      "role": "assistant",
+      "content": "On September 3, 2026, the Indian Space Research Organisation (ISRO) launched the EOS-05 satellite, also known as GISAT-1A. This satellite is part of the GISAT series and is designed to enhance India's Earth observation capabilities. The launch was conducted using a GSLV Mark II rocket from the Satish Dhawan Space Centre. \n\nFINAL: EOS-05 satellite (GISAT-1A) was launched by ISRO.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "EOS-05 satellite (GISAT-1A) was launched by ISRO.",
+  "steps_taken": 4
+}

@@ -1,0 +1,153 @@
+{
+  "task_id": "cheap_model_search_only_fresh-42",
+  "question": "Who inaugurated the Noida International Airport in India in March 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_bwYJw9rQjtJvcriRydgccLSE",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Noida International Airport inauguration March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_bwYJw9rQjtJvcriRydgccLSE",
+      "content": "ddg_search error: error sending request for url (https://search.yahoo.com/search;_ylt=fWfqh3l3qMo040Xoho1HCgcM;_ylu=onfG6i81Vzo6oAAwr9LsA7znaYV__MgcqIhOfdwVGqy5FMU?p=Noida+International+Airport+inauguration+March+2026) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_dsHPS1KTBk9Yowx4tEUpZxrB",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Noida International Airport inauguration March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_dsHPS1KTBk9Yowx4tEUpZxrB",
+      "content": "[Noida International Airport] Noida International Airport (IATA: DXN, ICAO: VIND), also called Jewar Airport, is an international airport at Jewar in the Gautam Buddha Nagar district of Uttar Pradesh, India, serving the National Capital Region and western Uttar Pradesh. In its first phase, the airport has one runway and one passenger terminal with a capacity of 12 million passengers annually. The airport will increase this capacity to 30 million passengers annually in the upcoming years. The airport is intended to complement Indira Gandhi International Airport as part of the Delhi-NCR region's dual-airport system. The first phase was inaugurated on 28 March 2026, following the grant of an aerodrome licence by the DGCA on 6 March 2026. Commercial operations began on 15 June 2026. | other articles: Noida, Indira Gandhi International Airport"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_gbIgmcTUHWcm30f1M94zTazR",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"who inaugurated Noida International Airport March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_gbIgmcTUHWcm30f1M94zTazR",
+      "content": "ddg_search error: error sending request for url (https://www.mojeek.com/search?q=who+inaugurated+Noida+International+Airport+March+2026) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_pEPL711KvL4SgR7uaGIQsFYb",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Noida International Airport inauguration details March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_pEPL711KvL4SgR7uaGIQsFYb",
+      "content": "[Noida International Airport] Noida International Airport (IATA: DXN, ICAO: VIND), also called Jewar Airport, is an international airport at Jewar in the Gautam Buddha Nagar district of Uttar Pradesh, India, serving the National Capital Region and western Uttar Pradesh. In its first phase, the airport has one runway and one passenger terminal with a capacity of 12 million passengers annually. The airport will increase this capacity to 30 million passengers annually in the upcoming years. The airport is intended to complement Indira Gandhi International Airport as part of the Delhi-NCR region's dual-airport system. The first phase was inaugurated on 28 March 2026, following the grant of an aerodrome licence by the DGCA on 6 March 2026. Commercial operations began on 15 June 2026. | other articles: Noida, Noida Metro"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_dXEtyGoZASx1FaI42D2vUmh8",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Noida International Airport inauguration March 2026 Prime Minister\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_dXEtyGoZASx1FaI42D2vUmh8",
+      "content": "ddg_search error: error sending request for url (https://www.startpage.com/) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_mbtEfvzdWQTVbT7tNebRojv6",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Noida International Airport inauguration March 2026 Prime Minister Modi\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_mbtEfvzdWQTVbT7tNebRojv6",
+      "content": "[Noida International Airport] Noida International Airport (IATA: DXN, ICAO: VIND), also called Jewar Airport, is an international airport at Jewar in the Gautam Buddha Nagar district of Uttar Pradesh, India, serving the National Capital Region and western Uttar Pradesh. In its first phase, the airport has one runway and one passenger terminal with a capacity of 12 million passengers annually. The airport will increase this capacity to 30 million passengers annually in the upcoming years. The airport is intended to complement Indira Gandhi International Airport as part of the Delhi-NCR region's dual-airport system. The first phase was inaugurated on 28 March 2026, following the grant of an aerodrome licence by the DGCA on 6 March 2026. Commercial operations began on 15 June 2026. | other articles: Navi Mumbai International Airport, Chaudhary Charan Singh International Airport"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_C5fXjX8WYrwO4pbGVAnwqkGm",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Noida International Airport inauguration March 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_C5fXjX8WYrwO4pbGVAnwqkGm",
+      "content": "[Noida International Airport Inauguration 2026: Jewar Airport Opens] Noida International Airport inauguration took place on March 28, 2026. Jewar Airport will boost connectivity in Delhi-NCR.\n[Noida international airport inauguration traffic restrictions route ...] The Gautam Buddha Nagar Traffic Police has issued a comprehensive directive for March 28, 2026, in anticipation of the inauguration program at the Noida International Airport in Jewar. Due to the expected arrival of VVIPs and large public gatherings, significant route diversions and parking ...\n[Noida International Airport Inauguration: Noida Airport inauguration ...] Prime Minister Narendra Modi will inaugurate Phase I of the Noida International Airport at Jewar on March 28, 2026. This significant greenfield project, developed on a PPP model, aims to boost ..."
+    },
+    {
+      "role": "assistant",
+      "content": "The Noida International Airport, also known as Jewar Airport, was inaugurated by Prime Minister Narendra Modi on March 28, 2026. FINAL: Prime Minister Narendra Modi.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Prime Minister Narendra Modi.",
+  "steps_taken": 8
+}

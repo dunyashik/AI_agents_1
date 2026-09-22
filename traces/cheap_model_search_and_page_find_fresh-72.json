@@ -1,0 +1,53 @@
+{
+  "task_id": "cheap_model_search_and_page_find_fresh-72",
+  "question": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_UOi3dQYkgYGF27SZupdvq0ly",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Education Minister resign Cockroach Janta Party India 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_UOi3dQYkgYGF27SZupdvq0ly",
+      "content": "[Cockroach Janta Party] The Cockroach Janta Party (CJP; lit. 'Cockroach People's Party'), also known as the Cockroach movement, is an Indian youth-based satirical political movement founded on 16 May 2026 by Abhijeet Dipke, a political communications strategist and activist. The CJP harnessed widespread political and economic discontent among Generation Z in India, leading to protests in Delhi and other cities in the following months. The \"party\" was created in response to remarks made on 15 May 2026 by Surya Kant, the Chief Justice of India, in which he referred to certain activists and unemployed youth as \"cockroaches\" and \"parasites of society\". Kant later said he was referring specifically to people who obtain fraudulent degrees, but his remarks nonetheless triggered broad criticism that India's economic and political landscape had become hostile to young people. The movement's name is a wordplay parodying the current ruling party in India, the Bharatiya Janata Party. The party achieved significant popularity online, rapidly gaining a large following across social media platforms shortly after its formation. It issued a five-point manifesto relating to the conduct of parliament members and of election commissioners, reservation of seats for women in politics, and media licensing. Beginning in June, the party led protests in Delhi and across the country over the fallout from irregularities in that year's entrance examinations for undergraduate biomedical studies. The protests culminated in talks  | other articles: 2026 Delhi Jantar Mantar protests, Abhijeet Dipke"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_uS6MH6PiNmGVXSR0mp5kvGmB",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"2026 in India\",\"keywords\":\"Education Minister resign Cockroach Janta Party\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_uS6MH6PiNmGVXSR0mp5kvGmB",
+      "content": "16 May – The Cockroach Janta Party is founded by Abhijeet Dipke in response to the comments made by Chief Justice of India, Surya Kant who called unemployed youths as \"cockroaches\" and \"parasites\".\n6 June – 2026 Delhi Jantar Mantar protests: The Cockroach Janta Party led by Abhijeet Dipke stages protests at Jantar Mantar demanding the resignation of Education Minister Dharmendra Pradhan over the 2026 NEET controversy.\n28 June – Sonam Wangchuk goes on an indefinite hunger strike in protests demanding the resignation of education minister, Dharmendra Pradhan over the 2026 NEET controversy.\nThe Cockroach Janta Party organises the Sansad Chalo March demanding the resignation of Education Minister Dharmendra Pradhan over the 2026 NEET controversy.\nMumbai Police detain over 300 people near Chaitya Bhoomi in Dadar, Mumbai who had gathered to demand the resignation of Education Minister, Dharmendra Pradhan.\nDharmendra Pradhan resigns as Education Minister amid outrage over the 2026 NEET controversy. He is replaced by Pralhad Joshi."
+    },
+    {
+      "role": "assistant",
+      "content": "The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is Dharmendra Pradhan. This demand arose due to controversies surrounding the NEET examinations. \n\nFINAL: Dharmendra Pradhan",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Dharmendra Pradhan",
+  "steps_taken": 3
+}

@@ -1,0 +1,93 @@
+{
+  "task_id": "cheap_model_search_only_fresh-134",
+  "question": "How many metric tons of hashish were seized by Spanish police in March 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_uaApq7BoD9EePLCqA2I5g5oT",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Spain police hashish seizure March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_uaApq7BoD9EePLCqA2I5g5oT",
+      "content": "[Spanish police bust underground hashish route from Morocco] Spanish police have discovered a drug-smuggling tunnel in the North African exclave of Ceuta, complete with a rail system and underground cranes to transport hashish from Morocco into Spain.\n[Spanish Police Bust Underground Hashish Route From Morocco] Reuters A person works inside a tunnel that was used to bring tons of hashish from Morrocco into Spain, in Ceuta, Spain, in an undated picture released on March 31, 2026. Spanish Police/Handout ...\n[Spanish police bust underground hashish route from Morocco] A person works inside a tunnel that was used to bring tons of hashish from Morrocco into Spain, in Ceuta, Spain, in an undated picture released on March 31, 2026. Spanish Police/Handout via REUTERS"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_8JQXgTNKVlCyWMMfPTatRbmt",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Spanish police hashish seizure March 2026 amount\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_8JQXgTNKVlCyWMMfPTatRbmt",
+      "content": "[Major narco bust off Costa de la Luz: 4,000kg hashish seized] May 1, 2026 · Four people were arrested during the operation off the Costa del Luz. Credit: Guardia Civil Officers seized 100 bales of hashish weighing approximately 4,000kg.\n[Underground hashish rail route from Morocco smashed by ...] Apr 3, 2026 · During the operation, authorities seized 17 metric tons of hashish, 1.4 million euros (US$1.6 million) in cash, and arrested 27 people. Police did not say how much the drugs were worth on the street.\n[Spanish police smash tunnel route to smuggle hashish from Morocco] Apr 3, 2026 · During the operation, authorities seized 17 metric tons of hashish, 1.4 million euros (US$1.6 million) in cash, and arrested 27 people. Police did not say how much the drugs were worth on the street. Hashish, which comes from cannabis resin, is usually smuggled into Spain by sea using speedboats."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_DploPd4DEgJWTzTnRYnvw0ul",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Spain police hashish seizure March 2026 total amount\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_DploPd4DEgJWTzTnRYnvw0ul",
+      "content": "[Moroccan-Dutch suspect allegedly co-ran massive Morocco-Spain drug ...] Spanish National Police reported that a large and highly sophisticated drug network dismantled in late March used an underground tunnel in Ceuta to move hashish and was co-led by a Moroccan-born Dutch man and a Moroccan businessman.The operation, completed March 31, 2026, led to 27 arrests and the seizure of about 17 tons of hashish, 1.4 million euros in cash and 15 luxury vehicles after ...\n[5926 Kg Hashish Seized By Spain & 10 Drug Mafia Gang Members Arrested ...] By MI News Network August 26, 2026 Shipping News Image for representation purposes only Spanish authorities have arrested 10 members of a drug trafficking group in a recent operation which led to the discovery of 5926 kg of hashish and the seizure of two small, high-speed narco boats.\n[Spanish Police Bust Underground Hashish Route From Morocco] Reuters A person works inside a tunnel that was used to bring tons of hashish from Morrocco into Spain, in Ceuta, Spain, in an undated picture released on March 31, 2026. Spanish Police/Handout ..."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Wc0VrdpPLEW5dIggMBGbBjLx",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Spain police hashish seizure March 2026 news report\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Wc0VrdpPLEW5dIggMBGbBjLx",
+      "content": "[Spanish Police Bust Underground Hashish Route From Morocco] Reuters A person works inside a tunnel that was used to bring tons of hashish from Morrocco into Spain, in Ceuta, Spain, in an undated picture released on March 31, 2026. Spanish Police/Handout ...\n[Moroccan-Dutch suspect allegedly co-ran massive Morocco-Spain drug ...] Spanish National Police reported that a large and highly sophisticated drug network dismantled in late March used an underground tunnel in Ceuta to move hashish and was co-led by a Moroccan-born Dutch man and a Moroccan businessman.The operation, completed March 31, 2026, led to 27 arrests and the seizure of about 17 tons of hashish, 1.4 million euros in cash and 15 luxury vehicles after ...\n[Spanish police bust underground hashish route from Morocco] Spanish police have discovered a drug-smuggling tunnel in the North African exclave of Ceuta, complete with a rail system and underground cranes to transport hashish from Morocco into Spain."
+    },
+    {
+      "role": "assistant",
+      "content": "In March 2026, Spanish police seized approximately 17 metric tons of hashish during an operation that dismantled a sophisticated drug network using an underground tunnel from Morocco to Spain. FINAL: 17 metric tons",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "17 metric tons",
+  "steps_taken": 5
+}

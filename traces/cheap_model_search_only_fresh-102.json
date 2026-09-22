@@ -1,0 +1,53 @@
+{
+  "task_id": "cheap_model_search_only_fresh-102",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Aej7NXKsT6pRu15tBrCsLx7w",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Hero of Ukraine 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Aej7NXKsT6pRu15tBrCsLx7w",
+      "content": "[Hero of Ukraine - Wikipedia] In January 2022, captain Dmytro Kotsiubailo \"Da Vinci\" commander of the 1st Mechanized Battalion of the Armed Forces of Ukraine and member of far-right party Right Sector was awarded the title Hero of Ukraine by the president of Ukraine Volodymyr Zelenskyy.\n[Dmytro Maslovskyi - Wikipedia] Dmytro Olehovych Maslovskyi (Ukrainian: Дмитро Олегович Масловський; callsign Kobra; 7 November 1994 — 17 November 2024) was a Ukrainian serviceman, participant in the Russian-Ukrainian war. Hero of Ukraine (2025, posthumously). [1] Born on 7 November 1994 in the village of Yanyshivka in the Podilskyi Raion, Odesa Oblast. [2][3][4]\n[Yuriy Boyko Stripped of Hero of Ukraine Title: Full Story 2025] Jul 27, 2026 · Discover why Yuriy Boyko lost his Hero of Ukraine award in 2025 after years of political controversy, gas deals and pro-Russian links. Timeline, sanctions and public reaction."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_VMQDfe7hrBELnz5IAg47ZcdO",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Dmytro Maslovskyi Hero of Ukraine 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_VMQDfe7hrBELnz5IAg47ZcdO",
+      "content": "[Dmytro Maslovskyi] Dmytro Olehovych Maslovskyi (Ukrainian: Дмитро Олегович Масловський; callsign Kobra; 7 November 1994 — 17 November 2024) was a Ukrainian serviceman, participant in the Russian-Ukrainian war. Hero of Ukraine (2025, posthumously). | other articles: List of deaths during the Russo-Ukrainian war (2022–present)"
+    },
+    {
+      "role": "assistant",
+      "content": "Dmytro Olehovych Maslovskyi was recognized as the Hero of Ukraine in 2025, awarded posthumously. He was a Ukrainian serviceman who participated in the Russian-Ukrainian war and passed away on November 17, 2024. \n\nFINAL: Dmytro Olehovych Maslovskyi",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Dmytro Olehovych Maslovskyi",
+  "steps_taken": 3
+}

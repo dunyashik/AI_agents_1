@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_only_fresh-49",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_rYyDbaRrRwVvrkLT9yAOpnwz",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Asiya Andrabi sentence March 24 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_rYyDbaRrRwVvrkLT9yAOpnwz",
+      "content": "[Delhi court sentences Kashmiri separatist Asiya Andrabi to ...] Mar 24, 2026 · A Delhi court on Tuesday (March 24, 2026) sentenced Kashmiri separatist leader Asiya Andrabi to life imprisonment after convicting her in a case under the Unlawful Activities (Prevention) Act...\n[Delhi Court Awards Life Sentence To Kashmiri Separatist Asiya ...] Mar 24, 2026 · A Delhi court on Tuesday awarded life imprisonment to Kashmiri separatist and Dukhtaran-e-Millat chief Asiya Andrabi in a case under the Unlawful Activities (Prevention) Act (UAPA).\n[Delhi court awards life sentence to Kashmiri separatist Asiya ...] A Delhi court on Tuesday awarded Kashmiri separatist Asiya Andrabi life imprisonment, while two of her associates, Sofi Fehmeeda and Nahida Nasreen, have been sentenced to 30 years in prison..."
+    },
+    {
+      "role": "assistant",
+      "content": "On March 24, 2026, a Delhi court sentenced Kashmiri separatist leader Asiya Andrabi to life imprisonment after convicting her under the Unlawful Activities (Prevention) Act (UAPA). Additionally, her associates, Sofi Fehmeeda and Nahida Nasreen, received sentences of 30 years in prison. \n\nFINAL: Asiya Andrabi was sentenced to life imprisonment.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Asiya Andrabi was sentenced to life imprisonment.",
+  "steps_taken": 2
+}

@@ -1,0 +1,53 @@
+{
+  "task_id": "cheap_model_search_only_fresh-80",
+  "question": "What regulation did the Supreme Court of India stay on January 29, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_ngqy0pctFN4AB9arptsO2yM5",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Supreme Court of India stay January 29 2026 regulation news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ngqy0pctFN4AB9arptsO2yM5",
+      "content": "ddg_search error: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_9fn85I7fa1KtbfH27LnLs96f",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Supreme Court of India stay January 29 2026 regulation\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_9fn85I7fa1KtbfH27LnLs96f",
+      "content": "[UGC Equity Regulations, 2026] The University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026, commonly referred to as the UGC Equity Regulations, 2026 or the Anti-Discrimination Rules, 2026, are regulations notified by the University Grants Commission (UGC) in India aimed at addressing discrimination within higher education institutions (HEIs). The regulations seek to replace the existing 2012 regulations with more stringent measures to ensure inclusion for students from marginalized backgrounds, particularly the Scheduled Castes (SC), Scheduled Tribes (ST) and Other Backward Classes (OBC). The bill saw protests against the Bharatiya Janta Party (BJP) across the country. As of 29 January 2026, the Supreme Court of India has stayed the proposed regulations. | other articles: Supreme Court of the United States, 2026 in the United States"
+    },
+    {
+      "role": "assistant",
+      "content": "On January 29, 2026, the Supreme Court of India stayed the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026. These regulations, also known as the UGC Equity Regulations or Anti-Discrimination Rules, aimed to address discrimination in higher education institutions and were intended to replace the existing 2012 regulations. The stay came amid protests against the Bharatiya Janata Party (BJP) regarding these regulations. \n\nFINAL: The Supreme Court of India stayed the UGC Equity Regulations, 2026.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "The Supreme Court of India stayed the UGC Equity Regulations, 2026.",
+  "steps_taken": 3
+}

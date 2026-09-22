@@ -1,0 +1,168 @@
+{
+  "task_id": "cheap_model_wikipedia_only_fresh-72",
+  "question": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_GuxhgCF5UAi8pAmxjQC74G1T",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Education Minister resign Cockroach Janta Party India 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_GuxhgCF5UAi8pAmxjQC74G1T",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_BQIWijWvdawjFg5oa9Otg4AR",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Cockroach Janta Party Education Minister resignation demand India 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_BQIWijWvdawjFg5oa9Otg4AR",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_l7odkSVTKz9xmxuVgSE8SOxk",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"India Education Minister resign Cockroach Janta Party 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_l7odkSVTKz9xmxuVgSE8SOxk",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Amuori7A4zvONf4MMSMIiVVV",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Cockroach Janta Party India Education Minister resignation 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Amuori7A4zvONf4MMSMIiVVV",
+      "content": "[Cockroach Janta Party] The Cockroach Janta Party (CJP; lit. 'Cockroach People's Party'), also known as the Cockroach movement, is an Indian youth-based satirical political movement founded on 16 May 2026 by Abhijeet Dipke, a political communications strategist and activist. The CJP harnessed widespread political and economic discontent among Generation Z in India, leading to protests in Delhi and other cities in the following months. The \"party\" was created in response to remarks made on 15 May 2026 by Surya Kant, the Chief Justice of India, in which he referred to certain activists and unemployed youth as \"cockroaches\" and \"parasites of society\". Kant later said he was referring specifically to people who obtain fraudulent degrees, but his remarks nonetheless triggered broad criticism that India's economic and political landscape had become hostile to young people. The movement's name is a wordplay parodying the current ruling party in India, the Bharatiya Janata Party. The party achieved significant popularity online, rapidly gaining a large following across social media platforms shortly after its formation. It issued a five-point manifesto relating to the conduct of parliament members and of election commissioners, reservation of seats for women in politics, and media licensing. Beginning in June, the party led protests in Delhi and across the country over the fallout from irregularities in that year's entrance examinations for undergraduate biomedical studies. The protests culminated in talks  | other articles: 2026 Delhi Jantar Mantar protests, Abhijeet Dipke"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_QI24F1W44dhRXjsOyhDZplu2",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"India Education Minister resignation demand Cockroach Janta Party news 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_QI24F1W44dhRXjsOyhDZplu2",
+      "content": "[Cockroach Janta Party] The Cockroach Janta Party (CJP; lit. 'Cockroach People's Party'), also known as the Cockroach movement, is an Indian youth-based satirical political movement founded on 16 May 2026 by Abhijeet Dipke, a political communications strategist and activist. The CJP harnessed widespread political and economic discontent among Generation Z in India, leading to protests in Delhi and other cities in the following months. The \"party\" was created in response to remarks made on 15 May 2026 by Surya Kant, the Chief Justice of India, in which he referred to certain activists and unemployed youth as \"cockroaches\" and \"parasites of society\". Kant later said he was referring specifically to people who obtain fraudulent degrees, but his remarks nonetheless triggered broad criticism that India's economic and political landscape had become hostile to young people. The movement's name is a wordplay parodying the current ruling party in India, the Bharatiya Janata Party. The party achieved significant popularity online, rapidly gaining a large following across social media platforms shortly after its formation. It issued a five-point manifesto relating to the conduct of parliament members and of election commissioners, reservation of seats for women in politics, and media licensing. Beginning in June, the party led protests in Delhi and across the country over the fallout from irregularities in that year's entrance examinations for undergraduate biomedical studies. The protests culminated in talks  | other articles: 2026 Delhi Jantar Mantar protests, 2026 in India"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_PpUBh9qs6sKL1EvDXjOUy0jU",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"India Education Minister protests Cockroach Janta Party 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_PpUBh9qs6sKL1EvDXjOUy0jU",
+      "content": "[Cockroach Janta Party] The Cockroach Janta Party (CJP; lit. 'Cockroach People's Party'), also known as the Cockroach movement, is an Indian youth-based satirical political movement founded on 16 May 2026 by Abhijeet Dipke, a political communications strategist and activist. The CJP harnessed widespread political and economic discontent among Generation Z in India, leading to protests in Delhi and other cities in the following months. The \"party\" was created in response to remarks made on 15 May 2026 by Surya Kant, the Chief Justice of India, in which he referred to certain activists and unemployed youth as \"cockroaches\" and \"parasites of society\". Kant later said he was referring specifically to people who obtain fraudulent degrees, but his remarks nonetheless triggered broad criticism that India's economic and political landscape had become hostile to young people. The movement's name is a wordplay parodying the current ruling party in India, the Bharatiya Janata Party. The party achieved significant popularity online, rapidly gaining a large following across social media platforms shortly after its formation. It issued a five-point manifesto relating to the conduct of parliament members and of election commissioners, reservation of seats for women in politics, and media licensing. Beginning in June, the party led protests in Delhi and across the country over the fallout from irregularities in that year's entrance examinations for undergraduate biomedical studies. The protests culminated in talks  | other articles: 2026 Delhi Jantar Mantar protests, 2026 in India"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Gx1oHWMvgWBCHRFHRV0ehbqb",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Education Minister India 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Gx1oHWMvgWBCHRFHRV0ehbqb",
+      "content": "[Minister of Education (India)] The Minister of Education, formerly the Minister of Human Resources Development (1985–2020), is the head of the Ministry of Education and a member of the Union Cabinet and one of the portfolios of the union cabinet in the Government of India. | other articles: 2026 in India, Sex education in India"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_hXtXj48wstofNpJWE6ccgevr",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"current Education Minister of India 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_hXtXj48wstofNpJWE6ccgevr",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: Ministry of Education (India), Sex education in India"
+    }
+  ],
+  "final_answer": "The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is not explicitly mentioned in the available information. However, the protests led by the party were primarily focused on issues related to irregularities in entrance examinations for biomedical studies. Further details may be needed to identify the specific minister involved.",
+  "steps_taken": 9
+}

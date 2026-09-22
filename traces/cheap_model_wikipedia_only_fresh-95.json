@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_wikipedia_only_fresh-95",
+  "question": "Which country won the 2026 Men's T20 World Cup in cricket?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_uYLDiufzp6EnqshYk304kbsv",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"2026 Men's T20 World Cup winner\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_uYLDiufzp6EnqshYk304kbsv",
+      "content": "[2026 Men's T20 World Cup] The 2026 ICC Men's T20 World Cup was the tenth edition of the ICC Men's T20 World Cup, co-hosted by Board of Control for Cricket in India and Sri Lanka Cricket from 7 February to 8 March 2026. Sri Lanka had previously hosted the competition in 2012 and India in 2016. A total of twenty teams competed in 55 matches across five venues in India and three in Sri Lanka. More than 1.3 million spectators attended the matches across the two nations. Twenty teams competed in the tournament, which included the teams from the two hosts, six of the top seven teams from the previous edition, the four highest-ranked teams in the ICC Men's T20I Team Rankings not already qualified, and eight other teams determined through a series of regional qualifiers. Italy qualified for the Men's T20 World Cup for the first time. India were the defending champions, having won the 2024 edition. They defended their title by defeating New Zealand by 96 runs in the final, becoming the first team to win two consecutive T20 World Cups, the first country to win the title at home, and the first team to win the tournament three times. | other articles: 2026 Men's T20 World Cup final, 2026 Women's T20 World Cup"
+    },
+    {
+      "role": "assistant",
+      "content": "India won the 2026 Men's T20 World Cup by defeating New Zealand by 96 runs in the final. This victory marked India's second consecutive T20 World Cup title and their third overall. \n\nFINAL: India",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "India",
+  "steps_taken": 2
+}

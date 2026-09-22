@@ -1,0 +1,168 @@
+{
+  "task_id": "cheap_model_wikipedia_only_fresh-73",
+  "question": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_aSygVVJvZg0dewXQMXutwWQg",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"South Korea bribery sentencing August 31 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_aSygVVJvZg0dewXQMXutwWQg",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_1q2F07oshI4N42W4pola8GK1",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"South Korea bribery sentencing August 31 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_1q2F07oshI4N42W4pola8GK1",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_elyDmcfJTEwF7NcQpYvmixRo",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"August 31 2026 South Korea bribery sentence news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_elyDmcfJTEwF7NcQpYvmixRo",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_CKlleSgZcOzCCDPggisuJhwB",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"bribery sentence South Korea August 31 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_CKlleSgZcOzCCDPggisuJhwB",
+      "content": "[2026 in South Korea] Scheduled events in 2026 in South Korea. | other articles: Kim Keon Hee, Corruption in South Korea"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_tQaWnhZAawi0nGaQ3efVmxRx",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"August 31 2026 South Korea news bribery\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_tQaWnhZAawi0nGaQ3efVmxRx",
+      "content": "[2026 in South Korea] Scheduled events in 2026 in South Korea. | other articles: South Korea, Democratic Party (South Korea, 2015)"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_zUeWehmgQlGSzpnhOfrwxNsL",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"August 31 2026 South Korea bribery case\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_zUeWehmgQlGSzpnhOfrwxNsL",
+      "content": "[2026 in South Korea] Scheduled events in 2026 in South Korea. | other articles: Corruption in South Korea, South Korea"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_dC8bM28AD2Q69lzE7nE6xfLk",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"South Korea bribery August 31 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_dC8bM28AD2Q69lzE7nE6xfLk",
+      "content": "[2026 in South Korea] Scheduled events in 2026 in South Korea. | other articles: South Korea, Corruption in South Korea"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_F5YkGBRr0JQLSVubzxFzG21O",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"August 31 2026 South Korea bribery sentencing news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_F5YkGBRr0JQLSVubzxFzG21O",
+      "content": "[2026 in South Korea] Scheduled events in 2026 in South Korea. | other articles: Kim Keon Hee, South Korea"
+    }
+  ],
+  "final_answer": "I was unable to find specific information regarding a bribery sentencing in South Korea on August 31, 2026.",
+  "steps_taken": 9
+}

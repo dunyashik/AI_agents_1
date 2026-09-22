@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_wikipedia_only_fresh-61",
+  "question": "How many people were killed in the Daejeon factory fire in March 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_AjcnfboDaLMJjOpOf4zhBeWF",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Daejeon factory fire March 2026 casualties\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_AjcnfboDaLMJjOpOf4zhBeWF",
+      "content": "[2026 Daejeon factory fire] On 20 March 2026, at 13:17 KST, a fire broke out at a car parts factory in Daedeok District, Daejeon, South Korea, killing 14 people and injuring 60 others. | other articles: List of building or structure fires, List of explosions"
+    },
+    {
+      "role": "assistant",
+      "content": "The Daejeon factory fire in March 2026 resulted in the deaths of 14 people and injured 60 others. \n\nFINAL: 14 people were killed.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "14 people were killed.",
+  "steps_taken": 2
+}

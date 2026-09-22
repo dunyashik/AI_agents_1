@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_wikipedia_only_fresh-16",
+  "question": "In ice hockey, which team won their first Walter Cup on May 20, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_EBLa2wX46GW10e9bZiyUOmCs",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Walter Cup winner May 20 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_EBLa2wX46GW10e9bZiyUOmCs",
+      "content": "[Walter Cup] The Walter Cup (French: La coupe Walter) is the championship trophy awarded to the winner of the Walter Cup playoffs (French: Séries éliminatoires de la Coupe Walter de la LPHF), which culminate in an annual best-of-five series that determines the champion of the Professional Women's Hockey League (PWHL). The trophy is named in honour of PWHL co-founders and spouses Mark Walter and Kimbra Walter. Two teams have won the Cup since its establishment: the Minnesota Frost in both 2024 and 2025, and the Montreal Victoire in 2026. The Walter Cup is permanently on display at the Hockey Hall of Fame in Toronto. In contrast to the Stanley Cup, a replica of the Walter Cup is made for each year's champions. | other articles: 2026 Walter Cup playoffs, 2026 FIFA World Cup knockout stage"
+    },
+    {
+      "role": "assistant",
+      "content": "The Montreal Victoire won their first Walter Cup on May 20, 2026. \n\nFINAL: Montreal Victoire",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Montreal Victoire",
+  "steps_taken": 2
+}

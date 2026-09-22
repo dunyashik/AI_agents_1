@@ -1,0 +1,113 @@
+{
+  "task_id": "cheap_model_wikipedia_and_page_find_fresh-82",
+  "question": "What was the death toll from the fire at a shoe factory in China in July 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_XYXC5gLpwQ7l3UopImFAHU0L",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"China shoe factory fire July 2026 death toll\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_XYXC5gLpwQ7l3UopImFAHU0L",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_hcqFcwKAU9uopQrDkJ9sJ9Kr",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"China shoe factory fire July 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_hcqFcwKAU9uopQrDkJ9sJ9Kr",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Tgs6t2goA8WeBumrVn5So0Jg",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"China shoe factory fire July 2026 death toll news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Tgs6t2goA8WeBumrVn5So0Jg",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_kZQSWrZUxMpk2Er4zYiC2uZl",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"July 2026 China shoe factory fire death toll\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_kZQSWrZUxMpk2Er4zYiC2uZl",
+      "content": "[2026 in China] Events in the year 2026 in China. | other articles: List of explosions, List of building or structure fires"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_dsARLYePR6Q6xlaejHkhS1w7",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"2026 in China\",\"keywords\":\"shoe factory fire death toll\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_dsARLYePR6Q6xlaejHkhS1w7",
+      "content": "9 July — A fire at a shoe factory in Jinjiang, Quanzhou kills 28 people."
+    },
+    {
+      "role": "assistant",
+      "content": "The fire at a shoe factory in Jinjiang, Quanzhou, China, in July 2026 resulted in the deaths of 28 people. \n\nFINAL: 28 people.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "28 people.",
+  "steps_taken": 6
+}

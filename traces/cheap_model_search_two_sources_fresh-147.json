@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-147",
+  "question": "What date is the India–United Kingdom Free Trade Agreement announced to come into force?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Ih9MafWkkVjp8XWdC0jhWXn0",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"India United Kingdom Free Trade Agreement announcement date\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Ih9MafWkkVjp8XWdC0jhWXn0",
+      "content": "[India–United Kingdom Comprehensive Economic and Trade ...] India and the United Kingdom concluded negotiations for an agreement in principle on 6 May 2025. [3] The agreement was signed by the two countries on 24 July 2025 [4][5] and came into effect on 15 July 2026. [6]\n[UK–India Trade Deal - GOV.UK] Jul 25, 2025 · The UK signed a trade deal with India on 24 July 2025 which entered into force on 15 July 2026. Negotiations were launched on 13 January 2022.\n[Historic UK-India Free Trade Agreement is now in effect] Jul 17, 2026 · The UK-India Free Trade Agreement (FTA), one of the biggest trade deals of modern times, came into force on 15 July."
+    },
+    {
+      "role": "assistant",
+      "content": "The India–United Kingdom Free Trade Agreement is set to come into force on 15 July 2026. \n\nFINAL: 15 July 2026",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "15 July 2026",
+  "steps_taken": 2
+}

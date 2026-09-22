@@ -1,0 +1,47 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-78",
+  "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about median overall survival time for metastatic pancreatic cancer reported in May 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01L945att4MyPP5Dof3ZJN8P",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"median overall survival metastatic pancreatic cancer May 2026\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_01Kf1iaPVwnPwUoXFJBeKhzS",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"metastatic pancreatic cancer survival May 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01L945att4MyPP5Dof3ZJN8P",
+      "content": "[ASCO 2026: Daraxonrasib doubles median overall survival in ...] May 31, 2026 · On May 1, 2026, the FDA granted permission for Revolution Medicines to initiate an expanded access programme to daraxonrasib for patients with previously treated metastatic pancreatic cancer.\n[Daraxonrasib doubles survival in previously treated ...] Daraxonrasib, an oral RAS (ON) multiselective inhibitor, significantly improved overall survival compared with standard chemotherapy in patients with previously treated metastatic pancreatic adenocarcinoma, according to results of the phase 3 RAS olute 302 trial. Median overall survival roughly doubled, reaching 13.2 months with daraxonrasib versus 6.6 months with chemotherapy among patients ...\n[Daraxonrasib Extends Median Survival in Previously Treated ...] Jun 10, 2026 · Median Overall survival was nearly doubled among patients with previously treated metastatic pancreatic cancer who received the multiselective RAS (ON) inhibitor daraxonrasib in the phase III RASolute 302 trial, the results of which were presented at the Plenary Session of the 2026 ASCO Annual Meeting by Brian M. Wolpin, MD, MPH, Director of ..."
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01Kf1iaPVwnPwUoXFJBeKhzS",
+      "content": "[Pancreatic cancer] Pancreatic cancer is any cancer with a primary location in the pancreas, a glandular organ lying behind the stomach. It arises when cells in the pancreas start to multiply out of control and form a mass. These cancerous cells have the ability to invade or spread to other parts of the body. A number of types of pancreatic cancer are known. The most common type of pancreatic cancer, pancreatic adenocarcinoma, accounts for about 90% of cases, and the term \"pancreatic cancer\" is sometimes used to refer only to that type. These adenocarcinomas start within the ductal part of the pancreas that makes digestive enzymes. Several other types of cancer, which collectively represent the majority of the non-adenocarcinomas, can also arise from these cells. About 1–2% of cases of pancreatic cancer are neuroendocrine tumors, which arise from the hormone-producing cells of the pancreas. These are generally less aggressive than pancreatic adenocarcinoma. Signs and symptoms of the most-common form of pancreatic cancer may include yellow skin, abdominal or back pain, unexplained weight loss, light-colored stools, dark urine, and loss of appetite. Usually, no symptoms are seen in the disease's early stages, and symptoms that are specific enough to suggest pancreatic cancer typically do not develop until the disease has reached an advanced stage. By the time of diagnosis, pancreatic cancer has often spread to other parts of the body. Pancreatic cancer rarely occurs before the age of 40, and more  | other articles: Metastasis, 2026 in science"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, I found specific information about median overall survival for metastatic pancreatic cancer reported in May 2026.\n\nAccording to the results presented at the 2026 ASCO Annual Meeting in May 2026, the phase 3 RASolute 302 trial showed that:\n\n- **Median overall survival with daraxonrasib: 13.2 months** (for previously treated metastatic pancreatic cancer)\n- Median overall survival with standard chemotherapy: 6.6 months\n\nThis represented a roughly doubling of median overall survival with the RAS inhibitor daraxonrasib compared to standard chemotherapy in patients with previously treated metastatic pancreatic adenocarcinoma.\n\nFINAL: The median overall survival reported in May 2026 for patients with previously treated metastatic pancreatic cancer receiving daraxonrasib was 13.2 months (compared to 6.6 months with standard chemotherapy), according to the phase 3 RASolute 302 trial presented at the 2026 ASCO Annual Meeting.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "The median overall survival reported in May 2026 for patients with previously treated metastatic pancreatic cancer receiving daraxonrasib was 13.2 months (compared to 6.6 months with standard chemotherapy), according to the phase 3 RASolute 302 trial presented at the 2026 ASCO Annual Meeting.",
+  "steps_taken": 2
+}

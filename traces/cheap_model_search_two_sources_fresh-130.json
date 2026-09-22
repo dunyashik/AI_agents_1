@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-130",
+  "question": "How many people were killed in the bus accident in Döşemealtı, Antalya Province in February 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_wDCs4LudZYKjkza2ykjVPbnS",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Döşemealtı Antalya bus accident February 2026 deaths\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_wDCs4LudZYKjkza2ykjVPbnS",
+      "content": "[Bus crash in southern Türkiye kills 9, injures 26 - Daily Sabah] A passenger bus traveling from Tekirdağ to Antalya overturned into a ravine in Antalya, southern Türkiye, killing nine people and injuring 26 others on Sunday, according to the latest ...\n[Antalya Bus Crash Kills 9, Injures 26 - athens-times.com] Feb 1, 2026 · A deadly bus accident occurred on Sunday, February 1, 2026, in Antalya, Turkey, when a bus overturned due to hazardous road conditions caused by heavy fog and slippery surfaces.\n[Bus accident in Turkey's Antalya leaves 9 dead | AP News] Feb 1, 2026 · A intercity bus has rolled off a road in southern Turkey’s Antalya province, killing nine people. The accident happened on Sunday."
+    },
+    {
+      "role": "assistant",
+      "content": "In the bus accident in Döşemealtı, Antalya Province, on February 1, 2026, nine people were killed and 26 others were injured. The accident was attributed to hazardous road conditions caused by heavy fog and slippery surfaces. \n\nFINAL: 9 people were killed.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "9 people were killed.",
+  "steps_taken": 2
+}

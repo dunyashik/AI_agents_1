@@ -1,0 +1,168 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-72",
+  "question": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_WdqqWDbGtpHyfo6xYYfvfZiK",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Education Minister resign Cockroach Janta Party India 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_WdqqWDbGtpHyfo6xYYfvfZiK",
+      "content": "ddg_search error: No results found."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_mfTBetET7DjfSLmPao8LZ6Q6",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Education Minister resign Cockroach Janta Party India 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_mfTBetET7DjfSLmPao8LZ6Q6",
+      "content": "[Cockroach Janta Party] The Cockroach Janta Party (CJP; lit. 'Cockroach People's Party'), also known as the Cockroach movement, is an Indian youth-based satirical political movement founded on 16 May 2026 by Abhijeet Dipke, a political communications strategist and activist. The CJP harnessed widespread political and economic discontent among Generation Z in India, leading to protests in Delhi and other cities in the following months. The \"party\" was created in response to remarks made on 15 May 2026 by Surya Kant, the Chief Justice of India, in which he referred to certain activists and unemployed youth as \"cockroaches\" and \"parasites of society\". Kant later said he was referring specifically to people who obtain fraudulent degrees, but his remarks nonetheless triggered broad criticism that India's economic and political landscape had become hostile to young people. The movement's name is a wordplay parodying the current ruling party in India, the Bharatiya Janata Party. The party achieved significant popularity online, rapidly gaining a large following across social media platforms shortly after its formation. It issued a five-point manifesto relating to the conduct of parliament members and of election commissioners, reservation of seats for women in politics, and media licensing. Beginning in June, the party led protests in Delhi and across the country over the fallout from irregularities in that year's entrance examinations for undergraduate biomedical studies. The protests culminated in talks  | other articles: 2026 Delhi Jantar Mantar protests, Abhijeet Dipke"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_OcxYnF3KgzhyVPY9WxuQhjdt",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Cockroach Janta Party Education Minister resignation demand 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_OcxYnF3KgzhyVPY9WxuQhjdt",
+      "content": "[Cockroach Janta Party] The Cockroach Janta Party (CJP; lit. 'Cockroach People's Party'), also known as the Cockroach movement, is an Indian youth-based satirical political movement founded on 16 May 2026 by Abhijeet Dipke, a political communications strategist and activist. The CJP harnessed widespread political and economic discontent among Generation Z in India, leading to protests in Delhi and other cities in the following months. The \"party\" was created in response to remarks made on 15 May 2026 by Surya Kant, the Chief Justice of India, in which he referred to certain activists and unemployed youth as \"cockroaches\" and \"parasites of society\". Kant later said he was referring specifically to people who obtain fraudulent degrees, but his remarks nonetheless triggered broad criticism that India's economic and political landscape had become hostile to young people. The movement's name is a wordplay parodying the current ruling party in India, the Bharatiya Janata Party. The party achieved significant popularity online, rapidly gaining a large following across social media platforms shortly after its formation. It issued a five-point manifesto relating to the conduct of parliament members and of election commissioners, reservation of seats for women in politics, and media licensing. Beginning in June, the party led protests in Delhi and across the country over the fallout from irregularities in that year's entrance examinations for undergraduate biomedical studies. The protests culminated in talks  | other articles: Neha Bora, 2026 Delhi Jantar Mantar protests"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_EDSJtp62fh85205EptywmmeB",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Neha Bora Education Minister India 2026 resignation demand\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_EDSJtp62fh85205EptywmmeB",
+      "content": "[Neha Bora] Neha Bora is a PhD student and an Indian activist. She is the National President of the All India Students' Association, which is affiliated with the Communist Party of India (Marxist-Leninist) Liberation. She is active in India's Gen-Z movements. | other articles: 2026 Delhi Jantar Mantar protests, List of Gaza war protests at universities in 2024"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_GoSViRssytYDprPQAo2IIBPe",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Neha Bora Education Minister India 2026 protests resignation Cockroach Janta Party\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_GoSViRssytYDprPQAo2IIBPe",
+      "content": "ddg_search error: No results found."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_VdaCuuIW7t6ga7pTCMQOXsxM",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Neha Bora Education Minister protests resignation 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_VdaCuuIW7t6ga7pTCMQOXsxM",
+      "content": "[Neha Bora] Neha Bora is a PhD student and an Indian activist. She is the National President of the All India Students' Association, which is affiliated with the Communist Party of India (Marxist-Leninist) Liberation. She is active in India's Gen-Z movements. | other articles: 2026 Delhi Jantar Mantar protests, List of Gaza war protests at universities in 2024"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_UWlHdSobstjqf4U97zbFi0h4",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Neha Bora Education Minister resignation demand Cockroach Janta Party 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_UWlHdSobstjqf4U97zbFi0h4",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_hUbwBjbkToYx2HjAQZ15Bh9z",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Neha Bora Education Minister resignation Cockroach Janta Party 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_hUbwBjbkToYx2HjAQZ15Bh9z",
+      "content": "[Neha Bora - Wikipedia] She also demanded the resignation of Delhi Police Commissioner Anurag Kumar, alleging police brutality against the student and youth during the 2026 Sansad Chalo march organised by the Cockroach Janta Party.\n[India’s Education Minister Steps Down in Victory for ...] Jul 25, 2026 · The Cockroach Janta Party called an end to weeks of protests after the education minister resigned, a win for that movement even as deep-seated anger among young people remains.\n[India Unleashes “Massive Crackdown” on Youth-Led Cockroach ...] Jul 29, 2026 · NEHA BORA: So, what happened at Jantar Mantar, when Dharmendra Pradhan tendered his resignation, is nothing that has happened before. It is unprecedented in the history of India in the past..."
+    }
+  ],
+  "final_answer": "The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is Dharmendra Pradhan.",
+  "steps_taken": 9
+}

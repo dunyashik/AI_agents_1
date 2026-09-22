@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-75",
+  "question": "Where were two senior doctors arrested over suspicious deaths of newborn infants on January 14, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_nuQwBS0fArd1i61gM9R6iC3a",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"two senior doctors arrested suspicious deaths newborn infants January 14 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_nuQwBS0fArd1i61gM9R6iC3a",
+      "content": "[Top doctors arrested after 9 newborns die at hospital in ...] Jan 14, 2026 · Russian police have arrested the chief physician and the acting head of intensive care at a Siberian hospital where nine babies died this month, prosecutors said Wednesday.\n[Russian doctors arrested over 9 babies die in maternity hospital] Jan 14, 2026 · Two senior doctors have been arrested in Russia following the deaths of nine babies in a maternity hospital in Siberia this month.\n[Nine Newborns Die at Siberian Maternity Hospital; Two Senior ...] Jan 14, 2026 · Two senior doctors at Novokuznetsk Maternity Hospital No. 1 have been arrested and charged with negligence after nine newborns died between Jan. 4 and Jan. 12, 2026."
+    },
+    {
+      "role": "assistant",
+      "content": "On January 14, 2026, two senior doctors were arrested at Novokuznetsk Maternity Hospital No. 1 in Siberia, Russia, following the suspicious deaths of nine newborn infants. The arrests were made in connection with the deaths that occurred between January 4 and January 12, 2026. \n\nFINAL: Novokuznetsk, Siberia, Russia.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Novokuznetsk, Siberia, Russia.",
+  "steps_taken": 2
+}

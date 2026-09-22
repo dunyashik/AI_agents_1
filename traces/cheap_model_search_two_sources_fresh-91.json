@@ -1,0 +1,168 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-91",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_QZgslMeBs00l0r7nX4WpAHay",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 amount released\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_QZgslMeBs00l0r7nX4WpAHay",
+      "content": "ddg_search error: No results found."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_qy2wrYTLoNQ109odTMoHSVzN",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 amount released\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_qy2wrYTLoNQ109odTMoHSVzN",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_CYOyPmBd4E7EBMcAHYCmwMvl",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 funding amount\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_CYOyPmBd4E7EBMcAHYCmwMvl",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_tRGg6hTYYGaBolFqUNRNezvk",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 funding\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_tRGg6hTYYGaBolFqUNRNezvk",
+      "content": "nothing found"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_g465i9KRgmBPbjfCCS5DFH1w",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 announcement\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_g465i9KRgmBPbjfCCS5DFH1w",
+      "content": "[Centre releases ₹25,863 crore as new rural jobs scheme VB-G ...] Jul 5, 2026 · Rural development minister Shivraj Singh Chouhan said the government had resolved to implement VB-G-RAM-G across the country without disruption from 1 July 2026.\n['Fraud won't be tolerated in VB-G RAM G' - The Economic Times] 4 days ago · Rural Development Minister Shivraj Singh Chouhan mandated random inspections for the VB-G RAM G scheme. He stressed that fraud and irregularities would not be tolerated under any circumstances. Officials must ensure workers receive employment and timely wage payments without delays. The minister also emphasized adherence to the prescribed wage-material ratio for scheme implementation. Strict ...\n[Centre releases ₹25,863 crore first instalment under VB-G RAM ...] Jul 5, 2026 · Updated - July 05, 2026 at 02:49 PM. Union Minister for Rural Development and Agriculture Shivraj Singh Chouhan on Sunday released the first instalment of the ‘Mother Sanction,’ amounting..."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_iUDRqmwUZmRIGXN8D7dX9QNm",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"VB-G RAM-G scheme July 2026 funding amount released by Shivraj Singh Chouhan\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_iUDRqmwUZmRIGXN8D7dX9QNm",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/sp/search) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_bFepj3GwUXq4m30fTMRDfmR5",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"VB-G RAM-G scheme July 2026 funding Shivraj Singh Chouhan\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_bFepj3GwUXq4m30fTMRDfmR5",
+      "content": "nothing found"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_fX7NthCkfad0PqbXSnEZiHbk",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_fX7NthCkfad0PqbXSnEZiHbk",
+      "content": "[Centre releases ₹25,863 crore as new rural jobs scheme VB-G ...] Jul 5, 2026 · Rural development minister Shivraj Singh Chouhan said the government had resolved to implement VB-G-RAM-G across the country without disruption from 1 July 2026.\n[VB-G RAM G Act to Come into Force from July 1, 2026; \"No ...] 125 Days of Guaranteed Wage Employment to Strengthen Rural Livelihoods: Shivraj Singh Chouhan Government Completes All Preparations for Seamless Nationwide Rollout Interim Allocation of ₹95,692.31 Crore allocated to States and UTs to Ensure Seamless Nationwide Rollout of VB-G RAM G Act Posted On: 30 JUN 2026 5:45PM by PIB Delhi\n[Shivraj Singh Chouhan: Rs 7.5 lakh crore to be spent on..] Jul 2, 2026 · Tirupati, July 2 : Union Minister for Rural Development Shivraj Singh Chouhan on Thursday announced that the government will spend Rs 7.5 lakh crore under Viksit Bharat – Guarantee for Rozgar and Aajeevika Mission - Gramin (VB-G RAM G) in five years."
+    }
+  ],
+  "final_answer": "In July 2026, Shivraj Singh Chouhan announced the release of ₹25,863 crore as the first installment for the VB-G RAM-G scheme.",
+  "steps_taken": 9
+}

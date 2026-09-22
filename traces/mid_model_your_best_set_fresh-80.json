@@ -1,0 +1,47 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-80",
+  "question": "What regulation did the Supreme Court of India stay on January 29, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about a Supreme Court of India ruling on January 29, 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01T4FhY4m5G2XUb3ajzygH5p",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Supreme Court India stay January 29 2026\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_01SorqtonoXr8Bb7BgzsjusQ",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Supreme Court India stay regulation January 29 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01T4FhY4m5G2XUb3ajzygH5p",
+      "content": "[Supreme Court of the United States] The Supreme Court of the United States (SCOTUS) is the highest court in the federal judiciary of the United States. It has ultimate appellate jurisdiction over all U.S. federal court cases, and over state court cases that turn on questions of U.S. constitutional or federal law. It also has original jurisdiction over a narrow range of cases, specifically \"all Cases affecting Ambassadors, other public Ministers and Consuls, and those in which a State shall be Party\". In 1803, the court asserted the power of judicial review, the ability to invalidate a statute for violating a provision of the Constitution. It is also able to strike down presidential directives for violating either the Constitution or statutory law. Under Article Three of the United States Constitution, the composition and procedures of the Supreme Court were originally established by the 1st Congress through the Judiciary Act of 1789. As currently constituted the court consists of nine justices—the chief justice of the United States and eight associate justices—who meet at the Supreme Court Building in Washington, D.C. Justices have lifetime tenure, meaning they remain on the court until they die, retire, resign, or are impeached and removed from office. When a vacancy occurs, the president, with the advice and consent of the Senate, appoints a new justice. Each justice has a single vote in deciding the cases argued before the court. When in the majority, the chief justice decides who writes the opinion of the c | other articles: UGC Equity Regulations, 2026, 2026 in the United States"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01SorqtonoXr8Bb7BgzsjusQ",
+      "content": "[Supreme Court Stays UGC Equity Regulations 2026: A Major ...] Jan 29, 2026 · On January 29, 2026, the Supreme Court of India delivered a significant interim order staying the implementation of the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026 — commonly known as the UGC Equity Regulations 2026.\n[Supreme Court stays 2026 UGC equity regulations - Supreme ...] Jan 29, 2026 · On 29 January, a Division Bench of Chief Justice Surya Kant and Joymalya Bagchi stayed the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026.\n[Supreme Court stays UGC equity regulations 2026: A timeline ...] Jan 29, 2026 · The Supreme Court on Thursday stayed the implementation of the University Grants Commission’s (UGC) Equity Regulations 2026, halting a contentious framework that triggered campus protests, political reactions and multiple legal challenges within days of being notified."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: On January 29, 2026, the Supreme Court of India stayed the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026 (commonly known as the UGC Equity Regulations 2026).",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "On January 29, 2026, the Supreme Court of India stayed the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026 (commonly known as the UGC Equity Regulations 2026).",
+  "steps_taken": 2
+}

@@ -1,0 +1,33 @@
+{
+  "task_id": "costsample_cheap_model_search_two_sources_fresh-143",
+  "question": "Who was refused entry into the United States on June 9, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_JFjgrKqMW6bbqoHcIwveBMhQ",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"refused entry into the United States June 9 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_JFjgrKqMW6bbqoHcIwveBMhQ",
+      "content": "[Somali ref Omar Abdulkadir Artan denied U.S. entry ahead of ...] Jun 9, 2026 · \"FIFA can confirm that match official Omar Abdulkadir Artan will be unable to train and officiate at the FIFA World Cup 2026 after he was denied entry into the United States,\" the...\n[Somali referee denied entry to U.S. ahead of World Cup] Jun 8, 2026 · A Somali referee who was due to officiate at the World Cup has been denied entry to the United States and will no longer be able to participate in the tournament, FIFA confirmed Monday.\n[Omar Abdulkadir Artan: Somali World Cup referee denied entry ...] Jun 8, 2026 · Somali referee Omar Abdulkadir Artan will not take part in this summer’s World Cup after he was denied entry into the United States, FIFA confirmed on Monday."
+    },
+    {
+      "role": "assistant",
+      "content": "On June 9, 2026, Somali referee Omar Abdulkadir Artan was denied entry into the United States, which prevented him from officiating at the FIFA World Cup. FIFA confirmed this decision, stating that he would no longer be able to participate in the tournament. \n\nFINAL: Omar Abdulkadir Artan.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Omar Abdulkadir Artan.",
+  "steps_taken": 2
+}

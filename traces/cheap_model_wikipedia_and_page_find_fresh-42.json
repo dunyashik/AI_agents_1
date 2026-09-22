@@ -1,0 +1,168 @@
+{
+  "task_id": "cheap_model_wikipedia_and_page_find_fresh-42",
+  "question": "Who inaugurated the Noida International Airport in India in March 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_vv1bQIlSnNQP1fLyOjnY7LLT",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Noida International Airport inauguration March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_vv1bQIlSnNQP1fLyOjnY7LLT",
+      "content": "[Noida International Airport] Noida International Airport (IATA: DXN, ICAO: VIND), also called Jewar Airport, is an international airport at Jewar in the Gautam Buddha Nagar district of Uttar Pradesh, India, serving the National Capital Region and western Uttar Pradesh. In its first phase, the airport has one runway and one passenger terminal with a capacity of 12 million passengers annually. The airport will increase this capacity to 30 million passengers annually in the upcoming years. The airport is intended to complement Indira Gandhi International Airport as part of the Delhi-NCR region's dual-airport system. The first phase was inaugurated on 28 March 2026, following the grant of an aerodrome licence by the DGCA on 6 March 2026. Commercial operations began on 15 June 2026. | other articles: Noida, Navi Mumbai International Airport"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_n1NrrEz7dLZVnyUR5KR6B3LI",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"Noida International Airport\",\"keywords\":\"inauguration March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_n1NrrEz7dLZVnyUR5KR6B3LI",
+      "content": "The first phase was inaugurated on 28 March 2026, following the grant of an aerodrome licence by the DGCA on 6 March 2026. Commercial operations began on 15 June 2026.\nOriginally slated for opening in 2022, delays repeatedly pushed back the start of commercial operations. On 6 March 2026, the airport received its aerodrome licence by the Directorate General of Civil Aviation. Phase I was inaugurated on 28 March 2026. Scheduled commercial flights were initially expected to begin in mid-April to May 2026, following the inauguration. The airport commenced flight op\nThe airport has a 40 acre aircraft maintenance facility. In March 2026, Akasa Air announced plans to establish its first maintenance, repair and overhaul (MRO) facility at the airport.\nA major planned road project is the greenfield connectivity corridor from the Delhi-Faridabad-Ballabhgarh-Sohna spur of the Delhi–Mumbai Expressway to the airport. In March 2026, the Cabinet Committee on Economic Affairs approved the revised cost estimate for this 31.42 km project corridor, of which about 11 km is to be developed as elevated highway. The corridor would improve direct connectivity \nLand acquisition and rehabilitation have remained contentious during multiple phases of the project. In 2023, district authorities finalised a rehabilitation and resettlement scheme for families displaced by second-phase land acquisition. In March 2026, some displaced farmers said promised jobs and rehabilitation measures had still not been fully implemented."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_0S7UNOqbPQDRzkuDQqHNHdYb",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"who inaugurated Noida International Airport March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_0S7UNOqbPQDRzkuDQqHNHdYb",
+      "content": "[Noida] Noida, short for New Okhla Industrial Development Authority, is a city located in Gautam Buddha Nagar district in the Indian state of Uttar Pradesh. It is a part of the National Capital Region (NCR). Situated in the floodplain region between the Yamuna and the Hindon rivers, the city was established in 1976, and is regarded as one of the most systematically planned cities in India. It was designed under the NCR planning strategy to decentralise growth from Delhi. The Gautam Buddha Nagar District, which includes the cities of Noida, Greater Noida and YEIDA City contributes, over 10% to the Uttar Pradesh GSDP, more than 2.5 times the state capital district of Lucknow, which contributes 4%. Noida is frequently ranked as one of India's greenest cities, boasting over 50% green cover, including botanical gardens and biodiversity parks. The city emphasises sustainable development, green corridors, and high-quality landscaping. As per provisional reports of Census of India, the population of Noida in 2011 was 642,381. The city is managed and maintained by the New Okhla Industrial Development Authority (NOIDA). The district's administrative headquarters are in the nearby city of Greater Noida. The city is a part of the Noida (Vidhan Sabha) constituency and Gautam Buddha Nagar (Lok Sabha) constituency. Noida was ranked as the \"Best City in Uttar Pradesh\" in the \"Best City Awards\" conducted by ABP News in 2015. It is also ranked the cleanest city in medium category cities (cities with a | other articles: Navi Mumbai International Airport, Rajiv Gandhi International Airport"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_RgvPRqbuZacSY8ZI3w2E5UKy",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Noida International Airport inauguration ceremony March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_RgvPRqbuZacSY8ZI3w2E5UKy",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_hnn8yTQX2TVSAB2O1zzwUh1y",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Noida International Airport inauguration March 2026 Prime Minister\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_hnn8yTQX2TVSAB2O1zzwUh1y",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_2QruX9d7rprj4qiGzdYzOxkM",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Noida International Airport inaugurated by March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_2QruX9d7rprj4qiGzdYzOxkM",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_57CNL00Z2MNQIhTAFJycfl3T",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"who inaugurated Jewar Airport March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_57CNL00Z2MNQIhTAFJycfl3T",
+      "content": "[Noida] Noida, short for New Okhla Industrial Development Authority, is a city located in Gautam Buddha Nagar district in the Indian state of Uttar Pradesh. It is a part of the National Capital Region (NCR). Situated in the floodplain region between the Yamuna and the Hindon rivers, the city was established in 1976, and is regarded as one of the most systematically planned cities in India. It was designed under the NCR planning strategy to decentralise growth from Delhi. The Gautam Buddha Nagar District, which includes the cities of Noida, Greater Noida and YEIDA City contributes, over 10% to the Uttar Pradesh GSDP, more than 2.5 times the state capital district of Lucknow, which contributes 4%. Noida is frequently ranked as one of India's greenest cities, boasting over 50% green cover, including botanical gardens and biodiversity parks. The city emphasises sustainable development, green corridors, and high-quality landscaping. As per provisional reports of Census of India, the population of Noida in 2011 was 642,381. The city is managed and maintained by the New Okhla Industrial Development Authority (NOIDA). The district's administrative headquarters are in the nearby city of Greater Noida. The city is a part of the Noida (Vidhan Sabha) constituency and Gautam Buddha Nagar (Lok Sabha) constituency. Noida was ranked as the \"Best City in Uttar Pradesh\" in the \"Best City Awards\" conducted by ABP News in 2015. It is also ranked the cleanest city in medium category cities (cities with a | other articles: Vrindavan, Galgotias University"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Jm9rRBZSthMDVJIOX0n1MRFe",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Noida International Airport inauguration March 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Jm9rRBZSthMDVJIOX0n1MRFe",
+      "content": "[Noida International Airport] Noida International Airport (IATA: DXN, ICAO: VIND), also called Jewar Airport, is an international airport at Jewar in the Gautam Buddha Nagar district of Uttar Pradesh, India, serving the National Capital Region and western Uttar Pradesh. In its first phase, the airport has one runway and one passenger terminal with a capacity of 12 million passengers annually. The airport will increase this capacity to 30 million passengers annually in the upcoming years. The airport is intended to complement Indira Gandhi International Airport as part of the Delhi-NCR region's dual-airport system. The first phase was inaugurated on 28 March 2026, following the grant of an aerodrome licence by the DGCA on 6 March 2026. Commercial operations began on 15 June 2026. | other articles: Noida, Noida Metro"
+    }
+  ],
+  "final_answer": "The Noida International Airport, also known as Jewar Airport, was inaugurated on 28 March 2026. However, the specific individual who inaugurated the airport is not mentioned in the available sources.",
+  "steps_taken": 9
+}

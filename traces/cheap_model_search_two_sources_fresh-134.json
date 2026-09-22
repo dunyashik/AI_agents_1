@@ -1,0 +1,53 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-134",
+  "question": "How many metric tons of hashish were seized by Spanish police in March 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_ZhfhsEdqNn6ITkaRTSPS87Zc",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Spain police hashish seizure March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ZhfhsEdqNn6ITkaRTSPS87Zc",
+      "content": "[Spanish police bust underground hashish route from Morocco] Mar 31, 2026 · Spanish police have discovered a drug-smuggling tunnel in the North African exclave of Ceuta, complete with a rail system and underground cranes to transport hashish from Morocco into...\n[Spanish Police Bust Underground Hashish Route From Morocco] Mar 31, 2026 · A person works inside a tunnel that was used to bring tons of hashish from Morrocco into Spain, in Ceuta, Spain, in an undated picture released on March 31, 2026.\n[Spanish police bust underground hashish route from Morocco] Mar 31, 2026 · MADRID, March 31 (Reuters) - Spanish police have discovered a drug-smuggling tunnel in the North African exclave of Ceuta, complete with a rail system and underground cranes to transport hashish from Morocco into Spain."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_VS0b11lBXlMX2r1JulFxGfq1",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Spain police hashish seizure March 2026 amount\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_VS0b11lBXlMX2r1JulFxGfq1",
+      "content": "[Moroccan-Dutch suspect allegedly co-ran massive Morocco–Spain ...] Apr 12, 2026 · The operation, completed March 31, 2026, led to 27 arrests and the seizure of about 17 tons of hashish, 1.4 million euros in cash and 15 luxury vehicles after coordinated raids across Ceuta and multiple regions of Spain involving more than 250 officers.\n[5926 Kg Hashish Seized By Spain & 10 Drug Mafia Gang Members ...] Aug 26, 2026 · Spanish authorities have arrested 10 members of a drug trafficking group in a recent operation which led to the discovery of 5926 kg of hashish and the seizure of two small, high-speed narco boats.\n[Police seize Europe’s largest MDMA haul in Spain-Netherlands ...] Jul 7, 2026 · Joint raids were carried out in late January 2026 after authorities confirmed that the shipment was about to take place. Police also seized 644 cannabis plants, three firearms, 46,000 euros in cash and five luxury watches."
+    },
+    {
+      "role": "assistant",
+      "content": "In March 2026, Spanish police seized approximately 17 metric tons of hashish during an operation that involved the discovery of a drug-smuggling tunnel from Morocco. FINAL: 17 metric tons",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "17 metric tons",
+  "steps_taken": 3
+}

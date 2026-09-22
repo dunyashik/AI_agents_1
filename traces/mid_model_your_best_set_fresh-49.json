@@ -1,0 +1,47 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-49",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about Asiya Andrabi's sentencing in India on March 24, 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01BeZJirVVEaDXz5iSUzZpFQ",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Asiya Andrabi sentence India March 24 2026\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_01TRY6WtvgzD9uVtFLqDChhc",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Asiya Andrabi sentencing March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01BeZJirVVEaDXz5iSUzZpFQ",
+      "content": "[Asiya Andrabi] Asiya Andrabi is a Kashmiri separatist and founding leader of Dukhtaran-e-Millat. This group is part of the separatist organisation All Parties Hurriyat Conference in the Kashmir Valley. Government of India has declared it as a banned organization. The organisation claims that it aims for the freedom of Kashmir from India. Until her arrest, she was one of the most important women separatists in the valley. She is married to Ashiq Hussain Faktoo (a founding member of the Hizbul Mujahideen) in 1990. Her husband has been in jail since 1992, convicted of murder. Asiya Andrabi had a major role in starting and backing-up various protests in the Kashmir Valley. She is best known for supporting Masarat Alam in the 2010 Kashmir unrest across Kashmir by using her village network of Dukhtaran-e-Millat operatives for rally support. She hoisted the Pakistan flag and sang the Pakistani national anthem in Kashmir on 25 March 2015. Later on, she was booked for that. On 12 September 2015, she slaughtered a cow and released a video in a bid to defy the ban on sale of beef in Jammu and Kashmir. On 6 July 2018, Asiya was taken into custody by the National Investigation Agency (NIA). | other articles: 2026 in India, Unlawful Activities (Prevention) Act, 1967"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01TRY6WtvgzD9uVtFLqDChhc",
+      "content": "[Delhi Court Sentences Asiya Andrabi to Life Imprisonment Under UAPA ...] Delhi Court Awards Life Sentence to Asiya Andrabi: A Defining Moment in Kashmir's Legal and Political Landscape By: Javid Amin | 24 March 2026 UAPA Verdict Against Separatist Leadership Signals Tougher Judicial Line on Terror-Linked Cases In a significant and closely watched judgment, a Delhi court has sentenced Asiya Andrabi to life imprisonment under the Unlawful Activities (Prevention ...\n[Delhi court awards life sentence to Kashmiri separatist Asiya Andrabi ...] A Delhi court on Tuesday awarded Kashmiri separatist Asiya Andrabi life imprisonment, while two of her associates, Sofi Fehmeeda and Nahida Nasreen, have been sentenced to 30 years in prison each.\n[Asiya Andrabi Sentencing: Court Rules Life Under UAPA] Kashmiri Separatist: Delhi court sentences Asiya Andrabi to life for terrorism under UAPA, emphasizing a stern message against State conspiracy."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, I have found the information about Asiya Andrabi's sentencing.\n\nFINAL: On March 24, 2026, a Delhi court sentenced Asiya Andrabi to life imprisonment under the Unlawful Activities (Prevention) Act (UAPA). Two of her associates, Sofi Fehmeeda and Nahida Nasreen, were sentenced to 30 years in prison each.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "On March 24, 2026, a Delhi court sentenced Asiya Andrabi to life imprisonment under the Unlawful Activities (Prevention) Act (UAPA). Two of her associates, Sofi Fehmeeda and Nahida Nasreen, were sentenced to 30 years in prison each.",
+  "steps_taken": 2
+}

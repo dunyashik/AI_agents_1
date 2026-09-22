@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-104",
+  "question": "How many people were killed in the bus accident in Udhampur, Jammu and Kashmir?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_gCkmuBo5Bvfrt2jdLa3HjYr2",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Udhampur Jammu Kashmir bus accident deaths 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_gCkmuBo5Bvfrt2jdLa3HjYr2",
+      "content": "[Bus rolls down hill in Jammu and Kashmir’s Udhampur, seven ...] Twenty-one people were killed and more than 61 injured after an overcrowded passenger bus tumbled down a hillside in Udhampur district of Jammu and Kashmir on Monday (April 20, 2026). The bus ...\n[Udhampur Bus Accident: 21 Dead, 51 Injured As Bus Rolls Down ...] Apr 20, 2026 · At least 21 people were killed and 51 injured on Monday when an overcrowded passenger bus plunged nearly 100 metres down a hillside in Jammu and Kashmir's Udhampur district, crushing an auto ...\n[Udhampur Bus Tragedy: 21 Dead After Bus Falls Into Gorge Near ...] Apr 20, 2026 · A routine morning journey turned into a devastating tragedy in Jammu & Kashmir on Monday, April 20, 2026, when a passenger bus veered off a narrow mountain road and plunged into a deep gorge near Ramnagar in Udhampur district."
+    },
+    {
+      "role": "assistant",
+      "content": "In the bus accident in Udhampur, Jammu and Kashmir, 21 people were killed and more than 61 were injured when the overcrowded bus fell down a hillside on April 20, 2026. \n\nFINAL: 21 people were killed.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "21 people were killed.",
+  "steps_taken": 2
+}

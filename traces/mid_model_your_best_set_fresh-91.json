@@ -1,0 +1,47 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-91",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about the VB-G RAM-G scheme and Shivraj Singh Chouhan's announcement in July 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01LrWpTTB12hNWjBm8yvaDH5",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_01FPRTkWbzrvuwHRduzwveuv",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"VB-G RAM-G scheme Shivraj Singh Chouhan July 2026 amount released\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01LrWpTTB12hNWjBm8yvaDH5",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01FPRTkWbzrvuwHRduzwveuv",
+      "content": "[Union Minister Shivraj Singh Chouhan releases 25,000 crore rupees ...] Union Minister of Rural Development Shivraj Singh Chouhan has expressed happiness that the Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin), VB-G RAM G Act, 2025, has successfully come into force on the 1st of July. The Minister today released the first installment (Mother ...\n[Centre releases ₹25,863 crore first instalment under VB-G RAM G Yojana] Centre disburses ₹25,863 crore for VB-G RAM G Yojana, enhancing rural employment with a new 125-day guarantee scheme.\n[Shivraj Singh Chouhan Reviews VB-G-RAM-G, Releases ₹25,863 Crore First ...] New Delhi : Union Minister for Rural Development Shivraj Singh Chouhan today reviewed the implementation of the Viksit Bharat-Guarantee for Rozgar and Aajeevika Mission (Gramin) [VB-G-RAM-G] through a video conference with Rural Development Ministers of all States and Union Territories. During the meeting, he released the first installment (Mother Sanction) of ₹25,863 crore to the States ..."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, I found the information about the VB-G RAM-G scheme release in July 2026.\n\nFINAL: Shivraj Singh Chouhan released ₹25,863 crore as the first installment (Mother Sanction) under the VB-G RAM-G (Viksit Bharat-Guarantee for Rozgar and Aajeevika Mission - Gramin) scheme in July 2026.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Shivraj Singh Chouhan released ₹25,863 crore as the first installment (Mother Sanction) under the VB-G RAM-G (Viksit Bharat-Guarantee for Rozgar and Aajeevika Mission - Gramin) scheme in July 2026.",
+  "steps_taken": 2
+}

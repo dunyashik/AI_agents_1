@@ -1,0 +1,168 @@
+{
+  "task_id": "cheap_model_wikipedia_and_page_find_fresh-31",
+  "question": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_7xPoxl5q9DP4aKeysZFsGhT8",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Kazakhstan new government August 23 2026 legislative election results\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_7xPoxl5q9DP4aKeysZFsGhT8",
+      "content": "[2026 Kazakh legislative election] Legislative elections were held in Kazakhstan on 23 August 2026 to elect all 145 members of the Kurultai of the 1st convocation. It was the 10th legislative election since Kazakhstan's independence in 1991 and the first election to the country's new unicameral legislature established by the 2026 Constitution. Turnout was 74.2%, making it the highest turnout recorded in a national vote in Kazakhstan since the 2026 referendum and the highest turnout in a legislative election since 2016. The new constitution, approved in a constitutional referendum, provided for the dissolution of the previous bicameral Parliament of Kazakhstan and established the Kurultai as the country's highest representative body. It entered into force on 1 July 2026, on which day President Kassym-Jomart Tokayev signed a decree calling the legislative election for 23 August. The vote also marked the return of party-list proportional representation under the new electoral system for the first time since the 2021 legislative elections. The campaign was contested by seven political parties and focused primarily on socio-economic and governance issues. Major campaign issues included living standards, taxation and the minimum wage; inflation and the rising cost of essential goods; economic and industrial development, including regional growth and labour productivity; and the implementation of the new constitutional and parliamentary system. Ahead of the election, press freedom organizations reported increasing pr | other articles: Opinion polling for the 2026 Russian legislative election, List of elections in 2026"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_anPXso5jZa8eckwEpyG1sVBC",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"2026 Kazakh legislative election\",\"keywords\":\"new government formed\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_anPXso5jZa8eckwEpyG1sVBC",
+      "content": "The newly formed pro-presidential Ädilet party, the successor to Amanat, won the election with 71.2% of the vote, followed by the Auyl with 6.3%, Respublica with 5.6%, the Aq Jol with 5.2%, and the Nationwide Social Democratic Party (JSDP) with 5.1%. The People's Party of Kazakhstan (QHP) and Baytaq failed to reach the 5% electoral threshold, with the QHP losing parliamentary representation for th\nOn 28 August 2026, the newly elected Kurultai convened for its first session, where Tokayev nominated Aibek Dädebai as chairman, and deputies subsequently elected him unanimously. The government, led by Prime Minister Oljas Bektenov, also resigned, with its members continuing to perform their duties until a new government was formed. On 31 August, Tokayev nominated Bektenov for reappointment as pr\nDespite Tokayev ruling out early elections, ongoing discussions about future constitutional reforms, including proposals to abolish the Senate, speculation persisted about snap parliamentary elections with social activist Qazbek Beisebaev noting that any changes to parliament would first require constitutional amendments or a referendum before snap election, and while the current parliament is gen\nThe referendum \"Yes\" vote campaign was organized under the National Coalition \"For the People's Constitution of a Fair and Progressive Kazakhstan\", bringing together pro-government political parties and public organizations in support of the draft constitution, which proposed restructuring Kazakhstan's legislative system ahead of the transition to the newly unicameral Kurultai. The referendum camp\nAnalysts interpreted the timing of the announcement amid preparations for the new unicameral Kurultai as carrying a clear pre-election dimension, with political scientist Daniyar Ashimbayev describing the proposal as having a \"pre-election theme\" and a populist character that signaled responsiveness to public concerns over living standards while functioning more as a politically salient promise th\nIts rapid registration, prominent leadership, and close association with the constitutional reform process prompted extensive political commentary. Analysts characterized Ädilet as part of a broader reconfiguration of Kazakhstan's party system following the constitutional reforms, with some describing it as a move toward a more competitive multi-party or quasi two-party system and suggesting that "
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_YZzGWsh6atbASeGzjpRwxSGG",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"2026 Kazakh legislative election\",\"keywords\":\"Aibek Dädebai\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_YZzGWsh6atbASeGzjpRwxSGG",
+      "content": "page_find error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_s04fNkNVhDJKfanGEoatJnM9",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Aibek Dädebai Kazakhstan government August 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_s04fNkNVhDJKfanGEoatJnM9",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_cjSyuFJEAhArcxQgTmcSY0GP",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Kazakhstan government August 2026 Aibek Dädebai\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_cjSyuFJEAhArcxQgTmcSY0GP",
+      "content": "[Government of Kazakhstan] The Government of the Republic of Kazakhstan (Kazakh: Қазақстан Республикасының Үкіметі, Qazaqstan Respublikasynyñ Ükımetı) is the collegial body that exercises executive power in the Republic of Kazakhstan; the government heads the system of executive bodies and directs their activities. The Government is formed by the President of Kazakhstan in the manner prescribed by the constitution. The current cabinet is headed by Oljas Bektenov, who was sworn in as Prime Minister on 6 February 2024. The Government House is located on the left bank near Akorda at the House of Ministries at Mangilik el 8 ave in Astana. The length of the building is about 1.5 km. It consists of 20 blocks and has a stepped shape – from 8 to 10 floors. The total area of the facility is 228 thousand square meters. The outer walls are monolithic reinforced concrete, the finish is ceramic granite. | other articles: 2026 Kazakh legislative election, Ädilet (political party)"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Mgx72SKZ2gy0EQMlVORhjGZl",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Kazakhstan government August 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Mgx72SKZ2gy0EQMlVORhjGZl",
+      "content": "[2026 Kazakh legislative election] Legislative elections were held in Kazakhstan on 23 August 2026 to elect all 145 members of the Kurultai of the 1st convocation. It was the 10th legislative election since Kazakhstan's independence in 1991 and the first election to the country's new unicameral legislature established by the 2026 Constitution. Turnout was 74.2%, making it the highest turnout recorded in a national vote in Kazakhstan since the 2026 referendum and the highest turnout in a legislative election since 2016. The new constitution, approved in a constitutional referendum, provided for the dissolution of the previous bicameral Parliament of Kazakhstan and established the Kurultai as the country's highest representative body. It entered into force on 1 July 2026, on which day President Kassym-Jomart Tokayev signed a decree calling the legislative election for 23 August. The vote also marked the return of party-list proportional representation under the new electoral system for the first time since the 2021 legislative elections. The campaign was contested by seven political parties and focused primarily on socio-economic and governance issues. Major campaign issues included living standards, taxation and the minimum wage; inflation and the rising cost of essential goods; economic and industrial development, including regional growth and labour productivity; and the implementation of the new constitutional and parliamentary system. Ahead of the election, press freedom organizations reported increasing pr | other articles: Second Bektenov Government, Government of Kazakhstan"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_rF6BJlm9hUV2AYBcXrEEE1b7",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"Government of Kazakhstan\",\"keywords\":\"Oljas Bektenov\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_rF6BJlm9hUV2AYBcXrEEE1b7",
+      "content": "The Government of the Republic of Kazakhstan (Kazakh: Қазақстан Республикасының Үкіметі, Qazaqstan Respublikasynyñ Ükımetı) is the collegial body that exercises executive power in the Republic of Kazakhstan; the government heads the system of executive bodies and directs their activities. The Government is formed by the President of Kazakhstan in the manner prescribed by the constitution. The curr\nOn February 5, 2024, the President of Kazakhstan Kassym-Jomart Tokayev accepted the resignation of the government headed by Alikhan Smailov. On February 6, a new cabinet of ministers was formed under the chairmanship of Olzhas Bektenov.\nThe prime minister, who serves at the pleasure of the president, chairs the Council of Ministers and serves as Kazakhstan's head of government. There are three deputy prime ministers and 17 ministers in the government. The most recent Prime Minister of Kazakhstan is Oljas Bektenov."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_hPlQboqz8hxAWrJbk9M5Vkx1",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"2026 Kazakh legislative election\",\"keywords\":\"government formation August 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_hPlQboqz8hxAWrJbk9M5Vkx1",
+      "content": "Legislative elections were held in Kazakhstan on 23 August 2026 to elect all 145 members of the Kurultai of the 1st convocation. It was the 10th legislative election since Kazakhstan's independence in 1991 and the first election to the country's new unicameral legislature established by the 2026 Constitution. Turnout was 74.2%, making it the highest turnout recorded in a national vote in Kazakhsta\nThe new constitution, approved in a constitutional referendum, provided for the dissolution of the previous bicameral Parliament of Kazakhstan and established the Kurultai as the country's highest representative body. It entered into force on 1 July 2026, on which day President Kassym-Jomart Tokayev signed a decree calling the legislative election for 23 August. The vote also marked the return of \nOn 28 August 2026, the newly elected Kurultai convened for its first session, where Tokayev nominated Aibek Dädebai as chairman, and deputies subsequently elected him unanimously. The government, led by Prime Minister Oljas Bektenov, also resigned, with its members continuing to perform their duties until a new government was formed. On 31 August, Tokayev nominated Bektenov for reappointment as pr\nThe referendum \"Yes\" vote campaign was organized under the National Coalition \"For the People's Constitution of a Fair and Progressive Kazakhstan\", bringing together pro-government political parties and public organizations in support of the draft constitution, which proposed restructuring Kazakhstan's legislative system ahead of the transition to the newly unicameral Kurultai. The referendum camp\nIn the lead-up to the 2026 elections in Kazakhstan, economic concerns such as inflation, rising utility costs, and declining real incomes became a key issue in public debate, despite continued official references to macroeconomic growth. Against this backdrop, the Kazakh government's April 2026 proposal to raise the national minimum wage from 85,000 to 150,000 tenge emerged as a prominent socio-ec\nIn the referendum campaign period, Senate chairman Mäulen Äşimbaev stipulated that, if approved, the current bicameral Parliament would remain in office until 1 July 2026, after which elections to the new unicameral Kurultai would be held before 1 September 2026, when the new legislature would begin its duties. Following the referendum, president Tokayev stated at a meeting with representatives of"
+    }
+  ],
+  "final_answer": "After the legislative election on August 23, 2026, the new government of Kazakhstan was formed with Aibek Dädebai nominated as chairman of the Kurultai by President Kassym-Jomart Tokayev. Oljas Bektenov was reappointed as Prime Minister.",
+  "steps_taken": 9
+}

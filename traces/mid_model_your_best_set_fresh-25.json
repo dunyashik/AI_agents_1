@@ -1,0 +1,87 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-25",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about what Pakistan declared on February 26, 2026 regarding the Afghanistan-Pakistan war.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01WrN33xBM14mHW5cqf9E1qG",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Pakistan declaration February 26 2026 Afghanistan war\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_01EokfCxJz2CoF7QemrtHMxp",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Pakistan February 26 2026 Afghanistan Pakistan war\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01WrN33xBM14mHW5cqf9E1qG",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01EokfCxJz2CoF7QemrtHMxp",
+      "content": "[2026 Afghanistan-Pakistan war - Wikipedia] A war began in late February 2026 between Afghanistan and Pakistan following Pakistani airstrikes on militant targets in eastern Afghanistan. [25] Pakistan said the strikes targeted militant camps belonging to the Pakistani Taliban (TTP) and the Islamic State - Khorasan Province (ISIS-K), in retaliation for recent cross-border attacks in Pakistan, while Afghan authorities and the United ...\n[Pakistan Strikes Afghanistan in 'Open War' Against Taliban Government] The airstrikes came hours after Afghan troops had attacked Pakistani border positions and follow months of worsening relations between the neighboring countries.\n[2026 Afghanistan-Pakistan war - Wikiwand] A war began in late February 2026 between Afghanistan and Pakistan following Pakistani airstrikes on militant targets in eastern Afghanistan. Pakistan said the strikes targeted militant camps belonging to the Pakistani Taliban (TTP) and the Islamic State - Khorasan Province (ISIS-K), in retaliation for recent cross-border attacks in Pakistan, while Afghan authorities and the United Nations ..."
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search for more specific information about what Pakistan declared on February 26, 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01KXgK3i6zfH35nsFfXKAa3q",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"\\\"February 26\\\" 2026 Pakistan declaration Afghanistan\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01KXgK3i6zfH35nsFfXKAa3q",
+      "content": "[Pakistan Declares Open War on Afghan Taliban: Airstrikes ...] Feb 27, 2026 · Pakistan carried out airstrikes on military targets in Kabul, Kandahar, and Paktia province early on February 27, 2026, hours after Afghan Taliban forces launched ground attacks on...\n[Pakistan declares 'open war' on Afghanistan after border ...] Feb 27, 2026 · Pakistan's Defense Minister Khawaja Asif declared \"open war\" on the Afghan Taliban government in a post on X on Friday morning. Khawaja wrote: \"Pakistan made every effort to keep the situation normal through direct means and through friendly countries.\n[Pakistan Declares 'Open War' On Afghanistan - iHeart] Jun 25, 2026 · Pakistan has declared \"open war\" on Afghanistan, launching airstrikes on Kabul and other major Afghan cities on Friday (February 27) in a dramatic escalation of cross-border conflict between the two neighboring nations."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, I can see that Pakistan's declaration occurred around February 26-27, 2026. Let me search for more precise details about what was declared on February 26 specifically.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01Gqp2mZqxKF9tsipTBs6mYx",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Pakistan \\\"open war\\\" Afghanistan February 2026 Khawaja Asif\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01Gqp2mZqxKF9tsipTBs6mYx",
+      "content": "[Pakistan in 'open war' with Afghanistan, defense minister says] After the Afghan strikes, Pakistan's Defense Minister Khawaja Mohammad Asif said in a post on X: \"Our patience has now run out. Now it is open war between us.\"\n[Pakistan defence minister says country in 'open war' with Afghanistan ...] Pakistan's defence minister has said the country is in \"open war\" with Afghanistan, after Islamabad launched airstrikes on Kabul as part of a wave of attacks across the country.\n[Pakistan Declares Open War on Afghan Taliban: Airstrikes Hammer Kabul ...] Pakistan carried out airstrikes on military targets in Kabul, Kandahar, and Paktia province early on February 27, 2026, hours after Afghan Taliban forces launched ground attacks on Pakistani ..."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, on February 26-27, 2026, Pakistan's Defense Minister Khawaja Mohammad Asif declared \"open war\" on Afghanistan. The declaration came after Afghan Taliban forces launched ground attacks on Pakistani border positions, and Pakistan subsequently carried out airstrikes on military targets in Kabul, Kandahar, and Paktia province on February 27, 2026.\n\nFINAL: On February 26-27, 2026, Pakistan's Defense Minister Khawaja Mohammad Asif declared \"open war\" on Afghanistan, stating \"Our patience has now run out. Now it is open war between us.\"",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "On February 26-27, 2026, Pakistan's Defense Minister Khawaja Mohammad Asif declared \"open war\" on Afghanistan, stating \"Our patience has now run out. Now it is open war between us.\"",
+  "steps_taken": 4
+}

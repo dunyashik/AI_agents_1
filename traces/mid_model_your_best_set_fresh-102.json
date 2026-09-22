@@ -1,0 +1,168 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-102",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about who was recognized as Hero of Ukraine in 2025.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01L84jkUydZvYxXJ5qZmE6nC",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Hero of Ukraine 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01L84jkUydZvYxXJ5qZmE6nC",
+      "content": "[Hero of Ukraine] A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of July 26, 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). The decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr. OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr. OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017. | other articles: List of Heroes of Ukraine, Hero City of Ukraine"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search more specifically for 2025 recipients.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01QrdmkXG53x92L8bLW5ZQCq",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Hero of Ukraine 2025 recipients awarded\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01QrdmkXG53x92L8bLW5ZQCq",
+      "content": "[List of Heroes of Ukraine - Wikipedia] List of Heroes of Ukraine The article uses the latest official Romanization of Ukrainian on resolution of the Government of Ukraine.[1] This is a list of individuals who have been presented with the title Hero of Ukraine in reverse chronological order.\n[Hero of Ukraine - Wikipedia] The origin of the \"Hero of Ukraine\" award can be traced to the Hero of the Soviet Union (established 16 April 1934) and the Hero of Socialist Labor (27 December 1938), the highest decorations established in the Soviet Union, of which Ukraine was a constituent republic. Most of the recipients of the former title received it for heroic military action (with Soviet cosmonauts being a notable ...\n[Honoring Heroes: Presidential Awards for Bravery] Under decree №624/2025, 504 military personnel received awards, 129 posthumously. Defenders were awarded the Orders of Bohdan Khmelnytskyi II and III degrees, Danilo Halytskyi, and medals for bravery of I, II, and III degrees, as well as for military service to Ukraine, Defender of the Fatherland, Saving Life, and Impeccable Service."
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search for the specific list of Heroes of Ukraine awarded in 2025.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01Uy9Koa4tuMUhkvxdVjZtqH",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"\\\"Hero of Ukraine\\\" 2025 names list\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01Uy9Koa4tuMUhkvxdVjZtqH",
+      "content": "[Mykola Oleshchuk] Mykola Mykolaiovych Oleshchuk (Ukrainian: Микола Миколайович Олещук; born 25 May 1972) is a Ukrainian lieutenant general who served as the commander of the Ukrainian Air Force from 2021 to 2024. | other articles: Mykola Kolessa, Hero City of Ukraine"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me try a more specific search for 2025 Hero of Ukraine awards.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_019AQXUnnHdMdubCmHh7vieW",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"\\\"Hero of Ukraine\\\" January 2025 OR February 2025 OR March 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_019AQXUnnHdMdubCmHh7vieW",
+      "content": "[Portal:Current events/February 2025 - Wikipedia] Portal:Current events/February 2025 < Portal:Current events 2025 January February March April May June July August September October November December\n[EBRD 2025 finance for Ukraine rises to a record €2.9 billion] Feb 5, 2026 · Since Russia began its full-scale war on Ukraine in February 2022, the Bank has deployed a total of €9.1 billion in the country. “Deployed” finance includes additional forms of financing for wartime Ukraine beyond the EBRD’s own investments.\n[Ukraine War | Latest News & Updates| BBC News] Follow the latest news about the Russia Ukraine war. Find reports from the ground, verified videos, maps and expert analysis by BBC correspondents across the world."
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search for the List of Heroes of Ukraine Wikipedia page and look for 2025 entries.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01Ri3JrtUDBYosBGwbW4YExw",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"List of Heroes of Ukraine Wikipedia\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01Ri3JrtUDBYosBGwbW4YExw",
+      "content": "[List of Wikipedia controversies] Wikipedia has had many controversies since its inception in 2001. Wikipedia's open-editing model, which allows any user to edit its encyclopedic pages, has led to concerns such as the quality of writing, the amount of vandalism, and the accuracy of information on the project. Media have covered controversial events related to Wikipedia and the Wikimedia Foundation (WMF). Common subjects of coverage include false information, public figures, corporations for which they have a conflict of interest, paid Wikipedia editing, and interactions between Wikipedia users and public figures. The Seigenthaler biography incident led to increased media criticism of the reliability of Wikipedia. The incident dates back to May 2005, with the anonymous posting of a hoax Wikipedia article containing false and negative allegations about John Seigenthaler, a well-known American journalist. In March 2007, Wikipedia was again the subject of media attention with the Essjay controversy, which involved a prominent English Wikipedia editor and administrator who claimed he was a \"tenured professor of religion at a private university\" with a \"Ph.D. in theology and a degree in canon law\" when in fact he was a 24-year-old who held no advanced degrees. The 2012 scandals involving paid consultancy for the government of Gibraltar by Roger Bamkin, a Wikimedia UK board member, and potential conflicts of interest have highlighted Wikipedia's vulnerabilities. The presence of inaccurate and false information, as w | other articles: List of Ukrainian Americans, Wikipedia and the Russo-Ukrainian war"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me try using page_find on the List of Heroes of Ukraine article.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_011kumDdUDFm6fpJtqrPqYuM",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"List of Heroes of Ukraine\", \"keywords\": \"2025 awarded recognized\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_011kumDdUDFm6fpJtqrPqYuM",
+      "content": "keywords not found on the page"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search for recent Hero of Ukraine awards with different terms.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01PupxANASzDLBLzKE49o2Yu",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Ukraine Zelenskyy Hero of Ukraine award 2025\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01PupxANASzDLBLzKE49o2Yu",
+      "content": "[Zelensky awards Hero of Ukraine title to six more defenders, five ...] According to Decree No. 1016/2025, the title of Hero of Ukraine, with the Order of the \"Golden Star,\" was awarded to Lieutenant Colonel Volodymyr Ovsiienko. Earlier, on December 26, Zelensky awarded the title of Hero of Ukraine to seven servicemen, four of them posthumously.\n[Zelensky awards Hero of Ukraine title to six more defenders ... - Ukrinform] Read also: Zelensky awards state honors to 392 service members, 193 posthumously By Decree No. 1011/2025, the title of Hero, with the Order of the \"Golden Star,\" was posthumously awarded to Lieutenant Colonel Leonid Shirpal.\n[President awards seven defenders the title Hero of Ukraine, four ...] President Volodymyr Zelenskyy has awarded the title Hero of Ukraine to seven servicemen, four of them posthumously."
+    },
+    {
+      "role": "assistant",
+      "content": "Good! I found some information. Let me search for more comprehensive information about all the Heroes of Ukraine awarded in 2025.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01CSz4f3qxtaLvkDCQtQvmmX",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Zelenskyy Hero of Ukraine 2025 complete list all recipients\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01CSz4f3qxtaLvkDCQtQvmmX",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/sp/search) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    }
+  ],
+  "final_answer": "Multiple individuals were recognized as Heroes of Ukraine in 2025, including Lieutenant Colonel Volodymyr Ovsiienko and Lieutenant Colonel Leonid Shirpal (posthumously), among others. President Zelenskyy awarded the title to numerous servicemen and defenders throughout the year via various presidential decrees, though a complete list was not fully accessible in my search results.",
+  "steps_taken": 9
+}

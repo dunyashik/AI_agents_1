@@ -1,0 +1,33 @@
+{
+  "task_id": "costsample_cheap_model_search_two_sources_fresh-28",
+  "question": "What was the number of people killed in the mass shooting at Tumbler Ridge Secondary School in British Columbia, Canada, in February 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_cVvS6z911Ci8e8LEZ1af5ZE1",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Tumbler Ridge Secondary School mass shooting February 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_cVvS6z911Ci8e8LEZ1af5ZE1",
+      "content": "[2026 Tumbler Ridge shooting - Wikipedia] On February 10, 2026, a mass shooting occurred in Tumbler Ridge, British Columbia, Canada. On that afternoon, Jesse Van Rootselaar killed her mother and half-brother at their home before going to Tumbler Ridge Secondary School, where she killed six people and injured 27 others before killing herself. Van Rootselaar was a former student of the ...\n[2026 Tumbler Ridge shootings - Simple English Wikipedia, the free ...] On February 10, 2026, a mass shooting occurred when she opened fire at Tumbler Ridge Secondary School in Tumbler Ridge, British Columbia, Canada. [1] Of the people fatally shot, 6 were in the school, another died on the way to the hospital, and two others were killed at a house. [2] 5 of the victims that died were children aged 12-13. 27 others were injured. [3] The attack was the deadliest ...\n[February 11-12, 2026 - Canada mass shooting at a school and home - CNN] Flowers outside Tumbler Ridge secondary school building where a shooting took place, leaving at least eight people dead in the small town of Tumbler Ridge, British Columbia, on February 11, 2026."
+    },
+    {
+      "role": "assistant",
+      "content": "In the mass shooting at Tumbler Ridge Secondary School on February 10, 2026, a total of eight people were killed. This included six individuals at the school, one who died on the way to the hospital, and another who was killed at a home. Additionally, 27 others were injured in the incident. \n\nFINAL: 8 people were killed.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "8 people were killed.",
+  "steps_taken": 2
+}

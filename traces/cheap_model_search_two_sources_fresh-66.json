@@ -1,0 +1,73 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-66",
+  "question": "How many people were reportedly trapped after a hotel collapse in Anuppur, Madhya Pradesh in April 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_PmvrXScRfdrAl4bTl8ZfRWSx",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Anuppur hotel collapse April 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_PmvrXScRfdrAl4bTl8ZfRWSx",
+      "content": "[Lodge collapse in MP's Anuppur kills 3 so far, several feared trapped ...] Lodge collapse in MP's Anuppur kills 3 so far, several feared trapped; chilling CCTV clip shows building cave in A chilling CCTV clip, recorded by a camera installed in a building across the ...\n[Madhya Pradesh: One killed, several trapped after three-storey hotel ...] Bhopal: One person was killed, and six others were feared trapped under debris after a three-storey hotel collapsed in the Anuppur district of Madhya Pradesh on Saturday evening, police said.\n[1 Dead, Several Feared Trapped As Five-Storey Hotel Collapses In Madhya ...] Updated 5 April 2026 at 02:36 IST 1 Dead, Several Feared Trapped As Five-Storey Hotel Collapses In Madhya Pradesh's Anuppur | VIDEO Several people are feared to trapped under debris after a five-storey hotel collapsed in Anuppur district, Madhya Pradesh, on Saturday."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Jujz7xux3gwlbKlRur0OOeTn",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Anuppur hotel collapse April 2026 number of people trapped\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Jujz7xux3gwlbKlRur0OOeTn",
+      "content": "[1 Dead, Several Feared Trapped As Five-Storey Hotel Collapses ...] Apr 4, 2026 · Several people are feared to trapped under debris after a five-storey hotel collapsed in Anuppur district, Madhya Pradesh, on Saturday.\n[One killed, 7-10 feared trapped as 4-storey lodge collapses ...] One person was found dead, while 7-10 others are still trapped in the debris, Anuppur Superintendent of Police Moti-ur-Rehman told reporters. Describing the accident as tragic, Chief Minister...\n[Madhya Pradesh: One killed, several trapped after three ...] Apr 4, 2026 · Initial reports suggest that around 5 to 6 people are feared trapped under the debris. As soon as the incident was reported, teams from the local administration, municipality, and police reached..."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_lntrmBlx7klMMVoPo3NvGpqR",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Anuppur hotel collapse April 2026 details\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_lntrmBlx7klMMVoPo3NvGpqR",
+      "content": "[1 Dead, Several Feared Trapped As Five-Storey Hotel Collapses ...] Apr 4, 2026 · Anuppur: One person was killed while several people are feared to trapped under debris after a five-storey building collapsed in Anuppur district, Madhya Pradesh, on Saturday at around 5:30 pm.\n[Four-storey lodge collapses in MP's Anuppur; at least six ...] Apr 4, 2026 · Anuppur: A four-storey building collapsed in Kotma town in Anuppur district of Madhya Pradesh on Saturday evening, trapping at least six persons in the debris, police said.\n[One killed, 7-10 feared trapped as 4-storey lodge collapses ...] One person was found dead, while 7-10 others are still trapped in the debris, Anuppur Superintendent of Police Moti-ur-Rehman told reporters. Describing the accident as tragic, Chief Minister..."
+    },
+    {
+      "role": "assistant",
+      "content": "In the hotel collapse in Anuppur, Madhya Pradesh, in April 2026, it was reported that one person was killed and between 7 to 10 others were feared trapped under the debris. \n\nFINAL: 7 to 10 people were reportedly trapped.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "7 to 10 people were reportedly trapped.",
+  "steps_taken": 4
+}

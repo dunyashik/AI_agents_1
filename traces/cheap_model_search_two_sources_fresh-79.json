@@ -1,0 +1,113 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-79",
+  "question": "How many games did the Evansville Thunderbolts win to secure the President's Cup title in May 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_XR28KguPRgi1QHMuHoNIQGh5",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Evansville Thunderbolts President's Cup title May 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_XR28KguPRgi1QHMuHoNIQGh5",
+      "content": "[Peoria, Evansville to meet for 2026 Presidents Cup ...] Apr 26, 2026 · The fourth-seeded Thunderbolts are looking to become just the fourth team to repeat as Presidents Cup champions, defeating Pensacola and Roanoke to make a return trip to the finals.\n[The Evansville Thunderbolts “Refuse to Lose” - Evansville ...] May 14, 2026 · The Evansville Thunderbolts are the fourth team in SPHL history to win back-to-back President’s Cup titles. “That was one thing we said — we don’t want it to leave Evansville.\n[Peoria, Evansville to Meet for 2026 Presidents Cup ...] Apr 26, 2026 · In a battle between the last two SPHL champions, the Peoria Rivermen and the Evansville Thunderbolts will meet in the 2026 President's Cup Finals, with Game 1 set for Thursday."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_LWUdWOK91Jhdo6YUluPYQzGs",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Evansville Thunderbolts President's Cup 2026 results\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_LWUdWOK91Jhdo6YUluPYQzGs",
+      "content": "[The Evansville Thunderbolts “Refuse to Lose” - Evansville ...] May 14, 2026 · In the last two minutes of the 2026 SPHL Presidents Cup final game between the Evansville Thunderbolts and the Peoria, Illinois, Rivermen, the Bolts led 5-4, but it still was anyone’s game.\n[Your 2026 President’s Cup... - Evansville Thunderbolts | Facebook] May 11, 2026 · Congratulations to the entire Evansville Thunderbolts team and staff! What an amazing 2nd year win! Our young customers think you all are superstars so we are so proud to be a sponsor! 💙⭐️Awesome job Bolts!\n[Rivermen battle Evansville in the SPHL President's Cup title game] May 9, 2026 · The Evansville Thunderbolts hoist the SPHL President's Cup after defeating the Peoria Rivermen 6-4 in Game 5 of the finals on Saturday, May 9, 2026 at Carver Arena."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_AxiOFGo3VjaBnCzILutcguhX",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Evansville Thunderbolts Peoria Rivermen President's Cup 2026 series results\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_AxiOFGo3VjaBnCzILutcguhX",
+      "content": "[Thunderbolts Sweep Rivermen; Advance to President's Cup Final] The Cinderella run continues for the Thunderbolts, as they came back from 1-0 down after one period to defeat the defending champions and #1-seeded Peoria Rivermen 3-1 on Friday night at Ford Center, completing the series sweep after winning Game One 2-0 at Peoria on Wednesday.\n[Evansville's Pro Hockey Team | Evansville Thunderbolts ...] Now the Thunderbolts must bring that mojo on the road in order to return from Peoria with the President’s Cup on Saturday night. Contessa, Gilmour, and Simoneau scored one goal each, while Kristian Stead finished with 26 saves on 27 shots on goal for his 7th win of the playoffs.\n[Video moments from the Peoria Rivermen President's Cup ... - MSN] A group of Peoria Rivermen fans make some noise as their team battles Evansville in the first period of Game 5 of the SPHL President’s Cup on Saturday, May 9, 2026 at Carver Arena. The Rivermen ..."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_uFH9YR9WMCkCze8Sx0Z1uFLV",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Evansville Thunderbolts President's Cup 2026 series summary\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_uFH9YR9WMCkCze8Sx0Z1uFLV",
+      "content": "[The Evansville Thunderbolts “Refuse to Lose” - Evansville ...] May 14, 2026 · Facing the 2-0 deficit in the series, the Bolts rallied on their home ice, taking Game 3 by a 2-1 score and notching a 4-1 win in Game 4. “Our team’s big on momentum, and we got a taste of what it could be … We ran on that energy,” Hobbs adds.\n[Evansville's Pro Hockey Team | Evansville Thunderbolts ...] In another nailbiter of a game on Thursday night at Ford Center, the Evansville Thunderbolts persevered to win 4-1 and defeat the Roanoke Rail Yard Dawgs in the semifinals three games to one, becoming the first defending President’s Cup champion to advance back to the Final since 2019.\n[Evansville's Pro Hockey Team | Evansville Thunderbolts ...] The Thunderbolts now await the winner of the Birmingham Bulls and Knoxville Ice Bears semifinal series. The expected early storm from the Rivermen indeed materialized, as the Thunderbolts were challenged hard in the first period."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_3SlWbw86ZF2WzlcLsB6PwnVL",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Evansville Thunderbolts Peoria Rivermen President's Cup 2026 final game details\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_3SlWbw86ZF2WzlcLsB6PwnVL",
+      "content": "[Peoria, Evansville to meet for 2026 Presidents Cup championship] HUNTERSVILLE, NC (April 26, 2026) - In a battle between the last two SPHL champions, the Peoria Rivermen and the Evansville Thunderbolts will meet in the 2026 President's Cup Finals, with Game 1 set for Thursday.\n[The Evansville Thunderbolts \"Refuse to Lose\" - Evansville Living Magazine] In the last two minutes of the 2026 SPHL Presidents Cup final game between the Evansville Thunderbolts and the Peoria, Illinois, Rivermen, the Bolts led 5-4, but it still was anyone's game. After second-year forward Derek Contessa scored to give Evansville a two-goal lead, the final seconds counted down, then helmets slid across the ice at the Peoria Civic Center's Carver Arena as the ...\n[Rivermen battle Evansville in the SPHL President's Cup title game] The Evansville Thunderbolts hoist the SPHL President's Cup after defeating the Peoria Rivermen 6-4 in Game 5 of the finals on Saturday, May 9, 2026 at Carver Arena."
+    },
+    {
+      "role": "assistant",
+      "content": "The Evansville Thunderbolts won the President's Cup title in May 2026 by defeating the Peoria Rivermen in a best-of-five series, winning 3 games to 2. They secured the championship by winning Game 5 with a score of 6-4 on May 9, 2026.\n\nFINAL: 3 games",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "3 games",
+  "steps_taken": 6
+}

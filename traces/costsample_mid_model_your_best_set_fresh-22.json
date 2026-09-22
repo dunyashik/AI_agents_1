@@ -1,0 +1,47 @@
+{
+  "task_id": "costsample_mid_model_your_best_set_fresh-22",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about Matt Braly's indie animated series that was fully funded on March 17, 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_013FiKN7s6EY1Ju27sCM6LrB",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Matt Braly indie animated series funded March 17 2026\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_012RHQgqGybu1ohFxqtAPyWp",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Matt Braly animated series fully funded March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_013FiKN7s6EY1Ju27sCM6LrB",
+      "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens. | other articles: 2026 in animation, LGBTQ themes in Western animation"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_012RHQgqGybu1ohFxqtAPyWp",
+      "content": "[2026 in animation - Wikipedia] 2027 Retrieved from \"https://en.wikipedia.org/w/index.php?title=2026_in_animation&oldid=1375740009\" Categories: 2026 in animation Mass media timelines by year Hidden categories: Articles with short description\n[Matt Braly - Wikipedia] Its first project would be Clara and the Below, a gothic horror adaptation of The Nutcracker, with a crowdfunding campaign on Kickstarter. [29][30][31] On March 17, 2026, Braly launched a Kickstarter for the series, with a goal of funding a single episode which was 6-10 minutes for a cost of $25,000.\n[Matt Braly's 'Clara and the Below' Smashes Kickstarter Re...] Mar 17, 2026 · ‘Amphibia’ creator Matt Braly’s next animated project ‘Clara and The Below’ was fully funded in under 15 minutes. The indie gothic horror pilot inspired by The Nutcracker has already surpassed $60K, blowing past its $25K goal."
+    },
+    {
+      "role": "assistant",
+      "content": "Perfect! I found the information. The indie animated series created by Matt Braly that was fully funded on March 17, 2026 is called **Clara and the Below**.\n\nAccording to the search results, it's a gothic horror adaptation of The Nutcracker that was launched on Kickstarter on March 17, 2026, with an initial goal of $25,000 to fund a single 6-10 minute episode. The campaign was fully funded in under 15 minutes and surpassed $60,000.\n\nFINAL: Clara and the Below",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Clara and the Below",
+  "steps_taken": 2
+}

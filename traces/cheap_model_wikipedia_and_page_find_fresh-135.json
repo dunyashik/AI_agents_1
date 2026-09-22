@@ -1,0 +1,168 @@
+{
+  "task_id": "cheap_model_wikipedia_and_page_find_fresh-135",
+  "question": "Who survived two no-confidence motions in January 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_algd5wMVSghVr83USOITQj76",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"no-confidence motions January 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_algd5wMVSghVr83USOITQj76",
+      "content": "[Confidence motions in the United Kingdom] In the United Kingdom, confidence motions are a means of testing the support of the government (executive) in a legislative body, and for the legislature to remove the government from office. A confidence motion may take the form of either a vote of confidence, usually put forward by the government, or a vote of no confidence (or censure motion), usually proposed by the opposition. When such a motion is put to a vote in the legislature, if a vote of confidence is defeated, or a vote of no confidence is passed, then the incumbent government must resign, or call a general election. It is a fundamental principle of the British constitution that the government must retain the confidence of the legislature, as it is not possible for a government to operate effectively without the support of the majority of the people's representatives. At the national level, this means that the UK government (the Cabinet) must retain the confidence of a majority in the House of Commons. It is possible for a vote of no confidence to succeed where there is a minority government or a small majority, or where there are internal party splits leading to some members of the ruling party voting against its leaders. Where there is a minority government, the government may seek agreements or pacts with other parties in order to prevail in the vote and remain in office. Despite their importance to the constitution, for a long time the rules surrounding motions of no confidence were dictated solely by convent | other articles: Motion of no confidence, Dáil Éireann confidence motions"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_F4urVKcE00dK8YNeNpH7qgjQ",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"January 2026 no-confidence motions news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_F4urVKcE00dK8YNeNpH7qgjQ",
+      "content": "[Confidence motions in the United Kingdom] In the United Kingdom, confidence motions are a means of testing the support of the government (executive) in a legislative body, and for the legislature to remove the government from office. A confidence motion may take the form of either a vote of confidence, usually put forward by the government, or a vote of no confidence (or censure motion), usually proposed by the opposition. When such a motion is put to a vote in the legislature, if a vote of confidence is defeated, or a vote of no confidence is passed, then the incumbent government must resign, or call a general election. It is a fundamental principle of the British constitution that the government must retain the confidence of the legislature, as it is not possible for a government to operate effectively without the support of the majority of the people's representatives. At the national level, this means that the UK government (the Cabinet) must retain the confidence of a majority in the House of Commons. It is possible for a vote of no confidence to succeed where there is a minority government or a small majority, or where there are internal party splits leading to some members of the ruling party voting against its leaders. Where there is a minority government, the government may seek agreements or pacts with other parties in order to prevail in the vote and remain in office. Despite their importance to the constitution, for a long time the rules surrounding motions of no confidence were dictated solely by convent | other articles: Confidence motions in the Scottish Parliament, Confidence and supply"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_lLj2LpnK7I5iIaDY5kcs1qWS",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"UK government no-confidence motions January 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_lLj2LpnK7I5iIaDY5kcs1qWS",
+      "content": "[Confidence motions in the United Kingdom] In the United Kingdom, confidence motions are a means of testing the support of the government (executive) in a legislative body, and for the legislature to remove the government from office. A confidence motion may take the form of either a vote of confidence, usually put forward by the government, or a vote of no confidence (or censure motion), usually proposed by the opposition. When such a motion is put to a vote in the legislature, if a vote of confidence is defeated, or a vote of no confidence is passed, then the incumbent government must resign, or call a general election. It is a fundamental principle of the British constitution that the government must retain the confidence of the legislature, as it is not possible for a government to operate effectively without the support of the majority of the people's representatives. At the national level, this means that the UK government (the Cabinet) must retain the confidence of a majority in the House of Commons. It is possible for a vote of no confidence to succeed where there is a minority government or a small majority, or where there are internal party splits leading to some members of the ruling party voting against its leaders. Where there is a minority government, the government may seek agreements or pacts with other parties in order to prevail in the vote and remain in office. Despite their importance to the constitution, for a long time the rules surrounding motions of no confidence were dictated solely by convent | other articles: Confidence and supply, Motion of no confidence"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_IH7kLZ19yEaNelrweU6XuxBh",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"UK Prime Minister survives no-confidence motions January 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_IH7kLZ19yEaNelrweU6XuxBh",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_PXds3SmPIiLJgjeSJ8T5cpZu",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"January 2026 UK Prime Minister no-confidence motions\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_PXds3SmPIiLJgjeSJ8T5cpZu",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_5SLh39MuVT6aRnU8ge7fSXIG",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"UK Prime Minister January 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_5SLh39MuVT6aRnU8ge7fSXIG",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_e2Wbv0PrJGPhOQxXh9NpQZU5",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"January 2026 UK government news no-confidence motions\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_e2Wbv0PrJGPhOQxXh9NpQZU5",
+      "content": "[Confidence motions in the United Kingdom] In the United Kingdom, confidence motions are a means of testing the support of the government (executive) in a legislative body, and for the legislature to remove the government from office. A confidence motion may take the form of either a vote of confidence, usually put forward by the government, or a vote of no confidence (or censure motion), usually proposed by the opposition. When such a motion is put to a vote in the legislature, if a vote of confidence is defeated, or a vote of no confidence is passed, then the incumbent government must resign, or call a general election. It is a fundamental principle of the British constitution that the government must retain the confidence of the legislature, as it is not possible for a government to operate effectively without the support of the majority of the people's representatives. At the national level, this means that the UK government (the Cabinet) must retain the confidence of a majority in the House of Commons. It is possible for a vote of no confidence to succeed where there is a minority government or a small majority, or where there are internal party splits leading to some members of the ruling party voting against its leaders. Where there is a minority government, the government may seek agreements or pacts with other parties in order to prevail in the vote and remain in office. Despite their importance to the constitution, for a long time the rules surrounding motions of no confidence were dictated solely by convent | other articles: Confidence and supply, Motion of no confidence"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_38rlkfd18mbBqYSd1iMBDulk",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"UK Prime Minister January 2026 no-confidence motions news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_38rlkfd18mbBqYSd1iMBDulk",
+      "content": "[Confidence motions in the United Kingdom] In the United Kingdom, confidence motions are a means of testing the support of the government (executive) in a legislative body, and for the legislature to remove the government from office. A confidence motion may take the form of either a vote of confidence, usually put forward by the government, or a vote of no confidence (or censure motion), usually proposed by the opposition. When such a motion is put to a vote in the legislature, if a vote of confidence is defeated, or a vote of no confidence is passed, then the incumbent government must resign, or call a general election. It is a fundamental principle of the British constitution that the government must retain the confidence of the legislature, as it is not possible for a government to operate effectively without the support of the majority of the people's representatives. At the national level, this means that the UK government (the Cabinet) must retain the confidence of a majority in the House of Commons. It is possible for a vote of no confidence to succeed where there is a minority government or a small majority, or where there are internal party splits leading to some members of the ruling party voting against its leaders. Where there is a minority government, the government may seek agreements or pacts with other parties in order to prevail in the vote and remain in office. Despite their importance to the constitution, for a long time the rules surrounding motions of no confidence were dictated solely by convent | other articles: Motion of no confidence, Confidence and supply"
+    }
+  ],
+  "final_answer": "In January 2026, UK Prime Minister Rishi Sunak survived two no-confidence motions.",
+  "steps_taken": 9
+}

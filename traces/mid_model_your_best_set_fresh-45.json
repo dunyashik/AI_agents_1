@@ -1,0 +1,87 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-45",
+  "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about this aircraft crash in Yalova Province, Turkey on August 13, 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01TvSVezfHd3sHRy7uofyX2i",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Yalova Province Turkey aircraft crash August 13 2026\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_01Ekqh24HMWaK5pGEkj1Bhik",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Yalova Turkey plane crash August 13 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01TvSVezfHd3sHRy7uofyX2i",
+      "content": "[2026 in Turkey] Individuals and events related to 2026 in Turkey. | other articles: List of accidents and incidents involving military aircraft (2020–present), 2025 in Turkey"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01Ekqh24HMWaK5pGEkj1Bhik",
+      "content": "ddg_search error: No results found."
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search more specifically for this incident.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01GnFy7TnG5Kbmfp86TPthTp",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"2026 in Turkey aircraft crash\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01GnFy7TnG5Kbmfp86TPthTp",
+      "content": "[2025 Turkish Air Force Lockheed C-130 crash] On 11 November 2025, a Turkish Air Force Lockheed C-130 Hercules flying from Ganja International Airport, Ganja, Azerbaijan, to Merzifon Air Base, Merzifon, Turkey, experienced an in-flight breakup, splitting into 3 pieces, and crashed in Georgia, near the Azerbaijan–Georgia border, killing all 20 occupants on board. | other articles: Suicide by aircraft, 2026 in Turkey"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me try searching for the Wikipedia article on 2026 in Turkey to find specific events.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_011tQaYovsNCkfgBxgoePri7",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"2026 in Turkey\", \"keywords\": \"Yalova aircraft crash August\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_011tQaYovsNCkfgBxgoePri7",
+      "content": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: An F-16 Fighting Falcon of the Turkish Air Force crashed in Yalova Province, Turkey on August 13, 2026.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "An F-16 Fighting Falcon of the Turkish Air Force crashed in Yalova Province, Turkey on August 13, 2026.",
+  "steps_taken": 4
+}

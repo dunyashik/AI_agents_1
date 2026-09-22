@@ -1,0 +1,33 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-73",
+  "question": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about a bribery sentencing in South Korea on August 31, 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01HytwX3HyPjhWY5gRMmLdA4",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"South Korea bribery sentenced two years August 31 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01HytwX3HyPjhWY5gRMmLdA4",
+      "content": "[South Korea court sentences Unification Church leader to jail ...] Aug 31, 2026 · SEOUL, Aug 31 (Reuters) - A South Korean court on Monday sentenced Unification Church leader Han Hak-ja to a combined two years in prison over political funding and bribery offences...\n[South Korea's Unification Church Leader Hak Ja Han Sentenced ...] Aug 31, 2026 · SEOUL, South Korea (AP) — A South Korean court sentenced Hak Ja Han, the 83-year-old leader of the Unification Church, to two years in prison on Monday for bribing the wife of ousted ...\n[South Korean court sentences Unification Church leader Han ...] Aug 31, 2026 · A South Korean district court sentenced Unification Church leader Han Hak-ja to two years in prison on 31 August 2026 for bribing former first lady Kim Keon Hee and violating political funding laws."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Han Hak-ja (also known as Hak Ja Han), the 83-year-old leader of the Unification Church, was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Han Hak-ja (also known as Hak Ja Han), the 83-year-old leader of the Unification Church, was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026.",
+  "steps_taken": 2
+}

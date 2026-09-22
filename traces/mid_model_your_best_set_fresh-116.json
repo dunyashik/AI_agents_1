@@ -1,0 +1,33 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-116",
+  "question": "Who was associated with the 2026 U.S. Women's Open held in California?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about the 2026 U.S. Women's Open held in California.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01FiDmFwnoFZRxCyPN4ZykAu",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"2026 U.S. Women's Open California\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01FiDmFwnoFZRxCyPN4ZykAu",
+      "content": "[2026 U.S. Women's Open] The 2026 U.S. Women's Open presented by Ally was the 81st U.S. Women's Open, held June 4–7 at Riviera Country Club in Pacific Palisades, California. Nelly Korda won her fourth major title (and second consecutive), one stroke ahead of runners-up Charley Hull and Gaby López. This was Korda's first victory at the U.S. Women's Open. | other articles: U.S. Women's Open, 2026 U.S. Open (badminton)"
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Nelly Korda was the champion associated with the 2026 U.S. Women's Open held in California. She won the tournament at Riviera Country Club in Pacific Palisades, California (June 4-7, 2026), claiming her fourth major title and second consecutive major victory.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Nelly Korda was the champion associated with the 2026 U.S. Women's Open held in California. She won the tournament at Riviera Country Club in Pacific Palisades, California (June 4-7, 2026), claiming her fourth major title and second consecutive major victory.",
+  "steps_taken": 2
+}

@@ -1,0 +1,33 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-50",
+  "question": "What fine was issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about this fine issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01Eg5DMpSRcHyzMgfvxny3Cy",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Amed S.F.K. Turkish Football Federation fine January 29 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01Eg5DMpSRcHyzMgfvxny3Cy",
+      "content": "[Amed S.F.K. - Wikipedia] In January 2026, the Turkish Football Federation issued a fine of 802,500 lira ($18,500) on Amedspor and suspended its president, Nahit Eren, from football-related activities for 15 days for \"damaging the reputation of football\" by \"making ideological propaganda\", after the club uploaded a video of a woman having her hair braided amid similar ...\n[Amedspor football club in Turkiye fined for pro-Kurdish ...] Jan 30, 2026 · Turkish Football Federation fines second-division title favourites Amedspor and suspends president for social media video. Turkiye’s main Kurdish football team has been fined for...\n['Braid-Gate! Turkish Federation Fines Kurdish ... - News18] Jan 30, 2026 · Turkey’s headline Kurdish football team, Amedspor FC, was fined for ideological propaganda in support of Kurdish forces in northern Syria, by the Turkish Football Federation (TFF) on Thursday."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, I have found the information about the fine.\n\nFINAL: The Turkish Football Federation issued a fine of 802,500 lira ($18,500) to Amed S.F.K. (Amedspor) on January 29, 2026, for \"damaging the reputation of football\" by \"making ideological propaganda.\" The club's president, Nahit Eren, was also suspended from football-related activities for 15 days. The fine was related to a video the club uploaded of a woman having her hair braided.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "The Turkish Football Federation issued a fine of 802,500 lira ($18,500) to Amed S.F.K. (Amedspor) on January 29, 2026, for \"damaging the reputation of football\" by \"making ideological propaganda.\" The club's president, Nahit Eren, was also suspended from football-related activities for 15 days. The fine was related to a video the club uploaded of a woman having her hair braided.",
+  "steps_taken": 2
+}

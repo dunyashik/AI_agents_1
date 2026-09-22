@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_wikipedia_only_fresh-127",
+  "question": "What title did the Oklahoma Sooners baseball team win on June 22, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_1VRopyHCKvBULmVKeU3ge2Fw",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Oklahoma Sooners baseball team title June 22 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_1VRopyHCKvBULmVKeU3ge2Fw",
+      "content": "[Oklahoma Sooners baseball] The Oklahoma Sooners baseball team represents the University of Oklahoma (OU) in NCAA Division I college baseball. Oklahoma is a member of the Southeastern Conference. The Sooners are coached by Skip Johnson and play their home games at Kimrey Family Stadium. They have competed in the College World Series 12 times, winning the national championship in 1951, 1994, and 2026. | other articles: 2025 Oklahoma Sooners baseball team, Oklahoma Sooners"
+    },
+    {
+      "role": "assistant",
+      "content": "The Oklahoma Sooners baseball team won the national championship on June 22, 2026. FINAL: National championship.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "National championship.",
+  "steps_taken": 2
+}

@@ -1,0 +1,113 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-137",
+  "question": "How many people are killed in the explosion at a firecrackers factory in Tamil Nadu in April 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_1AaMltK6sBc53Fz7aqvI0X80",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Tamil Nadu firecrackers factory explosion April 2026 deaths\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_1AaMltK6sBc53Fz7aqvI0X80",
+      "content": "[23 killed, several injured in blast at Tamil Nadu firecracker ...] A firecracker factory explosion in Tamil Nadu killed 23 workers and injured several others, prompting condolences from officials and ongoing investigations. Updated on: Apr 20, 2026, 06:35:32 IST\n[16 Dead, Several Injured After A Blast In Firecrackers ...] Apr 19, 2026 · At least 16 people were killed in a firecracker factory explosion in Tamil Nadu’s Virudhunagar district. Several others were injured as rescue operations continue and authorities investigate the...\n[Tamil Nadu fireworks factory explosion: 23 killed in ...] Apr 20, 2026 · At least 14 workers died in a fireworks accident near Virudhunagar, prompting relief efforts by Tamil Nadu officials."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_WvSuchGv8B5zRLomibZs6tc5",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Tamil Nadu firecracker factory explosion April 2026 details\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_WvSuchGv8B5zRLomibZs6tc5",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_G9xK7jx56wzhSLL9JA6Ixkpu",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Tamil Nadu firecracker factory explosion April 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_G9xK7jx56wzhSLL9JA6Ixkpu",
+      "content": "[Tamil Nadu: Firecracker factory blast in India state kills at ... - BBC] At least 25 people have been killed in an explosion at a firecracker factory in the southern Indian state of Tamil Nadu, with four others seriously injured.\n[16 Dead, Several Injured After A Blast In Firecrackers Factory In Tamil ...] A tragic explosion at a firecracker manufacturing unit in Tamil Nadu's Virudhunagar district has claimed at least 16 lives and left several others injured.\n[23 killed, several injured in blast at Tamil Nadu firecracker unit] A firecracker factory explosion in Tamil Nadu killed 23 workers and injured several others, prompting condolences from officials and ongoing investigations. Updated on: Apr 20, 2026, 06:35:32 IST"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_o9TzFipn58vK0uWKydFHBbKw",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Tamil Nadu firecracker factory explosion April 2026 death toll confirmed\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_o9TzFipn58vK0uWKydFHBbKw",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_OZGk78ZYgeiRrL4BGXhgyY6n",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Tamil Nadu firecracker factory explosion April 2026 latest news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_OZGk78ZYgeiRrL4BGXhgyY6n",
+      "content": "[23 killed, several injured in blast at Tamil Nadu firecracker ...] A firecracker factory explosion in Tamil Nadu killed 23 workers and injured several others, prompting condolences from officials and ongoing investigations. Updated on: Apr 20, 2026, 06:35:32 IST\n[Tamil Nadu: Firecracker factory blast in India state kills at ...] Apr 20, 2026 · At least 25 people have been killed in an explosion at a firecracker factory in the southern Indian state of Tamil Nadu, with four others seriously injured.\n[16 Dead, Several Injured After A Blast In Firecrackers ...] Apr 19, 2026 · At least 16 people were killed in a firecracker factory explosion in Tamil Nadu’s Virudhunagar district. Several others were injured as rescue operations continue and authorities..."
+    },
+    {
+      "role": "assistant",
+      "content": "The explosion at a firecracker factory in Tamil Nadu in April 2026 resulted in at least 25 confirmed deaths, with several others injured. The incident occurred in the Virudhunagar district, and it has prompted investigations and condolences from officials. \n\nFINAL: 25 deaths.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "25 deaths.",
+  "steps_taken": 6
+}

@@ -1,0 +1,168 @@
+{
+  "task_id": "cheap_model_wikipedia_and_page_find_fresh-80",
+  "question": "What regulation did the Supreme Court of India stay on January 29, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_B665hnGOA9HQngkl6i5JReSN",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Supreme Court of India stay January 29 2026 regulation\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_B665hnGOA9HQngkl6i5JReSN",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_CbPOKiien4dQFkVMnIHx7tqd",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Supreme Court of India stay January 29 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_CbPOKiien4dQFkVMnIHx7tqd",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_nDgiLauVg5MItCTNBHva7NYM",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Supreme Court of India January 29 2026 stay regulation news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_nDgiLauVg5MItCTNBHva7NYM",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_RS9OBvFn9zdoJftgstkD4G8H",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Supreme Court of India January 29 2026 stay news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_RS9OBvFn9zdoJftgstkD4G8H",
+      "content": "[Supreme Court of the United States] The Supreme Court of the United States (SCOTUS) is the highest court in the federal judiciary of the United States. It has ultimate appellate jurisdiction over all U.S. federal court cases, and over state court cases that turn on questions of U.S. constitutional or federal law. It also has original jurisdiction over a narrow range of cases, specifically \"all Cases affecting Ambassadors, other public Ministers and Consuls, and those in which a State shall be Party\". In 1803, the court asserted the power of judicial review, the ability to invalidate a statute for violating a provision of the Constitution. It is also able to strike down presidential directives for violating either the Constitution or statutory law. Under Article Three of the United States Constitution, the composition and procedures of the Supreme Court were originally established by the 1st Congress through the Judiciary Act of 1789. As currently constituted the court consists of nine justices—the chief justice of the United States and eight associate justices—who meet at the Supreme Court Building in Washington, D.C. Justices have lifetime tenure, meaning they remain on the court until they die, retire, resign, or are impeached and removed from office. When a vacancy occurs, the president, with the advice and consent of the Senate, appoints a new justice. Each justice has a single vote in deciding the cases argued before the court. When in the majority, the chief justice decides who writes the opinion of the c | other articles: UGC Equity Regulations, 2026, 2025–2026 Iranian protests"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_UzZEgvx9DL0f565c5yhDa9Cs",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Supreme Court of India January 29 2026 stay regulation news article\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_UzZEgvx9DL0f565c5yhDa9Cs",
+      "content": "[Supreme Court of the United States] The Supreme Court of the United States (SCOTUS) is the highest court in the federal judiciary of the United States. It has ultimate appellate jurisdiction over all U.S. federal court cases, and over state court cases that turn on questions of U.S. constitutional or federal law. It also has original jurisdiction over a narrow range of cases, specifically \"all Cases affecting Ambassadors, other public Ministers and Consuls, and those in which a State shall be Party\". In 1803, the court asserted the power of judicial review, the ability to invalidate a statute for violating a provision of the Constitution. It is also able to strike down presidential directives for violating either the Constitution or statutory law. Under Article Three of the United States Constitution, the composition and procedures of the Supreme Court were originally established by the 1st Congress through the Judiciary Act of 1789. As currently constituted the court consists of nine justices—the chief justice of the United States and eight associate justices—who meet at the Supreme Court Building in Washington, D.C. Justices have lifetime tenure, meaning they remain on the court until they die, retire, resign, or are impeached and removed from office. When a vacancy occurs, the president, with the advice and consent of the Senate, appoints a new justice. Each justice has a single vote in deciding the cases argued before the court. When in the majority, the chief justice decides who writes the opinion of the c | other articles: Supreme Court of the Philippines, 2026 in the United States"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_tA0cU5wBFfnnyJafrYjCoWpY",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Supreme Court of India January 29 2026 stay news report\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_tA0cU5wBFfnnyJafrYjCoWpY",
+      "content": "[Supreme Court of the United States] The Supreme Court of the United States (SCOTUS) is the highest court in the federal judiciary of the United States. It has ultimate appellate jurisdiction over all U.S. federal court cases, and over state court cases that turn on questions of U.S. constitutional or federal law. It also has original jurisdiction over a narrow range of cases, specifically \"all Cases affecting Ambassadors, other public Ministers and Consuls, and those in which a State shall be Party\". In 1803, the court asserted the power of judicial review, the ability to invalidate a statute for violating a provision of the Constitution. It is also able to strike down presidential directives for violating either the Constitution or statutory law. Under Article Three of the United States Constitution, the composition and procedures of the Supreme Court were originally established by the 1st Congress through the Judiciary Act of 1789. As currently constituted the court consists of nine justices—the chief justice of the United States and eight associate justices—who meet at the Supreme Court Building in Washington, D.C. Justices have lifetime tenure, meaning they remain on the court until they die, retire, resign, or are impeached and removed from office. When a vacancy occurs, the president, with the advice and consent of the Senate, appoints a new justice. Each justice has a single vote in deciding the cases argued before the court. When in the majority, the chief justice decides who writes the opinion of the c | other articles: 2025–2026 Iranian protests, UGC Equity Regulations, 2026"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_vajPU66SL9ytjUjUmID2buAa",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Supreme Court of India January 29 2026 stay news article\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_vajPU66SL9ytjUjUmID2buAa",
+      "content": "[Supreme Court of the United States] The Supreme Court of the United States (SCOTUS) is the highest court in the federal judiciary of the United States. It has ultimate appellate jurisdiction over all U.S. federal court cases, and over state court cases that turn on questions of U.S. constitutional or federal law. It also has original jurisdiction over a narrow range of cases, specifically \"all Cases affecting Ambassadors, other public Ministers and Consuls, and those in which a State shall be Party\". In 1803, the court asserted the power of judicial review, the ability to invalidate a statute for violating a provision of the Constitution. It is also able to strike down presidential directives for violating either the Constitution or statutory law. Under Article Three of the United States Constitution, the composition and procedures of the Supreme Court were originally established by the 1st Congress through the Judiciary Act of 1789. As currently constituted the court consists of nine justices—the chief justice of the United States and eight associate justices—who meet at the Supreme Court Building in Washington, D.C. Justices have lifetime tenure, meaning they remain on the court until they die, retire, resign, or are impeached and removed from office. When a vacancy occurs, the president, with the advice and consent of the Senate, appoints a new justice. Each justice has a single vote in deciding the cases argued before the court. When in the majority, the chief justice decides who writes the opinion of the c | other articles: Supreme Court of India, Supreme Court of the Philippines"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_PKjiNURjO6x6sZFyAogrdWPX",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Supreme Court of India January 29 2026 stay regulation news report\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_PKjiNURjO6x6sZFyAogrdWPX",
+      "content": "[UGC Equity Regulations, 2026] The University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026, commonly referred to as the UGC Equity Regulations, 2026 or the Anti-Discrimination Rules, 2026, are regulations notified by the University Grants Commission (UGC) in India aimed at addressing discrimination within higher education institutions (HEIs). The regulations seek to replace the existing 2012 regulations with more stringent measures to ensure inclusion for students from marginalized backgrounds, particularly the Scheduled Castes (SC), Scheduled Tribes (ST) and Other Backward Classes (OBC). The bill saw protests against the Bharatiya Janta Party (BJP) across the country. As of 29 January 2026, the Supreme Court of India has stayed the proposed regulations. | other articles: Supreme Court of the United States, 2026 in the United Kingdom"
+    }
+  ],
+  "final_answer": "On January 29, 2026, the Supreme Court of India stayed the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026, which aimed to address discrimination in higher education.",
+  "steps_taken": 9
+}

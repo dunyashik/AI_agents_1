@@ -1,0 +1,33 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-124",
+  "question": "What city in Germany experienced a nightclub fire in March 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about a nightclub fire in Germany in March 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01PYPg8U6zMLAPLuDXu6HeMC",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Germany nightclub fire March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01PYPg8U6zMLAPLuDXu6HeMC",
+      "content": "[Major Fire Destroys German Nightclub, Evacuates Hundreds With No One ...] A massive fire tore through the widely popular K Club in Kehl, Germany, in the early hours of Sunday, March 29, 2026, forcing the emergency evacuation of approximately 750 patrons. The blaze broke ...\n[Hundreds Evacuated as fire tears through German nightclub near French ...] Additional international outlets also covered the event, including the South China Morning Post, which highlighted the rapid evacuation and cross‑border nature of the venue's clientele (SCMP, 29 March 2026), and Mixmag, which confirmed the 750‑person evacuation and described the fire as a \"blaze that ripped through the venue\" (Mixmag ...\n[Hundreds of people flee as fire rips through German nightclub] Hundreds of people were forced to flee a nightclub in Germany as fire ripped through and destroyed the building. Images from the scene at the K Club in Kehl - on the French border in the southwest of the country - show the blaze raging on the establishment's roof as party-goers struggle desperately to escape. The fire began around 3.45am local time and went on to 'spread over the whole ..."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Kehl, Germany experienced a nightclub fire in March 2026. The fire occurred at the K Club on March 29, 2026, forcing the evacuation of approximately 750 patrons.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Kehl, Germany experienced a nightclub fire in March 2026. The fire occurred at the K Club on March 29, 2026, forcing the evacuation of approximately 750 patrons.",
+  "steps_taken": 2
+}

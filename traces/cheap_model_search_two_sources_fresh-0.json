@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-0",
+  "question": "On what date did Ukraine boycott the closing ceremony of the 2026 Winter Paralympics?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_My7EcZAm6QY9ghhYGhVuSty3",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Ukraine boycott closing ceremony 2026 Winter Paralympics date\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_My7EcZAm6QY9ghhYGhVuSty3",
+      "content": "[Ukraine Boycotts Paralympics Closing Ceremony Over Russian Presence ...] Cortina d'Ampezzo, Italy - The Ukrainian Paralympic team will not participate in the closing ceremony of the Winter Paralympics in Cortina d'Ampezzo on Sunday, March 15, 2026, in protest against the International Paralympic Committee's (IPC) decision to allow Russian and Belarusian athletes to compete under their own flags. The move escalates a growing international outcry over the ...\n[Ukraine to boycott closing ceremony of 2026 Paralympic Winter Games] The entire Ukrainian national team has decided to boycott the 2026 Paralympic Winter Games closing ceremony.\n[Ukraine Boycotts 2026 Paralympics Closing Ceremony Over Russia and ...] Ukraine's national Paralympic team will boycott the official closing ceremony of the 2026 Winter Paralympic Games in Milan and Cortina d'Ampezzo in protest against the participation of athletes from Russia and Belarus, according to the National Paralympic Committee of Ukraine."
+    },
+    {
+      "role": "assistant",
+      "content": "Ukraine's national Paralympic team decided to boycott the closing ceremony of the 2026 Winter Paralympics, which is scheduled to take place on March 15, 2026. This decision was made in protest against the International Paralympic Committee's decision to allow Russian and Belarusian athletes to compete under their own flags.\n\nFINAL: March 15, 2026",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "March 15, 2026",
+  "steps_taken": 2
+}

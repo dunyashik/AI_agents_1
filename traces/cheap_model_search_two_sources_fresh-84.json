@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-84",
+  "question": "How many games was James Pearce Jr. suspended for in the 2026 NFL season?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Y8se9sVVQg0SY57afj1IzPQG",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"James Pearce Jr. suspension 2026 NFL season\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Y8se9sVVQg0SY57afj1IzPQG",
+      "content": "[NFL suspends James Pearce Jr. for first 8 games of 2026 season] Aug 14, 2026 · FLOWERY BRANCH, Ga. — The NFL announced Friday afternoon that Atlanta Falcons pass rusher James Pearce Jr. will be suspended for the first eight games of the 2026 regular season for violating ...\n[Falcons EDGE James Pearce Jr. suspended by the NFL] Aug 14, 2026 · Atlanta Falcons edge James Pearce Jr. has been suspended for the first eight games of the 2026 NFL season for violating the league's personal conduct policy, ESPN's Adam Schefter reported on Friday afternoon. \"Falcons DE James Pearce Jr. is being suspended eight regular-season games for violating ...\n[James Pearce Jr. suspension: Why Falcons defender will miss ...] Aug 14, 2026 · James Pearce Jr. suspension: Why Falcons defender will miss half the NFL season after domestic arrest Daniel Mader August 14, 2026 12:44 pm PDT Mark J. Rebilas-Imagn Images"
+    },
+    {
+      "role": "assistant",
+      "content": "James Pearce Jr. was suspended for the first eight games of the 2026 NFL season for violating the league's personal conduct policy. \n\nFINAL: 8 games.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "8 games.",
+  "steps_taken": 2
+}

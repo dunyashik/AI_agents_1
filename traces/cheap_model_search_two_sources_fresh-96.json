@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-96",
+  "question": "In which city were the 2026 European Men's and Women's Team Badminton Championships held?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_f45R9GcGxDOAAQDuraLWPCM2",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"2026 European Men's and Women's Team Badminton Championships location\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_f45R9GcGxDOAAQDuraLWPCM2",
+      "content": "[2026 European Men's and Women's Team Badminton Championships] The 2026 edition of the European Men's and Women's Team Badminton Championships is being held in Istanbul, Turkey, from 11 to 15 February 2026."
+    },
+    {
+      "role": "assistant",
+      "content": "The 2026 European Men's and Women's Team Badminton Championships were held in Istanbul, Turkey. \n\nFINAL: Istanbul, Turkey",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Istanbul, Turkey",
+  "steps_taken": 2
+}

@@ -1,0 +1,47 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-16",
+  "question": "In ice hockey, which team won their first Walter Cup on May 20, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about the Walter Cup ice hockey championship on May 20, 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01Khxd6soHy89SsVWne49jLq",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Walter Cup ice hockey May 20 2026\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_015UGVKNzYxcuWo5hBULUwB7",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Walter Cup winner May 20 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01Khxd6soHy89SsVWne49jLq",
+      "content": "[Walter Cup] The Walter Cup (French: La coupe Walter) is the championship trophy awarded to the winner of the Walter Cup playoffs (French: Séries éliminatoires de la Coupe Walter de la LPHF), which culminate in an annual best-of-five series that determines the champion of the Professional Women's Hockey League (PWHL). The trophy is named in honour of PWHL co-founders and spouses Mark Walter and Kimbra Walter. Two teams have won the Cup since its establishment: the Minnesota Frost in both 2024 and 2025, and the Montreal Victoire in 2026. The Walter Cup is permanently on display at the Hockey Hall of Fame in Toronto. In contrast to the Stanley Cup, a replica of the Walter Cup is made for each year's champions. | other articles: 2026 in ice hockey, 2026 Walter Cup Finals"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_015UGVKNzYxcuWo5hBULUwB7",
+      "content": "[2026 Walter Cup Finals - Wikipedia] The 2026 Walter Cup Finals was the championship series of the Professional Women's Hockey League 2025-26 PWHL season and the culmination of the 2026 Walter Cup playoffs. The winners of the semifinals, the Ottawa Charge and the Montreal Victoire competed in a best-of-five series to determine the league's champion and winner of the Walter Cup.\n[2026 Walter Cup playoffs - Wikipedia] The 2026 Walter Cup playoffs was the playoff tournament of the Professional Women's Hockey League (PWHL) for the 2025-26 season. The playoffs began on April 30, 2026, and concluded with the PWHL Finals on May 20, 2026, with the Montreal Victoire winning their first Walter Cup.\n[2026 PWHL Walter Cup PLAYOFFS | PWHL - Professional Women's Hockey League] The Montréal Victoire are the 2026 PWHL Walter Cup Champions! Celebrate the victory with this exclusive championship collection."
+    },
+    {
+      "role": "assistant",
+      "content": "Perfect! I found the answer. According to the search results, the **Montreal Victoire** won their first Walter Cup on May 20, 2026, defeating the Ottawa Charge in the best-of-five series.\n\nFINAL: The Montreal Victoire won their first Walter Cup on May 20, 2026.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "The Montreal Victoire won their first Walter Cup on May 20, 2026.",
+  "steps_taken": 2
+}

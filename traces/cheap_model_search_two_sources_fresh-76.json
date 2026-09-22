@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-76",
+  "question": "What was the sentence given to former president Yoon Suk Yeol in South Korea in February 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_UIDzaQimEstbtpNDHHLM4per",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Yoon Suk Yeol sentence February 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_UIDzaQimEstbtpNDHHLM4per",
+      "content": "[South Korean Ex-Leader Is Sentenced to Life in Prison] Former President Yoon Suk Yeol was found guilty of masterminding an insurrection when he imposed martial law in 2024. It was the country's biggest criminal trial in decades.\n[Former South Korean President Yoon Suk Yeol handed life sentence for ...] A blue bus believed to be transporting South Korea's impeached former president Yoon Suk Yeol arrives at the Seoul Central District Court in Seoul, on February 19, 2026.\n[South Korean court sentences president to life in prison] SEOUL -- The Seoul Central District Court sentenced former South Korean President Yoon Suk Yeol to life in prison Thursday. The court found him guilty of leading an insurrection linked to his declaration of martial law on Dec. 3, 2024. The court ruled that Yoon's central offense was mobilizing military and police forces to seize control of the National Assembly and detain key political figures ..."
+    },
+    {
+      "role": "assistant",
+      "content": "In February 2026, former South Korean President Yoon Suk Yeol was sentenced to life in prison by the Seoul Central District Court. He was found guilty of masterminding an insurrection related to his declaration of martial law in December 2024, which involved mobilizing military and police forces to seize control of the National Assembly and detain key political figures.\n\nFINAL: Yoon Suk Yeol was sentenced to life in prison.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Yoon Suk Yeol was sentenced to life in prison.",
+  "steps_taken": 2
+}

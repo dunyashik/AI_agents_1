@@ -1,0 +1,53 @@
+{
+  "task_id": "cheap_model_wikipedia_and_page_find_fresh-27",
+  "question": "In classical music, who was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_fcuTPmfUC2iFmLvcDVjHENXA",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Salzburg Festival placed on leave March 26 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_fcuTPmfUC2iFmLvcDVjHENXA",
+      "content": "[Mozarteum (building)] The Mozarteum building complex on Schwarzstraße in Salzburg, Austria, was built in the historicist style and opened in 1914. The International Mozarteum Foundation is headquartered here. The Mozarteum also houses two concert halls – the Great Hall and the Vienna Hall – and an extensive Mozart library. The Salzburger Liedertafel (choral society) is also based at the Mozarteum. Several other institutions, buildings or rooms have also been or are still referred to as the \"Mozarteum\", nowadays usually with a distinguishing addition such as \"Mozarteum University Salzburg\" or \"New Mozarteum\". | other articles: Markus Hinterhäuser, Sandra Bullock"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_dhfs44Tj9tfDGJPb7zrle1tx",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"2026 in classical music\",\"keywords\":\"Salzburg Festival leave March 26\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_dhfs44Tj9tfDGJPb7zrle1tx",
+      "content": "26 March – The board of directors of the Salzburg Festival announce the termination of the contract of Markus Hinterhäuser as artistic director of the festival, placing him on leave until 30 September 2026.\n7 April – The Salzburg Festival announces the appointment of Karin Bergmann as its interim artistic director, with immediate effect, the first woman to serve as the festival's artistic director."
+    },
+    {
+      "role": "assistant",
+      "content": "On March 26, 2026, Markus Hinterhäuser was placed on leave until September 30, 2026, by the Salzburg Festival. FINAL: Markus Hinterhäuser",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Markus Hinterhäuser",
+  "steps_taken": 3
+}

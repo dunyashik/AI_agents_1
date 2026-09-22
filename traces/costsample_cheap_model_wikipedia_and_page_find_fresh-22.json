@@ -1,0 +1,53 @@
+{
+  "task_id": "costsample_cheap_model_wikipedia_and_page_find_fresh-22",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_K3WZDDBAiT2QrfPHlH9GMNYt",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Matt Braly indie animated series funded March 17 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_K3WZDDBAiT2QrfPHlH9GMNYt",
+      "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens. | other articles: 2026 in animation, LGBTQ themes in Western animation"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_mWdBoi2ouhmKdmoLToyaWLOx",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"2026 in animation\",\"keywords\":\"Matt Braly indie animated series March 17 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_mWdBoi2ouhmKdmoLToyaWLOx",
+      "content": "The teaser trailer for the indie animated series, Clara and the Below, created by Amphibia creator Matt Braly, was released on YouTube.\nMarch 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching."
+    },
+    {
+      "role": "assistant",
+      "content": "The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is called \"Clara and the Below.\" \n\nFINAL: Clara and the Below",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Clara and the Below",
+  "steps_taken": 3
+}

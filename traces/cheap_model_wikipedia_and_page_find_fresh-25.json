@@ -1,0 +1,53 @@
+{
+  "task_id": "cheap_model_wikipedia_and_page_find_fresh-25",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_HGCuGP3hQKkX5d3yO7IeHcX1",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Pakistan government declaration February 26 2026 Afghanistan Pakistan war\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_HGCuGP3hQKkX5d3yO7IeHcX1",
+      "content": "[2025 Afghanistan–Pakistan conflict] In the early hours of 9 October 2025, Pakistan carried out airstrikes in Kabul, Khost, Jalalabad, and Paktika, targeting the Pakistani Taliban (TTP) which it code named \"Operation Khyber Storm\". The group's leader, Noor Wali Mehsud, was the main target of the attack in Kabul, which occurred in Abdul Haq Square, but survived. On the night from 11 to 12 October, the Afghan Taliban launched an attack on multiple Pakistani military posts along the Afghanistan–Pakistan border in retaliation for the Pakistani airstrikes. Following the attack, the Taliban’s Ministry of Defense announced the conclusion of their operation. However, Pakistani officials rejected the Taliban’s ceasefire declaration and continued their offensive, which was confirmed by a Taliban spokesman, noting that clashes persisted into the morning of 12 October. On the same day, reports emerged of Pakistani drone strikes in Kandahar and Helmand provinces, killing 19 Taliban fighters, though these casualties were not confirmed by Taliban officials. Both sides claimed to have inflicted heavy losses on each other and captured or destroyed several border posts. Satellite imagery of a Taliban military compound in Spin Boldak showed that it had suffered significant damage during the clashes. Heavy fighting resumed on 15 October, with both sides accusing the other of initiating the violence. The fiercest fighting occurred around Spin Boldak, where civilian casualties were reported. Pakistan later announced “precision” airst | other articles: Afghanistan, Pakistan"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_kRMEz7CbuSbHiyEjFcShM04q",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"2026 in Afghanistan\",\"keywords\":\"Pakistan government declaration February 26\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_kRMEz7CbuSbHiyEjFcShM04q",
+      "content": "17 February – Three Pakistani soldiers captured by Afghanistan during the 2025 Afghanistan–Pakistan conflict are released following mediation by Saudi Arabia.\n22 February – Pakistan carries out airstrikes on suspected militant camps in Nangarhar and Paktika provinces, killing 18 people.\n26 February – The Afghan Taliban carry out attacks on Pakistani army posts. The Taliban says about 40 Pakistani soldiers were killed, while Pakistani security sources claim 22 Taliban personnel dead and several quadcopters shot down.\n27 February – Pakistan declares \"open war\" against the Afghan Taliban."
+    },
+    {
+      "role": "assistant",
+      "content": "On February 26, 2026, the Afghan Taliban carried out attacks on Pakistani army posts, claiming to have killed about 40 Pakistani soldiers. In response to the escalating conflict, on February 27, 2026, Pakistan declared \"open war\" against the Afghan Taliban. \n\nFINAL: Pakistan declared \"open war\" against the Afghan Taliban on February 27, 2026.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Pakistan declared \"open war\" against the Afghan Taliban on February 27, 2026.",
+  "steps_taken": 3
+}

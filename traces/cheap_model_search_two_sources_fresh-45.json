@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-45",
+  "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_p8PeARKCFWLJTi5iBUy4r5sB",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Yalova Province Turkey aircraft crash August 13 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_p8PeARKCFWLJTi5iBUy4r5sB",
+      "content": "[Turkish F-16 crashes during training flight in Yalova] Aug 12, 2026 · A Turkish F-16 fighter jet crashed during a training flight in northwestern Türkiye’s Yalova province after a malfunction, officials said Wednesday. The pilot ejected and survived the crash. “One of our Air Force’s F-16 aircraft crashed in Yalova during a training flight; the pilot ejected ...\n[Turkish F-16 crashes during training flight in Yalova, pilot ...] A Turkish Air Force F-16 fighter jet has crashed during a training flight in northwestern Turkey's Yalova province, with the pilot successfully ejecting and surviving the incident.\n[Turkish F-16 crashes in Yalova, pilot ejects safely] Aug 13, 2026 · A Turkish Air Force F-16 crashed during a training flight in Yalova. The pilot ejected safely, while the cause of the accident remains under investigation."
+    },
+    {
+      "role": "assistant",
+      "content": "On August 13, 2026, a Turkish Air Force F-16 fighter jet crashed during a training flight in Yalova Province, Turkey. The pilot successfully ejected and survived the incident. The cause of the crash is under investigation. \n\nFINAL: F-16 fighter jet",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "F-16 fighter jet",
+  "steps_taken": 2
+}

@@ -1,0 +1,73 @@
+{
+  "task_id": "cheap_model_wikipedia_and_page_find_fresh-122",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_GhTzSIwGOR02TcGDhK0g1Emr",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Sussan Ley ousted February 2026 Australian politics\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_GhTzSIwGOR02TcGDhK0g1Emr",
+      "content": "[Sussan Ley] Sussan Penelope Ley (née Braybrooks; born 14 December 1961) is an Australian retired politician who served as the leader of the Opposition from 2025 to 2026, holding office as the 16th leader of the Liberal Party. She was the member of Parliament (MP) for the New South Wales division of Farrer from 2001 to 2026, and served as a minister in the Abbott, Turnbull, and Morrison governments. Born into an English family in Nigeria, Ley grew up in the Trucial States (now the United Arab Emirates) and England, before moving to Australia as a teenager. Prior to entering politics, she worked as a commercial pilot, farmer and public servant based in Albury. She was elected to the House of Representatives at the 2001 federal election, winning the regional New South Wales seat of Farrer. Ley was appointed parliamentary secretary by John Howard in 2004, serving until the Coalition's defeat at the 2007 election. After the election, she held positions in the Nelson, Turnbull, and Abbott shadow ministries. After the Liberal–National Coalition's victory at the 2013 election, Ley was appointed Assistant Minister for Education by Tony Abbott, later joining the cabinet in 2014 as Minister for Health and Minister for Sport. She continued to serve in the cabinet until January 2017, resigning amid a scandal regarding her travel expenses. She would return to the ministry in August 2018 after Scott Morrison succeeded Malcolm Turnbull as prime minister, becoming an assistant minister and later returnin | other articles: Next Australian federal election, Opinion polling for the next Australian federal election"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_YghdBRqCQ3AqKHCbCid7Q3C2",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"Sussan Ley\",\"keywords\":\"ousted February 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_YghdBRqCQ3AqKHCbCid7Q3C2",
+      "content": "Ley was elected unopposed as deputy leader of the Liberal Party under Peter Dutton  after the 2022 defeat. After Dutton lost his seat in the Coalition's landslide defeat at the 2025 election, she was elected Liberal leader at a leadership election, becoming leader of the Opposition as the first woman in Australian history to hold either position. In her tenth month as leader in 2026, she was ouste\nOn 8 February 2026, the Coalition reunited following an agreement between the Nationals and Liberals. On the same day, an article in The Daily Telegraph quoted Federal Young Liberal President Cooper Gannon and Vice President Hannah Hutton as calling on her to resign \"for the sake of our nation's future\", being the first time a Young Liberal President explicitly called on the leader to step aside. \nOn 11 February 2026, Angus Taylor resigned from the shadow ministry, citing the Opposition's deteriorating performance under Ley's leadership. In response to the intensifying criticism and Taylor’s resignation, Ley called a leadership spill after Jessica Collins and Phillip Thompson launched a spill motion. The leadership spill was held on 13 February, resulting in Taylor defeating Ley by a margin"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_K6R9iExT72hmRgDgQgqI2hk1",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"Angus Taylor\",\"keywords\":\"leadership spill February 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_K6R9iExT72hmRgDgQgqI2hk1",
+      "content": "Following Peter Dutton's defeat at the 2025 election, he contested the subsequent leadership election, losing to Sussan Ley. Taylor, a prominent member of the National Right party faction, resigned from Ley's shadow cabinet in 2026 amid historically low polling for the Liberal Party. He successfully challenged Ley in a subsequent leadership spill, becoming the leader of the Liberal Party and the l\nFollowing the 21 August 2018 leadership spill which challenged Malcolm Turnbull for leadership of the Liberal Party, Taylor was one of several frontbenchers to announce his resignation. Taylor wrote in a letter to Turnbull that he was resigning due to his support for Peter Dutton: \"I have previously relayed to you my concerns about the direction of this Government, and my views on the policies tha\nTaylor made headlines during the 2019 election campaign when, on 1 May, he posted an article regarding a commitment to building car parks in a neighbouring electorate held by the Labor Party, then there appeared a comment from Taylor saying, \"Fantastic. Great move. Well done Angus.\" He was mocked on social media for the act, and it was suggested Taylor or one of his staff were deliberately making \nOn 28 May 2025, after his leadership election loss, Taylor was appointed to the position of shadow minister for defence in Ley's shadow ministry. On the evening of 11 February 2026, he resigned from the shadow ministry amidst rising speculation of a leadership spill from him against Ley. Taylor formally announced his candidacy for leader of the Liberal Party on the morning of 12 February, with a s"
+    },
+    {
+      "role": "assistant",
+      "content": "Sussan Ley was ousted as the leader of the Liberal Party in February 2026 by Angus Taylor. Following a leadership spill initiated due to criticism of Ley's performance and a resignation from Taylor, the spill took place on February 13, 2026, where Taylor defeated Ley to become the new leader of the Liberal Party. \n\nFINAL: Angus Taylor ousted Sussan Ley.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Angus Taylor ousted Sussan Ley.",
+  "steps_taken": 4
+}

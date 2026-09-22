@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-144",
+  "question": "What title did the UQTR Patriotes win on March 22, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_s6WaRqoQp6j7kk9aWYd85wRL",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"UQTR Patriotes title win March 22 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_s6WaRqoQp6j7kk9aWYd85wRL",
+      "content": "[2026 U Sports University Cup - Wikipedia] The 2026 U Sports University Cup, the 64th edition, was held from March 19 to March 22, 2026, in Halifax, Nova Scotia, to determine a national champion for the 2025–26 U Sports men's ice hockey season. [2][3] The third-seeded OUA champion UQTR Patriotes defeated the eighth-seeded host Saint Mary's Huskies in the gold medal match to win their ...\n[24 CHL Alumni Help UQTR Win the 2026 U SPORTS University Cup] Mar 22, 2026 · Patriotes captain Conor Frenette (Victoriaville Tigres & Québec Remparts / QMJHL), a 2021 QMJHL champion, was named the 2026 University Cup MVP after leading the tournament with four goals and...\n[UQTR beats Saint Mary's in OT to win U Sports men's hockey title] Mar 22, 2026 · Felix Lafrance scored 14:23 into overtime as UQTR beat the Saint Mary's Huskies 3-2 on Sunday in the championship final. Jake Uberti's first-period goal gave Saint Mary's an early lead and Ben..."
+    },
+    {
+      "role": "assistant",
+      "content": "On March 22, 2026, the UQTR Patriotes won the U Sports University Cup, defeating the Saint Mary's Huskies 3-2 in the championship final. This victory marked them as the national champions for the 2025–26 U Sports men's ice hockey season. \n\nFINAL: U Sports University Cup",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "U Sports University Cup",
+  "steps_taken": 2
+}

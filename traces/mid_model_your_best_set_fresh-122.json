@@ -1,0 +1,47 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-122",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about Sussan Ley and what happened in Australian politics in February 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01V6Y73eesknxnTMErhNaN5H",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Sussan Ley ousted February 2026 Australian politics\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_019Q1LrfvcTefRtnmcBp8huU",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Sussan Ley February 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01V6Y73eesknxnTMErhNaN5H",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_019Q1LrfvcTefRtnmcBp8huU",
+      "content": "[2026 Liberal Party of Australia leadership spill - Wikipedia] A leadership spill was held on 13 February 2026 to elect the leader of the Liberal Party of Australia, and by virtue, the leader of the Opposition. Angus Taylor was elected, defeating incumbent leader Sussan Ley.\n[Sussan Ley - Wikipedia] In her tenth month as leader in 2026, she was ousted by Angus Taylor in a leadership spill; she subsequently retired from politics, triggering a by-election in her seat of Farrer.\n[Sussan Ley formally leaves federal parliament | Evening News ...] Feb 27, 2026 · Sussan Ley has formally resigned from parliament, triggering a by-election in her regional New South Wales seat of Farrer just two weeks after she was deposed as opposition leader."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Angus Taylor ousted Sussan Ley in a Liberal Party leadership spill on 13 February 2026. Taylor was elected as the new leader of the Liberal Party and Opposition leader, defeating the incumbent leader Sussan Ley.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Angus Taylor ousted Sussan Ley in a Liberal Party leadership spill on 13 February 2026. Taylor was elected as the new leader of the Liberal Party and Opposition leader, defeating the incumbent leader Sussan Ley.",
+  "steps_taken": 2
+}

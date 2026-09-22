@@ -1,0 +1,73 @@
+{
+  "task_id": "cheap_model_wikipedia_only_fresh-123",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_oA8J7YIH5RuWFtBWHKA7lseA",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"country broke off diplomatic relations with France June 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_oA8J7YIH5RuWFtBWHKA7lseA",
+      "content": "[International recognition of Israel] As of February 2026, the State of Israel is recognized as a sovereign state by 169 of the other 192 member states of the United Nations, or approximately 88% of all UN members. The State of Israel was formally established by the Israeli Declaration of Independence on 14 May 1948, and was admitted to the United Nations (UN) as a full member state on 11 May 1949. It also maintains bilateral ties with all of the UNSC Permanent Five. Twenty-three member states have either never formally recognized Israel or have withdrawn their recognition; others have severed diplomatic relations without explicitly withdrawing their recognition. Additionally, many non-recognizing countries have challenged Israel's existence—predominantly those in the Muslim world—due to significant animosity stemming from the Israeli–Palestinian conflict and the Arab–Israeli conflict. | other articles: Foreign relations of Israel, Foreign relations of Nauru"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_WYFnCI8Li0kojd28IkjocSoi",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"June 2026 diplomatic relations France news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_WYFnCI8Li0kojd28IkjocSoi",
+      "content": "[2026 Poland–Ukraine diplomatic crisis] The 2026 Poland–Ukraine diplomatic crisis began in May 2026 after Ukrainian president Volodymyr Zelenskyy awarded the Ukrainian Special Operations Center North the honorary title \"Heroes of the UPA\", on that unit's request. This decision sparked outrage in Poland as the UPA was responsible for the massacres of Poles in Volhynia and Eastern Galicia, leading to a major crisis in bilateral relations. On 19 June 2026, Polish President Karol Nawrocki stripped the Order of the White Eagle from Ukrainian president Volodymyr Zelenskyy. Zelenskyy promptly returned the Order of the White Eagle to the Polish Presidential Chancellery. In solidarity with Zelenskyy, three former Ukrainian presidents Leonid Kuchma, Viktor Yushchenko, and Petro Poroshenko voluntarily renounced and returned their Orders of the White Eagle to Poland. In response, on 25 June 2026, several Polish politicians renounced their Ukrainian orders, notably Jarosław Kaczyński with his Order of Yaroslav the Wise which was the third-highest Ukrainian order when he received it in 2022. | other articles: France–United States relations, Foreign relations of the United Arab Emirates"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_y8gB0Fxm2cyBlt7rBwQwvdA6",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"June 2026 country cuts diplomatic ties with France\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_y8gB0Fxm2cyBlt7rBwQwvdA6",
+      "content": "[Burkina Faso–France relations] Burkina Faso–France relations refers to the diplomatic relations between Burkina Faso and France. Diplomatic relations were established on 4 August 1960. Burkina Faso was formerly part of a French colony called French Upper Volta. France has special forces stationed in Burkina Faso. Burkina Faso has an embassy in Paris, and France has an embassy in Ouagadougou. In January 2023, Burkina Faso's military junta asked France to recall its ambassador amid a surge of anti-French sentiment as the country moved to develop closer ties to Russia. In June 2026, Burkina Faso formally severed diplomatic relations with France, accusing the former colonial ruler of neo-colonialism and allegedly supporting subversive activities and terrorists in the Sahel. | other articles: Alliance of Sahel States, 2026 United States fuel blockade on Cuba"
+    },
+    {
+      "role": "assistant",
+      "content": "In June 2026, Burkina Faso formally severed diplomatic relations with France. The decision was made amid accusations against France of neo-colonialism and alleged support for subversive activities and terrorism in the Sahel region. \n\nFINAL: Burkina Faso",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Burkina Faso",
+  "steps_taken": 4
+}

@@ -1,0 +1,47 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-72",
+  "question": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about the Cockroach Janta Party and their demands regarding India's Education Minister in 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01EbQfkG9y1nZSRCZFB16sWd",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Cockroach Janta Party Education Minister resign India 2026\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_01ApvRYx2yskev1ZQg4KuKxt",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Cockroach Janta Party Education Minister resign 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01EbQfkG9y1nZSRCZFB16sWd",
+      "content": "[Cockroach Janta Party] The Cockroach Janta Party (CJP; lit. 'Cockroach People's Party'), also known as the Cockroach movement, is an Indian youth-based satirical political movement founded on 16 May 2026 by Abhijeet Dipke, a political communications strategist and activist. The CJP harnessed widespread political and economic discontent among Generation Z in India, leading to protests in Delhi and other cities in the following months. The \"party\" was created in response to remarks made on 15 May 2026 by Surya Kant, the Chief Justice of India, in which he referred to certain activists and unemployed youth as \"cockroaches\" and \"parasites of society\". Kant later said he was referring specifically to people who obtain fraudulent degrees, but his remarks nonetheless triggered broad criticism that India's economic and political landscape had become hostile to young people. The movement's name is a wordplay parodying the current ruling party in India, the Bharatiya Janata Party. The party achieved significant popularity online, rapidly gaining a large following across social media platforms shortly after its formation. It issued a five-point manifesto relating to the conduct of parliament members and of election commissioners, reservation of seats for women in politics, and media licensing. Beginning in June, the party led protests in Delhi and across the country over the fallout from irregularities in that year's entrance examinations for undergraduate biomedical studies. The protests culminated in talks  | other articles: 2026 Delhi Jantar Mantar protests, Abhijeet Dipke"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01ApvRYx2yskev1ZQg4KuKxt",
+      "content": "[India's 'Cockroach' youth call off protests after education minister ...] Cockroach Janta Party supporters celebrate the resignation of India's Education Minister Dharmendra Pradhan, at Jantar Mantar in New Delhi on July 25, 2026 [Sajjad Hussain/AFP]\n[India education minister resigns after weeks of \"Cockroach\" ...] Protesters shout slogans during a demonstration demanding educational reforms as part of the Cockroach Janta Party's ongoing protest movement in Mumbai, India, Friday, July 24, 2026.\n['Cockroach Movement' Forces Out India's Education Minister] Supporters of India's Cockroach Janta Party (CJP) celebrate following the resignation of Education Minister Dharmendra Pradhan on July 25, 2026 in New Delhi, India."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, I have found the answer.\n\nFINAL: The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is Dharmendra Pradhan, who actually did resign on July 25, 2026, following the party's protests.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is Dharmendra Pradhan, who actually did resign on July 25, 2026, following the party's protests.",
+  "steps_taken": 2
+}

@@ -1,0 +1,153 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-135",
+  "question": "Who survived two no-confidence motions in January 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_MtpdBhMhsrPIFnFtCz0vOrQl",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"January 2026 no-confidence motions survivor\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_MtpdBhMhsrPIFnFtCz0vOrQl",
+      "content": "[French PM survives no-confidence motions - France 24] The French government survived two votes of no-confidence in parliament on January 23 that had had been called over its decision to ram through the income part of the 2026 budget without ...\n[France PM survives no-confidence vote over forced budget] The French government survived two votes of no-confidence in parliament on January 23 that had been called over its decision to ram through the income part of the 2026 budget without giving the ...\n[French PM survives two no-confidence votes over disputed budget] French Prime Minister Sébastien Lecornu survived two no-confidence votes on Friday, January 23, following his move to force his budget bill through Parliament, in a symbolic victory, with more ..."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_n9JqTp9yxX5fGU5GTvQZK3m0",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Sébastien Lecornu January 2026 no-confidence motions\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_n9JqTp9yxX5fGU5GTvQZK3m0",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_BLDnM7zOGIVHkH5ljbec6dhs",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Sébastien Lecornu no-confidence motions January 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_BLDnM7zOGIVHkH5ljbec6dhs",
+      "content": "[Sébastien Lecornu] Sébastien Lecornu (French pronunciation: [sebastjɛ̃ ləkɔʁny]; born 11 June 1986) is a French politician who has served as Prime Minister of France since September 2025. Positioned on the right of the ideological political spectrum, Lecornu has promoted Gaullist, Séguinist, and socially conservative beliefs. Since leaving The Republicans (LR) in 2017, Lecornu has been a member of Renaissance (RE). Lecornu was president of the Departmental Council of Eure from 2015 to 2017. In government, he served as secretary of state to the minister of the ecological and inclusive transition (2017–2018), minister for local authorities (2018–2020), minister of the overseas (2020–2022) and minister of the armed forces (2022–2025). On 9 September 2025, Lecornu was appointed as prime minister by Emmanuel Macron after the Bayrou government was brought down by a vote of no confidence in the National Assembly. He unveiled his cabinet 26 days after being nominated and resigned hours later, making his first government the shortest-lived in the history of the French Fifth Republic. He remained in office as a caretaker prime minister until he was reappointed by President Macron on 10 October 2025. | other articles: Lecornu governments, 2026 in France"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_D9xrZ1gtCkvcmhWa2ky8yd5O",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"January 2026 French government no-confidence votes details\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_D9xrZ1gtCkvcmhWa2ky8yd5O",
+      "content": "[2026 Berlin state election] The 2026 Berlin state election was held on 20 September 2026 to elect the 20th Abgeordnetenhaus of Berlin. The 2026 Mecklenburg-Vorpommern state election took place on the same day, two weeks after the 2026 Saxony-Anhalt state election. Due to numerous irregularities in the 2021 Berlin state election, it was ruled invalid and repeated in 2023 in which members were elected only for the remainder of the term. Kai Wegner has served as Governing Mayor of Berlin since April 2023, leading the CDU-SPD Wegner senate, but has received criticism and was not seeking re-election as mayor. The parties of the outgoing government—the Christian Democratic Union (CDU) and the Social Democratic Party (SPD)—as well as the Greens, lost about a third of their support. Meanwhile, The Left and the Alternative for Germany (AfD) doubled their share, and the Sahra Wagenknecht Alliance (BSW) failed to secure any seats. The Left became the largest party in a state for the second time, after the 2019 Thuringian state election. Since the AfD is subject to the German firewall policy, and the CDU also rejects The Left, three other parties need to cooperate to form a coalition. Both the SPD and the Greens have signalled a willingness to join a coalition with The Left. This was the first election in Berlin since 1990 where the SPD or CDU were not the first placed party. | other articles: List of successful votes of no confidence in British governments, 2026 in United Kingdom politics and government"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_unN9WlhY3ojxFQIxFLyoqVBP",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Sébastien Lecornu January 2026 no-confidence votes summary\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_unN9WlhY3ojxFQIxFLyoqVBP",
+      "content": "[Politics of France] France is a semi-presidential system determined by the Constitution of the Fifth Republic. The nation declares itself to be an \"indivisible, secular, democratic, and social Republic\". The constitution provides for a separation of powers and proclaims France's \"attachment to the Rights of Man and the principles of National Sovereignty as defined by the Declaration of 1789\". The political system of France consists of an executive branch, a legislative branch, and a judicial branch. Executive power is exercised by the president of the republic and the Government. The Government consists of the prime minister and ministers. The prime minister is appointed by the president, and is responsible to Parliament. The Government, including the prime minister, can be revoked by the National Assembly, the lower house of Parliament, through a motion of no-confidence; this ensures that the prime minister is practically always supported by a majority in the lower house (which, on most topics, has prominence over the upper house). Parliament consists of the National Assembly and the Senate. It passes statutes and votes on the budget; it controls the action of the executive through formal questioning on the floor of the houses of Parliament and by establishing commissions of inquiry. The constitutionality of the statutes is checked by the Constitutional Council, members of which are appointed by the president of the republic, the president of the National Assembly, and the president of the Sena | other articles: Twelve-Day War, 2020s"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_WkJjpiBmt5fertBxUiFPh8GU",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Sébastien Lecornu January 2026 no-confidence votes outcome\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_WkJjpiBmt5fertBxUiFPh8GU",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_szwFb3kRp9FSttkmHJY123LE",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"French Prime Minister January 2026 no-confidence votes details\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_szwFb3kRp9FSttkmHJY123LE",
+      "content": "[French PM survives two no-confidence votes over disputed budget] Jan 23, 2026 · French Prime Minister Sébastien Lecornu survived two no-confidence votes on Friday, January 23, following his move to force his budget bill through Parliament, in a symbolic victory,...\n[French government survives no-confidence votes over budget] Jan 23, 2026 · The French government survived two votes of no-confidence in parliament on Friday over its decision to ram through the income part of the 2026 budget without giving the National Assembly...\n[French Government Survives No-Confidence Votes Over Budget] Jan 23, 2026 · Prime Minister Sebastien Lecornu will now again invoke article 49.3 of the constitution to force the expenditure part of the budget through the National Assembly - a move that will almost..."
+    },
+    {
+      "role": "assistant",
+      "content": "In January 2026, French Prime Minister Sébastien Lecornu survived two no-confidence motions on January 23. These votes were called in response to his government's decision to push through the income part of the 2026 budget without the usual parliamentary debate. This outcome was seen as a significant victory for Lecornu, allowing him to continue his budgetary plans. \n\nFINAL: Sébastien Lecornu",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Sébastien Lecornu",
+  "steps_taken": 8
+}

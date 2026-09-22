@@ -1,0 +1,81 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-24",
+  "question": "In the United Kingdom, what is declared across the whole of Wales in July 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about what is declared across Wales in July 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01JmR798wEouTjUh8KwAANx8",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Wales July 2026 declared\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_01TU9ViFsY3EW76gNnjVaRbf",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Wales July 2026 declaration\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01JmR798wEouTjUh8KwAANx8",
+      "content": "[2026 United Kingdom heatwaves] During 2026, parts of the United Kingdom were severely affected by a series of record-breaking heatwaves, forming the western extent of a broader sequence of extreme heat events across Western and Central Europe. The first heatwave started on 22 May and saw the country's record for hottest day during May broken on 25 May when 34.8 °C (94.6 °F) was recorded at Kew Gardens in London, surpassing the previous record of 32.8 °C (91.0 °F) set in 1922 by 2 °C (3.6 °F); this record was broken again when 35.1 °C (95.2 °F) was recorded in the same location the following day. Other records which were broken included the hottest May day in Guernsey, Jersey and Wales, as well as the highest minimum May temperature in the UK. Experts estimated that around 550 people died during this period of extreme heat. The second heatwave started on 19 June and saw more records broken, including that for hottest day during June when 38.0 °C (100.4 °F) was recorded in Lingwood, Norfolk on 26 June, which is also the fifth hottest day in the UK ever. The previous record for June of 35.6 °C (96.1 °F) was set in 1957 and 1976. A further 2,200 deaths were estimated to have occurred during this heatwave, bringing the total to roughly 2,700. A third heatwave began on 4 July, with temperatures peaking at 35.5 °C (95.9 °F) in Wisley, Surrey, on 9 July. This marked the first year when temperatures have reached 35 °C (95 °F) in three separate months, whilst the records for most days reaching both 34 °C (93 °F) and | other articles: 2026 in Wales, 2026"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01TU9ViFsY3EW76gNnjVaRbf",
+      "content": "[2026 Cardiff Agreement - Wikipedia] The Cardiff Agreement (Welsh: Cytundeb Caerdydd; Irish: Comhaontú Chaerdydd) is a memorandum of understanding signed on 14 September 2026 by the leaders of Plaid Cymru, the Scottish National Party (SNP) and Sinn Féin setting out a shared commitment to independence from the United Kingdom for Wales and Scotland, alongside reunification for Northern Ireland with the Republic of Ireland. The ...\n[Leaders of Scotland, Wales, Northern Ireland unite for self ...] The leaders of the main political parties in Scotland, Wales and Northern Ireland have declared their right to \"self-determination\" in a joint agreement signed at a rare meeting in the Welsh ...\n[Wales, Scotland, Northern Ireland challenge UK unity with historic pact ...] The leaders of Wales, Scotland, and Northern Ireland have signed a pact that threatens the breakup of the United Kingdom. They told Prime Minister Andy Burnham to prepare for constitutional change and align with the European Union."
+    },
+    {
+      "role": "assistant",
+      "content": "The search results mention heatwaves in July 2026, but I need to find more specific information about what is declared across Wales in July 2026. Let me search more specifically.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01G54ycfUdV24QsPjN5DSGoG",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"\\\"Wales\\\" \\\"July 2026\\\" emergency declared\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_011VbVmJtHF4K4jJNrJiPZRk",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Wales July 2026 heatwave emergency declared\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01G54ycfUdV24QsPjN5DSGoG",
+      "content": "[Pulletop bushfire] The Pulletop bushfire, officially referred to as the Wandoo fire, started on 6 February 2006 in hot dry and windy weather conditions approximately 30 kilometres (19 mi) southeast of Wagga Wagga in the Australian state of New South Wales. The fire was thought to have been started by sparks from a tractor on a property at Pulletop which quickly got out of control. The New South Wales Rural Fire Service declared a bushfire emergency and the Hume Highway was closed late in the afternoon with fears that the fire would threaten the towns of Humula, Book Book, Livingstone and Kyeamba after 10 square kilometres (3.9 sq mi) of farmland was burnt. By 7 February 2006 milder conditions helped firefighters to control the fire burning in inaccessible country. | other articles: State of emergency, Hazardous area response team"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_011VbVmJtHF4K4jJNrJiPZRk",
+      "content": "[2026 United Kingdom heatwaves - Wikipedia] A fourth, shorter heatwave began on 28 July, occurring alongside severely dry conditions which prompted the Environment Agency to declare a drought across more than half of England and all of Wales.\n[Wales Heatwave 2026: Temperatures, Records and What to Expect] Jul 29, 2026 · Wales has already had three separate heatwaves this year, in May, June and early July, with the June spell setting a new national record. The bigger Welsh weather story right now is dryness rather than heat: drought has been declared across North Wales and the Upper Severn, and wildfires have burned in parts of the country for more than a week.\n[Wales declares drought as fourth heatwave looms - driest July ...] Jul 27, 2026 · The UK is bracing for a fourth heatwave this week as parts of Wales and the West Midlands have officially declared drought status. Emergency services remain on high alert for renewed wildfire risks after a summer marked by exceptionally dry conditions and record-breaking temperatures."
+    },
+    {
+      "role": "assistant",
+      "content": "Perfect! I found the answer. According to the search results, in July 2026, a **drought** is declared across Wales.\n\nFINAL: A drought is declared across all of Wales in July 2026.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "A drought is declared across all of Wales in July 2026.",
+  "steps_taken": 3
+}

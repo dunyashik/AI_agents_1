@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-6",
+  "question": "How many people are reported missing in Tibet after the floods in August 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_lz4qG9yunuBE8chJrynM4KmJ",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Tibet floods August 2026 missing persons report\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_lz4qG9yunuBE8chJrynM4KmJ",
+      "content": "[2026 Nepal–Tibet floods - Wikipedia] At least 1,410 deaths and 6,145 missing persons in Nepal, and 43 deaths and 519 missing in the Tibet Autonomous Region of China were reported. [3] The flood carried the bodies of some victims 240 km (150 mi) away into neighbouring India.\n[Search for missing after Nepal-Tibet floods kills at least ...] Aug 27, 2026 · NUWAKOT: Rescue teams rushed Thursday to find hundreds of people missing on the Nepal-Tibet border in flash floods and landslides that killed at least 160 and swept away entire villages. A ...\n[Latest missing persons update for Nepal-Tibet border flash ...] Aug 31, 2026 · Latest missing persons update for Nepal-Tibet border flash floods: 3,048 missing An aerial view shows a torrent of muddy water surging through the Trishuli river past houses in the aftermath of flash floods at Betrawati in Nepal's Nuwakot district on August 29, 2026."
+    },
+    {
+      "role": "assistant",
+      "content": "As of the reports following the floods in August 2026, there are 519 people reported missing in the Tibet Autonomous Region of China. \n\nFINAL: 519 missing in Tibet after August 2026 floods.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "519 missing in Tibet after August 2026 floods.",
+  "steps_taken": 2
+}

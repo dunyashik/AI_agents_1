@@ -1,0 +1,133 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-114",
+  "question": "What type of facility opened in St. John's, Newfoundland and Labrador on January 12, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_CvEfYprEwitBJoiacZtZoe9M",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"St. John's Newfoundland Labrador facility opened January 12 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_CvEfYprEwitBJoiacZtZoe9M",
+      "content": "[One year after new mental health facility opened, advocates want to see ...] One year after the new mental health and addictions facility in St. John's opened its doors to patients, advocates say there are still gaps in care.\n[AG finds failures in NLHC's St. John's transitional housing facility ...] A Newfoundland and Labrador housing program intended to help unhoused people get into permanent housing was peppered with \"significant issues\" from the start, according to Auditor General Denise ...\n[New Adult Mental Health and Addictions Facility Opens Today] ST. JOHN'S, NL — A cutting-edge new facility dedicated to mental health and addictions treatment officially opened its doors Today. The Adult Mental Health and Addictions Facility, integrated within the Health Sciences Centre, is set to redefine care in the province with its state-of-the-art design and holistic, recovery-focused approach. Offering a therapeutic environment that emphasizes ..."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_iliRCue8V0BRDLliBugRZ7wF",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Adult Mental Health and Addictions Facility St. John's January 12 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_iliRCue8V0BRDLliBugRZ7wF",
+      "content": "[Mental Health and Addictions Centre - NLHealthServices] Jul 20, 2026 · Wheelchair accessible facility with drop off zone at entrance, bilingual and braille wayfinding, elevators, connection to Health Sciences Centre on level 2. Pay-per-use parking is available. Pay per use parking kiosk in lobby.\n[New Adult Mental Health and Addictions Facility] The new adult mental health and addictions facility is constructed onto the existing Health Sciences Centre in St. John’s and replaces the existing Waterford Hospital.\n[New adult mental health and addictions facility – Eastern ...] The new Mental Health and Addictions Centre (MHAC), located at 300 Prince Phillip Drive in St. John’s, opened to patients and clients on April 13, 2025. For more information, please see the news release (NL Health Services Marks Historic Day for Mental Health in Newfoundland and Labrador)."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_30xs6wj8DXXhS3JNskL54T16",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"St. John's Newfoundland Labrador January 12 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_30xs6wj8DXXhS3JNskL54T16",
+      "content": "[St. John's Telegram | News, Headlines and Stories | PNI ...] Read the latest news and headlines out of St. John's Keep up with the stories and local news that matter to you.\n[Newfoundland under winter storm, wind warnings - CTV News] Jan 12, 2026 · Environment Canada has put all of Newfoundland under winter storm or wind warnings, along with southern parts of Labrador. Blizzard-like conditions are expected in some areas.\n[St. John's January 2026 Historical Weather Data (Newfoundland ...] Jan 22, 2026 · It features all historical weather data series we have available, including the St. John's temperature history for January 2026. You can drill down from year to month and even day level reports by clicking on the graphs."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_ZrnQ9mMboqjAo1bII4B5j8gk",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"January 12 2026 St. John's facility opening news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ZrnQ9mMboqjAo1bII4B5j8gk",
+      "content": "[Growing hospital offerings in growing St. Johns County] 4 days ago · St. Johns County Economic Development Director Christine Valliere says the new facilities mark big advancements for not just healthcare access, but job creation. “The opening of two new healthcare facilities in the same week is a strong indicator of how quickly St. John’s County is growing and how our economy is evolving,” Valliere says.\n[St. Johns County adds hospital and medical offerings as ...] 17 hours ago · Baptist Health's SilverLeaf medical campus in St. Augustine is among the healthcare additions in St. Johns County. It includes primary care, health specialists, rehab, lab services, and wellness center and more. UF Health and Baptist Health will open hospitals and medical facilities next week, with ...\n[JAXUSA State of the Region Features St. Johns County Update 2026] Mar 6, 2026 · Acadia Healthcare is building a behavioral health facility adding 239 high-wage jobs. TyMe Institute, will open a 30,000 sq. cancer prevention clinic later this spring in The Fountains at St. Johns. AdventHealth, Baptist Health, HCA and Ascension/St. Vincent are each investing millions in new facilities and expansions across the county."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_9N8YpbJfE2lTjfdJScRjvybD",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"St. John's Newfoundland Labrador January 12 2026 facility opening news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_9N8YpbJfE2lTjfdJScRjvybD",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_y9TGjOM1n7DGk8VY0oTp8Yc9",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"St. John's Newfoundland Labrador January 12 2026 news facility opening\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_y9TGjOM1n7DGk8VY0oTp8Yc9",
+      "content": "[NL Health Services announces Jan. 12 as opening date for ...] Dec 27, 2025 · Newfoundland and Labrador Health Services is advising the public that the new Urgent Care Centre (East), located at 28 Stavanger Drive in St. John’s, is opening on Monday, Jan. 12, 2026.\n[Mental Health And Addictions Centre Introduces New Facility ...] Apr 16, 2026 · Opened in spring 2025, the new Mental Health and Addictions Centre (MHAC) in St. John’s achieves this vision by bringing behavioral health treatment out into the open. Designed by B+H Architects (Toronto), the 240,000-square-foot facility embraces a recovery-focused, person-centered model.\n[CRA Receives $121.6M Contract for New St. John's Facility] Aug 13, 2026 · On August 10, 2026, the Government of Canada announced a major construction contract worth $121.6 million awarded to Pomerleau Inc. for a new Canada Revenue Agency (CRA) facility located at 80 Kelsey Drive in St. John's, Newfoundland and Labrador."
+    },
+    {
+      "role": "assistant",
+      "content": "On January 12, 2026, a new Urgent Care Centre (East) opened in St. John's, Newfoundland and Labrador. This facility is located at 28 Stavanger Drive and is part of the efforts to enhance healthcare services in the region. \n\nFINAL: Urgent Care Centre (East)",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Urgent Care Centre (East)",
+  "steps_taken": 7
+}

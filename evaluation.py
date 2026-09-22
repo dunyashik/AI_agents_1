@@ -68,10 +68,14 @@ def run_evaluation(dataset_path: str):
     df_report = pd.DataFrame(results)
 
     print("\n--- FINAL REPORT ---")
+    pd.set_option("display.max_columns", None)
+    pd.set_option("display.width", 200)
     try:
         display(df_report)
     except NameError:
-        print(df_report.to_markdown(index=False))
+        print(df_report.to_string(index=False))
+
+    df_report.to_csv("report.csv", index=False)
 
     fig = compare_chart(df_report)
     fig.savefig("money_chart.png")

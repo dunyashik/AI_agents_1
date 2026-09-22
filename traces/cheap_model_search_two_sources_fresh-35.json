@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-35",
+  "question": "Who became the first person to swim around the Saint Helena island in February 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_5hVUoaES7Zxxm9KJ9ousvc4v",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"first person to swim around Saint Helena island February 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_5hVUoaES7Zxxm9KJ9ousvc4v",
+      "content": "[Jasmine swims around St Helena - Rotary Magazine - February 2026] Not content with sailing around the world in a 19-foot yacht, Rotarian Jasmine Harrison has completed the first recorded swim around the island of St Helena, covering approximately 30 miles in 19 hours after deciding to attempt the challenge just days before entering the water.\n[Woman's \"amazing adventure\" as she swims around beautiful St ...] May 28, 2026 · Diving in head first, Dina claimed the record for fastest circumnavigation swim around Saint Helena (female) in an astonishing time of 17 hr 13 min 28 sec. Her swim, on 26 February, was ratified by Open Water Africa and the World Open Water Swimming Association.\n[Dina Levačić becomes first person in world to swim around ...] Feb 27, 2026 · Levačić successfully swam around the remote South Atlantic island, a distance of approximately 48 kilometres, finishing the challenge in 17 hours and 13 minutes. She entered the water at 00:01..."
+    },
+    {
+      "role": "assistant",
+      "content": "The first person to swim around Saint Helena island in February 2026 was Dina Levačić. She completed the swim, covering approximately 48 kilometers, in a time of 17 hours and 13 minutes. Her achievement was ratified by Open Water Africa and the World Open Water Swimming Association. \n\nFINAL: Dina Levačić",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Dina Levačić",
+  "steps_taken": 2
+}

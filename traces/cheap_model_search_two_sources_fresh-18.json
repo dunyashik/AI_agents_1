@@ -1,0 +1,133 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-18",
+  "question": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_ysQ1OUJqEKHgQ41XV3NcVPwz",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Munich court imprisoned Iraqi couple enslaving raping Yazidi girls date\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ysQ1OUJqEKHgQ41XV3NcVPwz",
+      "content": "ddg_search error: No results found."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_5DrT3QEE8DtiuZRXeXPGqSaq",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Munich court Iraqi couple enslaving raping Yazidi girls date\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_5DrT3QEE8DtiuZRXeXPGqSaq",
+      "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking people who are indigenous to Kurdistan who practice Yazidism, a monotheistic Iranian ethnoreligion derived from the Indo-Iranian tradition. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population was displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of A | other articles: 2026 in Germany"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_zwtm0LsnuA5yqu69aUYSe2yP",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Iraqi couple imprisoned Munich court Yazidi girls date\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_zwtm0LsnuA5yqu69aUYSe2yP",
+      "content": "ddg_search error: No results found."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_qwNDMyvQBHa1ih3Ffy5zRvQu",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Iraqi couple sentenced Munich court Yazidi girls enslaving raping date\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_qwNDMyvQBHa1ih3Ffy5zRvQu",
+      "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking people who are indigenous to Kurdistan who practice Yazidism, a monotheistic Iranian ethnoreligion derived from the Indo-Iranian tradition. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population was displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of A | other articles: 2026 in Germany"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_re9b7RdkjGI6Q8NKYWWhm2zq",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Munich court Iraqi couple Yazidi girls enslaving raping news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_re9b7RdkjGI6Q8NKYWWhm2zq",
+      "content": "[German court convicts Iraqi couple of enslaving Yazidi girls] Jul 13, 2026 · A court in Germany has convicted an Iraqi couple of enslaving two Yazidi girls in Iraq. The Munich Higher Regional Court also found them guilty of membership of the Islamic State...\n[German court convicts Iraqi couple of enslaving Yazidi girls] The Munich Higher Regional Court convicted Twana H.S. and Asia R.A. of genocide, war crimes, crimes against humanity, and membership in the Islamic State group for their role in the systematic persecution of Yazidis.\n[German court convicts Iraqi couple of enslaving Yazidi girls] Jul 12, 2026 · Thousands of men were killed and women and children were enslaved and raped when IS fighters stormed into the ancestral heartland of the Yazidis in northern Iraq. Germany recognises these acts as genocide."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_iGSKRK54NmULJAIn90Li8CJQ",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Munich court Iraqi couple sentenced Yazidi girls enslaving raping July 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_iGSKRK54NmULJAIn90Li8CJQ",
+      "content": "[2026 Munich Yazidi genocide trial - Wikipedia] Twana H.S. and Asia R.A., an Iraqi Kurdish former married couple and former members of the Islamic State (IS), were convicted by the Higher Regional Court ...\n[Germany: Iraqi sentenced to life for enslaving Yazidi girls] Jul 13, 2026 · The man and his former partner are accused of holding two Yazidi girls captive for years while subjecting them to forced labor, ...\n[German court convicts Iraqi couple of enslaving Yazidi girls] Jul 14, 2026 · An Iraqi couple in Germany is convicted of enslaving Yazidi girls while part of ISIS. The court sentenced the husband to life in prison."
+    },
+    {
+      "role": "assistant",
+      "content": "A Munich court sentenced an Iraqi couple for enslaving and raping Yazidi girls on July 12, 2026. They were convicted of genocide, war crimes, and crimes against humanity for their actions while being members of the Islamic State. \n\nFINAL: July 12, 2026",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "July 12, 2026",
+  "steps_taken": 7
+}

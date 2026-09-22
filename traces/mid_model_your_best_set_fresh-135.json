@@ -1,0 +1,168 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-135",
+  "question": "Who survived two no-confidence motions in January 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about no-confidence motions in January 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01FYbMsr4pA2rJdYoCfdEs8t",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"no-confidence motions January 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01FYbMsr4pA2rJdYoCfdEs8t",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me try with web_search instead.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01UnEPBPuyQik4XPrCpiadun",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"no-confidence motions January 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01UnEPBPuyQik4XPrCpiadun",
+      "content": "[Confidence motions in the United Kingdom] In the United Kingdom, confidence motions are a means of testing the support of the government (executive) in a legislative body, and for the legislature to remove the government from office. A confidence motion may take the form of either a vote of confidence, usually put forward by the government, or a vote of no confidence (or censure motion), usually proposed by the opposition. When such a motion is put to a vote in the legislature, if a vote of confidence is defeated, or a vote of no confidence is passed, then the incumbent government must resign, or call a general election. It is a fundamental principle of the British constitution that the government must retain the confidence of the legislature, as it is not possible for a government to operate effectively without the support of the majority of the people's representatives. At the national level, this means that the UK government (the Cabinet) must retain the confidence of a majority in the House of Commons. It is possible for a vote of no confidence to succeed where there is a minority government or a small majority, or where there are internal party splits leading to some members of the ruling party voting against its leaders. Where there is a minority government, the government may seek agreements or pacts with other parties in order to prevail in the vote and remain in office. Despite their importance to the constitution, for a long time the rules surrounding motions of no confidence were dictated solely by convent | other articles: Motion of no confidence, Dáil Éireann confidence motions"
+    },
+    {
+      "role": "assistant",
+      "content": "This is general information about confidence motions. Let me search more specifically for events in January 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01GzLcFsHyVKzd1nsFrCvAxZ",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"survived two no-confidence motions January 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01GzLcFsHyVKzd1nsFrCvAxZ",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me try a different search approach.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01W91RMXfALDENzKiprS32rP",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"UK Prime Minister no-confidence January 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01W91RMXfALDENzKiprS32rP",
+      "content": "[Andy Burnham] Andrew Murray Burnham (born 7 January 1970) is a British politician who has served as Prime Minister of the United Kingdom and Leader of the Labour Party since July 2026. He has been Member of Parliament (MP) for Makerfield in Greater Manchester since June 2026, and was Mayor of Greater Manchester from 2017 to 2026; before that he was MP for Leigh from 2001 to 2017 and held several Cabinet positions. Burnham identifies as a socialist and is associated with the Labour Party's soft left; he is also a member of the Co-operative Party, which is allied with Labour. His political ideology has been called \"Manchesterism\". Burnham was born and brought up in northern England. He joined Labour at the age of 15 and read English at Fitzwilliam College, Cambridge. He worked as a journalist and political adviser before being elected the MP for Leigh in 2001. Under the prime ministers Tony Blair and Gordon Brown, Burnham was Chief Secretary to the Treasury and Culture Secretary, in which capacity he launched the Hillsborough Independent Panel. In 2009, as Health Secretary, he responded to the swine flu pandemic and launched an independent inquiry into the Stafford Hospital scandal. Following Labour's defeat at the 2010 general election, Burnham served in the shadow cabinet from 2010 to 2016. He stood for the Labour leadership in 2010 and in 2015, coming fourth and second, respectively. In 2017, he stood down as an MP and was elected Mayor of Greater Manchester. He reorganised Manchester's t | other articles: 2026 United Kingdom local elections, List of prime ministers of the United Kingdom"
+    },
+    {
+      "role": "assistant",
+      "content": "This shows Andy Burnham became PM in July 2026, so he wasn't the one facing no-confidence motions in January 2026. Let me search for who was PM before him.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01BnW5FhVW28Gn1QFFXKyvoC",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"\\\"January 2026\\\" no-confidence vote Prime Minister\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01BnW5FhVW28Gn1QFFXKyvoC",
+      "content": "[Motion of no confidence] In a deliberative assembly, a motion of no confidence is a motion declaring that a government or an officer, typically a government executive, is not fit to hold office. A vote on such a motion is a vote of no confidence; the corresponding inverses are a motion and vote of confidence. The no-confidence vote is a defining constitutional element of a parliamentary system (and derivatives such as the semi-presidential system), in which the mandate of the government or its officers relies on the continued support, or at least non-opposition, of the majority in the legislature. Systems differ in whether the motion may be directed against the prime minister, the government as a whole (whether majority, minority or coalition), individual cabinet ministers, the cabinet as a whole, or some combination of these. A censure motion is different from a no-confidence motion. In a parliamentary system, a vote of no confidence leads to the resignation of the prime minister and cabinet, or, depending on the constitutional procedure at hand, a snap election to potentially replace the government. A vote in favour of censure is a non-constitutionally-binding expression of disapproval; a motion of censure may be against an individual minister or a group of ministers. Depending on a country's constitution, a no-confidence motion may be directed against the entire cabinet. Depending on the applicable rules, a mover of a censure motion may need to state the reasons for the motion, but specific reason | other articles: Tihomir Orešković, No-confidence motion against Imran Khan"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search more specifically for UK political events in early 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01B2rEhaMAjWbtubNUYnouYR",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"UK government January 2026 political crisis\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01B2rEhaMAjWbtubNUYnouYR",
+      "content": "[2026 in United Kingdom politics and government] A list of events relating to politics and government in the United Kingdom during 2026. | other articles: Reform UK, 2026 Labour Party leadership crisis"
+    },
+    {
+      "role": "assistant",
+      "content": "Good! Let me look at the 2026 in United Kingdom politics article more closely.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_013nxK2G8GnAs5fdSk8mauHi",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"2026 in United Kingdom politics and government\", \"keywords\": \"no-confidence January survived motions\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_013nxK2G8GnAs5fdSk8mauHi",
+      "content": "keywords not found on the page"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me try different keywords.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_0157cw2BaCRXXejnDM8MnVEc",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"2026 in United Kingdom politics and government\", \"keywords\": \"January confidence vote\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_0157cw2BaCRXXejnDM8MnVEc",
+      "content": "8 January – The House of Lords votes to approve a proposal to allow more time for it to debate the Terminally Ill Adults (End of Life) Bill.\nChris Watkins is removed as leader of Nuneaton and Bedworth Borough Council following a vote of no confidence over a disagreement about the postponement of local elections. Steve Hey is voted in to replace him.\n9 March – Warwickshire County Council's Green Party members have asked for a vote of no confidence in Reform UK's George Finch, the UK's youngest council leader, after accusing him of bringing the authority \"into disrepute\" and \"[abusing] the office of leader\". Finch dismisses the attempt as a \"political stunt\".\nCouncillor George Finch survives a vote of no confidence by one vote after Warwickshire County Councillors vote 27–26 against a motion proposed by the Green Party."
+    }
+  ],
+  "final_answer": "I was unable to find definitive information about who survived two no-confidence motions in January 2026. The search results showed local council no-confidence votes but not the specific national-level event you're asking about.",
+  "steps_taken": 9
+}

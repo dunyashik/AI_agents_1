@@ -1,0 +1,47 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-18",
+  "question": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about this case in Germany involving a Munich court and an Iraqi couple accused of enslaving and raping Yazidi girls.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01DR5ysyc5ySJHhVy4gt9vam",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Munich court Iraqi couple enslaving raping Yazidi girls imprisoned\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_01LehzdHuDftU6ZcaKvMohrm",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Munich court Iraqi couple Yazidi girls slavery rape conviction\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01DR5ysyc5ySJHhVy4gt9vam",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01LehzdHuDftU6ZcaKvMohrm",
+      "content": "[2026 Munich Yazidi genocide trial - Wikipedia] Twana H.S. and Asia R.A., an Iraqi Kurdish former married couple and former members of the Islamic State (IS), were convicted by the Higher Regional Court (Oberlandesgericht) in Munich, Germany, on 13 July 2026 of genocide, crimes against humanity, and war crimes, among other offences, over the enslavement, torture, and sexual abuse of two Yazidi girls in Iraq and Syria between 2015 and 2017 ...\n[German court convicts Iraqi couple of enslaving Yazidi girls] Jul 13, 2026 · A court in Germany has convicted an Iraqi couple of enslaving two Yazidi girls in Iraq. The Munich Higher Regional Court also found them guilty of membership of the Islamic State...\n[Germany: Iraqi migrant couple sentenced to prison for ...] Jul 16, 2026 · A high court in Munich has sentenced an Iraqi migrant couple to prison terms, after they found them guilty of abuse, exploitation and enslaving two Yazidis, as well as being members of the terrorist group Islamic State (IS)."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, I found the information you're looking for.\n\nFINAL: The Munich court imprisoned an Iraqi couple (Twana H.S. and Asia R.A.) on 13 July 2026 for enslaving and raping Yazidi girls. They were convicted by the Higher Regional Court (Oberlandesgericht) in Munich of genocide, crimes against humanity, and war crimes.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "The Munich court imprisoned an Iraqi couple (Twana H.S. and Asia R.A.) on 13 July 2026 for enslaving and raping Yazidi girls. They were convicted by the Higher Regional Court (Oberlandesgericht) in Munich of genocide, crimes against humanity, and war crimes.",
+  "steps_taken": 2
+}

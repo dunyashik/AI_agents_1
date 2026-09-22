@@ -1,0 +1,53 @@
+{
+  "task_id": "cheap_model_wikipedia_and_page_find_fresh-100",
+  "question": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_MDKpltphX0tr3qr5T5yk0xIp",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Artemis II maximum distance from Earth April 6 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_MDKpltphX0tr3qr5T5yk0xIp",
+      "content": "[Artemis II] Artemis II (April 1–11, 2026) was a crewed flyby of the Moon and first crewed flight of the NASA-led Artemis program. It was the first crewed flight beyond low Earth orbit (LEO) since Apollo 17 in 1972 and the only crewed flight beyond LEO not part of the Apollo program. It was the first crewed flight of the Space Launch System (SLS) and of the Orion spacecraft, named Integrity by the four-person crew. The mission was a test flight supporting the Artemis IV mission to return humans to the lunar surface. Originally designated Exploration Mission-2 (EM-2) and intended to support the canceled Asteroid Redirect Mission, its objectives were revised after the establishment of the Artemis program in 2017. The mission's primary goal was to validate the Orion spacecraft's systems, crew operations, and mission procedures ahead of sustained lunar exploration in future Artemis missions. Artemis II's mission objectives were similar to those of Apollo 8 in 1968, the first crewed lunar flight of the Apollo program, while its free-return trajectory resembled that flown by Apollo 13 in 1970. Among the four crew members, Victor Glover became the only person of color, Christina Koch the only woman, Canadian Space Agency astronaut Jeremy Hansen the only person not from the United States, and Reid Wiseman the oldest person to travel beyond low Earth orbit and around the Moon. During their lunar flyby, the crew broke Apollo 13's record of 248,655 miles (400,171 km) for the greatest human distance  | other articles: Artemis program, Artemis I"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_4u3pIddqd4xQ60QcZkn2FAGG",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"Artemis II\",\"keywords\":\"maximum distance Earth April 6 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_4u3pIddqd4xQ60QcZkn2FAGG",
+      "content": "Artemis II (April 1–11, 2026) was a crewed flyby of the Moon and first crewed flight of the NASA-led Artemis program. It was the first crewed flight beyond low Earth orbit (LEO) since Apollo 17 in 1972 and the only crewed flight beyond LEO not part of the Apollo program. It was the first crewed flight of the Space Launch System (SLS) and of the Orion spacecraft, named Integrity by the four-person \nAmong the four crew members, Victor Glover became the only person of color, Christina Koch the only woman, Canadian Space Agency astronaut Jeremy Hansen the only person not from the United States, and Reid Wiseman the oldest person to travel beyond low Earth orbit and around the Moon. During their lunar flyby, the crew broke Apollo 13's record of 248,655 miles (400,171 km) for the greatest human d\nOn flight day 6, Orion entered the Moon's sphere of influence, where lunar gravity became the dominant force shaping its trajectory. Orion flew around the Moon at a closest approach of about 4,067 miles (6,545 km; 3,534 nmi) from the far-side lunar surface at 23:00 UTC on April 6. Its farthest distance from Earth was 252,756 miles (406,771 km; 219,639 nmi) at 23:02 UTC, and it surpassed Apollo 13'"
+    },
+    {
+      "role": "assistant",
+      "content": "On April 6, 2026, during the Artemis II mission, the crew reached a maximum distance of 252,756 miles (406,771 kilometers) from Earth. This distance surpassed the previous record set by Apollo 13. \n\nFINAL: 252,756 miles (406,771 kilometers)",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "252,756 miles (406,771 kilometers)",
+  "steps_taken": 3
+}

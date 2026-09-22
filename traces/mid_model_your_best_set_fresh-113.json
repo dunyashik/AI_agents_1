@@ -1,0 +1,33 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-113",
+  "question": "How many job cuts did Statistics Canada announce on January 13, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about Statistics Canada's job cuts announcement on January 13, 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01UdjVRmP3h5dwQM4HVzMWGe",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Statistics Canada job cuts January 13 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01UdjVRmP3h5dwQM4HVzMWGe",
+      "content": "[Statistics Canada is slashing hundreds of jobs, including ...] Jan 13, 2026 · About 850 jobs are being cut at Statistics Canada, including members of the executive team, as the federal agency said it’s “entering a workforce adjustment period.”\n[Statistics Canada to trim 850 jobs as public servants, unions ...] Jan 13, 2026 · Public servants are learning more about planned job cuts across the public service this week. As David Fraser reports, Statistics Canada has notified employees 850 positions will be...\n[Statistics Canada Slashing 850 Jobs in 2026, Entering ...] Jan 14, 2026 · Statistics Canada (Stats Can) is eliminating approximately 850 jobs — claiming that it’s entering a “workforce adjustment period.” In addition to the cuts, the federal agency will be trimming its executive team by around 12%."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Statistics Canada announced approximately 850 job cuts on January 13, 2026.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Statistics Canada announced approximately 850 job cuts on January 13, 2026.",
+  "steps_taken": 2
+}

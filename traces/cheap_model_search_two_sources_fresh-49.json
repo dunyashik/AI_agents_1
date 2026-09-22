@@ -1,0 +1,73 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-49",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_usGgtTXowczXlOQbKqsKNALy",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Asiya Andrabi sentence March 24 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_usGgtTXowczXlOQbKqsKNALy",
+      "content": "ddg_search error: No results found."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_igAh8LuGDZuSjSBScTKxfLxj",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Asiya Andrabi sentence March 24 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_igAh8LuGDZuSjSBScTKxfLxj",
+      "content": "[Asiya Andrabi] Asiya Andrabi is a Kashmiri separatist and founding leader of Dukhtaran-e-Millat. This group is part of the separatist organisation All Parties Hurriyat Conference in the Kashmir Valley. Government of India has declared it as a banned organization. The organisation claims that it aims for the freedom of Kashmir from India. Until her arrest, she was one of the most important women separatists in the valley. She is married to Ashiq Hussain Faktoo (a founding member of the Hizbul Mujahideen) in 1990. Her husband has been in jail since 1992, convicted of murder. Asiya Andrabi had a major role in starting and backing-up various protests in the Kashmir Valley. She is best known for supporting Masarat Alam in the 2010 Kashmir unrest across Kashmir by using her village network of Dukhtaran-e-Millat operatives for rally support. She hoisted the Pakistan flag and sang the Pakistani national anthem in Kashmir on 25 March 2015. Later on, she was booked for that. On 12 September 2015, she slaughtered a cow and released a video in a bid to defy the ban on sale of beef in Jammu and Kashmir. On 6 July 2018, Asiya was taken into custody by the National Investigation Agency (NIA). | other articles: 2026 in India, Unlawful Activities (Prevention) Act, 1967"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_cw15axQJofrRiFd7cieYY5Yv",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Asiya Andrabi March 24 2026 sentence news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_cw15axQJofrRiFd7cieYY5Yv",
+      "content": "[Court awards life sentence to Kashmiri separatist Andrabi ...] A Delhi court on Tuesday awarded Kashmiri separatist Asiya Andrabi life imprisonment, while two of her associates, Sofi Fehmeeda and Nahida Nasreen, have been sentenced to 30 years in prison each.\n[Delhi Court Awards Life Sentence To Kashmiri Separatist Asiya ...] Mar 24, 2026 · A Delhi court on Tuesday awarded life imprisonment to Kashmiri separatist and Dukhtaran-e-Millat chief Asiya Andrabi in a case under the Unlawful Activities (Prevention) Act (UAPA).\n[Court Sentences Asiya Andrabi To Life Imprisonment] Mar 24, 2026 · New Delhi- A Delhi court on Tuesday sentenced Kashmiri separatist and Dukhtaran-e-Millat chief Asiya Andrabi to life imprisonment for conspiring to commit a crime against the State."
+    },
+    {
+      "role": "assistant",
+      "content": "On March 24, 2026, a Delhi court sentenced Asiya Andrabi, the chief of Dukhtaran-e-Millat, to life imprisonment. This sentence was part of a case under the Unlawful Activities (Prevention) Act (UAPA), where she was found guilty of conspiring to commit a crime against the State. Additionally, her associates, Sofi Fehmeeda and Nahida Nasreen, received sentences of 30 years in prison each. \n\nFINAL: Asiya Andrabi was sentenced to life imprisonment on March 24, 2026.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Asiya Andrabi was sentenced to life imprisonment on March 24, 2026.",
+  "steps_taken": 4
+}

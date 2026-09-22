@@ -130,7 +130,10 @@ def summary(config, model, n, correct, cost, steps, seconds=0.0):
 
 def compare_chart(df):
     fig, axes = plt.subplots(1, 3, figsize=(13, 3.8))
-    axes[0].bar(df["model"], df["accuracy"] * 100, color=COLORS["violet"])
+    x = range(len(df))
+    labels = [f"{c}\n({m})" for c, m in zip(df["config"], df["model"])]
+
+    axes[0].bar(x, df["accuracy"] * 100, color=COLORS["violet"])
     axes[0].set_ylabel("Accuracy, %")
     axes[0].set_ylim(0, 105)
 
@@ -138,13 +141,15 @@ def compare_chart(df):
     max_finite = max(finite_costs) * 100 if finite_costs else 10
     display_costs = [c * 100 if c != float("inf") else max_finite * 1.2 for c in df["cost_per_correct"]]
 
-    axes[1].bar(df["model"], display_costs, color=COLORS["amber"])
+    axes[1].bar(x, display_costs, color=COLORS["amber"])
     axes[1].set_ylabel("Cost per correct, cents")
 
-    axes[2].bar(df["model"], df["avg_seconds"], color=COLORS["teal"])
+    axes[2].bar(x, df["avg_seconds"], color=COLORS["teal"])
     axes[2].set_ylabel("Seconds per task")
 
     for ax in axes:
+        ax.set_xticks(list(x))
+        ax.set_xticklabels(labels, fontsize=7)
         ax.tick_params(axis="x", labelrotation=25)
         ax.grid(alpha=0.3, axis="y")
 

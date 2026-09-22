@@ -1,0 +1,61 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-105",
+  "question": "What is the increase in fuel surcharges by Air China and China Southern Airlines in April 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about fuel surcharges by Air China and China Southern Airlines in April 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01CGovnyXdhVVoPH6Du5MBYP",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Air China China Southern Airlines fuel surcharge April 2026\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_014vzhsxLK17xHgpyskhrSCu",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Air China fuel surcharge April 2026\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 2,
+          "id": "toolu_bdrk_014FR17tFMCNUG3EcXSW6Rf7",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"China Southern Airlines fuel surcharge April 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01CGovnyXdhVVoPH6Du5MBYP",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_014vzhsxLK17xHgpyskhrSCu",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_014FR17tFMCNUG3EcXSW6Rf7",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": "I apologize, but I'm currently unable to access the web search tools to find information about the fuel surcharge increases by Air China and China Southern Airlines in April 2026. The search services are temporarily unavailable.\n\nTo get this information, I recommend:\n1. Visiting the official websites of Air China and China Southern Airlines\n2. Checking aviation news websites like Aviation Week, Simple Flying, or local Chinese aviation news sources\n3. Looking for press releases from these airlines dated around April 2026\n\nIf you have access to this information or can provide more specific details, I'd be happy to help you analyze or verify it.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "I apologize, but I'm currently unable to access the web search tools to find information about the fuel surcharge increases by Air China and China Southern Airlines in April 2026. The search services are temporarily unavailable.\n\nTo get this information, I recommend:\n1. Visiting the official websites of Air China and China Southern Airlines\n2. Checking aviation news websites like Aviation Week, Simple Flying, or local Chinese aviation news sources\n3. Looking for press releases from these airlines dated around April 2026\n\nIf you have access to this information or can provide more specific details, I'd be happy to help you analyze or verify it.",
+  "steps_taken": 2
+}

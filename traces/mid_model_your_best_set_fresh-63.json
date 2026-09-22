@@ -1,0 +1,47 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-63",
+  "question": "How many people were killed in the avalanche near Ratschings in March 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about an avalanche near Ratschings in March 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01UCDo4paA77oHyvA5769k9p",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"avalanche Ratschings March 2026\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_01G5V2sKtso4Bd2timiifbj4",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Ratschings avalanche March 2026 deaths\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01UCDo4paA77oHyvA5769k9p",
+      "content": "[2026 in Italy] The following is a list of events of the year 2026 in Italy. | other articles: Deaths in September 2022"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01G5V2sKtso4Bd2timiifbj4",
+      "content": "[Avalanche Tragedy: 2 Skiers Killed, 5 Injured in Northern Italy ...] 30-second brief Two skiers killed, five injured in South Tyrol avalanche on March 21, 2026. Europe's deadliest avalanche season claims 127 lives, with Italy leading at 33 fatalities. Essential safety tips and equipment guide included.\n[25 Skiers Caught, 2 Killed In Avalanche In Italy] RATSCHINGS, Italy — An avalanche in high alpine terrain in South Tyrol on Saturday killed two skiers and injured several others, according to Italy's mountain rescue service.\n[A deadly South Tyrol avalanche kills 2 skiers, trapping 25 near the ...] Rescuers search the site where an avalanche engulfed a group of 10 skiers near Ratschings, northern Italy, on Saturday. The rescue operation involved six helicopters and around 80 rescuers ..."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, I found the information about the avalanche near Ratschings in March 2026.\n\nFINAL: 2 people were killed in the avalanche near Ratschings in March 2026 (specifically on March 21, 2026). Five others were injured in the incident.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "2 people were killed in the avalanche near Ratschings in March 2026 (specifically on March 21, 2026). Five others were injured in the incident.",
+  "steps_taken": 2
+}

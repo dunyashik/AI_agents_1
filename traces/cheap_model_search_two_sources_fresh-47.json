@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-47",
+  "question": "What position did Dharmendra Pradhan resign from in India in July 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_fdxne2QmUsNDdMxdSDF1J70R",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Dharmendra Pradhan resign July 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_fdxne2QmUsNDdMxdSDF1J70R",
+      "content": "[NEET 2026 Leak: Dharmendra Pradhan Resigns as Minister] Jul 25, 2026 · On July 25, Union Education Minister Dharmendra Pradhan resigned from the Union Council of Ministers amid nationwide protests over the NEET-UG 2026 paper leak controversy, marking the first resignation of a Minister from the Modi government in the past 12 years. Pradhan said he is disturbed to see ...\n[Dharmendra Pradhan Becomes First Cabinet Minister To Resign ...] Jul 25, 2026 · Union Education Minister Dharmendra Pradhan resigned on Saturday, stepping down from the Union Council of Ministers amid nationwide student protests over the NEET-UG 2026 paper leak controversy. His exit is being widely read as a rare moment of ministerial accountability, arguably the first time a Cabinet minister in the Narendra Modi-led government has stepped down under sustained public ...\n[Education Minister Dharmendra Pradhan resigns after weeks of ...] Jul 25, 2026 · Pradhan's resignation comes amid CJP-led protests at Jantar Mantar demanding his accountability over the NEET-UG 2026 paper leak and alleged irregularities in the CBSE's on-screen marking process ..."
+    },
+    {
+      "role": "assistant",
+      "content": "In July 2026, Dharmendra Pradhan resigned from his position as the Union Education Minister of India. His resignation was in response to nationwide protests regarding the NEET-UG 2026 paper leak controversy. This marked a significant moment as it was the first resignation of a minister from the Modi government in 12 years. \n\nFINAL: Dharmendra Pradhan resigned as Union Education Minister.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Dharmendra Pradhan resigned as Union Education Minister.",
+  "steps_taken": 2
+}

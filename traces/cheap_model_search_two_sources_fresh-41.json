@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-41",
+  "question": "What was the number of participants in the anti-war protest in Japan in April 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_5ogJQvk4ePM8qCbi2hzzfWea",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Japan anti-war protest April 2026 participants number\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_5ogJQvk4ePM8qCbi2hzzfWea",
+      "content": "[36,000 protesters rally in Tokyo against Japanese PM Takaichi's push to ...] About 36,000 people attended the rally, organizers said, the second protest to draw about 30,000 people near the National Diet Building against constitutional revision since April 8. Protesters held placards reading \"No to war,\" \"Do not undermine Article 9\" and \"Takaichi step down,\" calling for the protection of Japan's pacifist constitution.\n[36,000 Rally in Tokyo to Protect Japan's Pacifist Constit...] On April 19, 2026, organizers estimated 36,000 people gathered peacefully at the main protest against revisions to Article 9, Japan's postwar clause renouncing war, with 47,000 joining solidarity events nationwide. Protesters opposed Prime Minister Sanae Takaichi's push to amend the constitution by spring 2027, including explicit recognition of the Self-Defense Forces amid regional threats ...\n[Opinion: In Japan's swelling antiwar protests, peace ... - 毎日新聞] Antiwar and anti-constitutional revision demonstrators protest in front of Japan's National Diet on the night of April 8, 2026, in Tokyo. (Mainichi/Yoshiya Goto)"
+    },
+    {
+      "role": "assistant",
+      "content": "In April 2026, approximately 36,000 people participated in the main anti-war protest in Tokyo on April 19, with an estimated 47,000 joining solidarity events nationwide. \n\nFINAL: 36,000 participants in Tokyo, 47,000 nationwide.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "36,000 participants in Tokyo, 47,000 nationwide.",
+  "steps_taken": 2
+}

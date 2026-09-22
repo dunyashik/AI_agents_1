@@ -1,0 +1,53 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-95",
+  "question": "Which country won the 2026 Men's T20 World Cup in cricket?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_SyKpddV1e1FgN8L5Kmmf8upK",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"2026 Men's T20 World Cup winner\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_SyKpddV1e1FgN8L5Kmmf8upK",
+      "content": "[2026 Men's T20 World Cup final - Wikipedia] The 2026 ICC Men's T20 World Cup final was a Twenty20 International (T20I) cricket match played at the Narendra Modi Stadium in Ahmedabad, India, on 8 March 2026 to determine the winner of the 2026 ICC Men's T20 World Cup. It was played between the defending champions India and New Zealand.\n[2026 Men's T20 World Cup - Wikipedia] It was first played in 2007 in South Africa, and the 2026 tournament marked its tenth edition. [2] The ninth edition, held in 2024 in the West Indies and the United States, was contested by 20 teams, and was won by India, who defeated South Africa in the final. [3]\n[2026 Men's T20 World Cup final - Wikiwand] Mar 8, 2026 · The 2026 ICC Men's T20 World Cup final was a Twenty20 International (T20I) cricket match played at the Narendra Modi Stadium in Ahmedabad, India, on 8 March 2026 to determine the winner of the 2026 ICC Men's T20 World Cup. It was played between the defending champions India and New Zealand."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_w9RUFsIx1udOV6ahIXMT1ife",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"2026 Men's T20 World Cup final result\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_w9RUFsIx1udOV6ahIXMT1ife",
+      "content": "[2026 Men's T20 World Cup] The 2026 ICC Men's T20 World Cup was the tenth edition of the ICC Men's T20 World Cup, co-hosted by Board of Control for Cricket in India and Sri Lanka Cricket from 7 February to 8 March 2026. Sri Lanka had previously hosted the competition in 2012 and India in 2016. A total of twenty teams competed in 55 matches across five venues in India and three in Sri Lanka. More than 1.3 million spectators attended the matches across the two nations. Twenty teams competed in the tournament, which included the teams from the two hosts, six of the top seven teams from the previous edition, the four highest-ranked teams in the ICC Men's T20I Team Rankings not already qualified, and eight other teams determined through a series of regional qualifiers. Italy qualified for the Men's T20 World Cup for the first time. India were the defending champions, having won the 2024 edition. They defended their title by defeating New Zealand by 96 runs in the final, becoming the first team to win two consecutive T20 World Cups, the first country to win the title at home, and the first team to win the tournament three times. | other articles: 2026 Men's T20 World Cup final, 2026 Women's T20 World Cup"
+    },
+    {
+      "role": "assistant",
+      "content": "India won the 2026 Men's T20 World Cup by defeating New Zealand by 96 runs in the final. This victory marked India's second consecutive T20 World Cup title and their third overall. FINAL: India",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "India",
+  "steps_taken": 3
+}

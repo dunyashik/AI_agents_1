@@ -1,0 +1,168 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-146",
+  "question": "What date did prominent sportspeople in Australia call for a federal royal commission?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_vFlUg2r6IbhiuCCOKpeqoOvU",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Australia sportspeople call for federal royal commission date\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_vFlUg2r6IbhiuCCOKpeqoOvU",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Tt1Zkq8wJkhjSXDvkD1TWRf5",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Australia sportspeople call for federal royal commission\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Tt1Zkq8wJkhjSXDvkD1TWRf5",
+      "content": "[2026 in Australia] The following is a list of events including expected and scheduled events for the year 2026 in Australia. | other articles: Royal Commission on Antisemitism and Social Cohesion, History of Australia"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_EVBbb6xL2pLL74j7VQWcm3pE",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Australia sportspeople royal commission news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_EVBbb6xL2pLL74j7VQWcm3pE",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_pXNBe8IuLHqm3wgadZV4g1Sb",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Australia sportspeople call for royal commission news 2023\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_pXNBe8IuLHqm3wgadZV4g1Sb",
+      "content": "[2026 in Australia] The following is a list of events including expected and scheduled events for the year 2026 in Australia. | other articles: Royal Commission on Antisemitism and Social Cohesion, 2019–20 Australian bushfire season"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_j2QR1gU21SNYGQmdiRMNna2j",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Australia sportspeople call for royal commission date 2023\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_j2QR1gU21SNYGQmdiRMNna2j",
+      "content": "ddg_search error: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_JHiZFag3jDZ2gemKeQvEyxj0",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Australian sportspeople call for royal commission 2023 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_JHiZFag3jDZ2gemKeQvEyxj0",
+      "content": "[2026 in Australia] The following is a list of events including expected and scheduled events for the year 2026 in Australia. | other articles: Royal Commission on Antisemitism and Social Cohesion, History of Australia"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_aXhmVzZ6eEyRFh2WZxFWs97g",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Australia sportspeople royal commission news 2023\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_aXhmVzZ6eEyRFh2WZxFWs97g",
+      "content": "[More than 60 prominent sportspeople call for federal royal ...] Jan 4, 2026 · More than 60 Australian sports stars have called on Anthony Albanese to establish a federal royal commission into antisemitism, radicalisation and the Bondi terror attack, as pressure on...\n[Australia sport legends’ plea to PM: Call a royal commission ...] Scores of Australian sports stars and leaders have called on Prime Minister Anthony Albanese and the federal government to show “decisive national leadership” by establishing a Commonwealth royal commission into anti-Semitism … or risking losing the 2032 Brisbane Olympic Games.\n[Royal commission into antisemitism: Australian sports stars ...] Jan 3, 2026 · Pat Rafter, Jess Fox, Ian Thorpe and Grant Hackett are among prominent Australian sportspeople to sign an open letter calling for a royal commission into antisemitism."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Wo2841tMgakfmLnXZwXLhEtJ",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Australia sportspeople royal commission January 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Wo2841tMgakfmLnXZwXLhEtJ",
+      "content": "[PDF Australian Sports Leaders Call for a Commonwealth Royal Commission into ...] We call on the Australian Government to immediately establish a Commonwealth Royal Commission into antisemitism, radicalisation and the events leading up to the Bondi massacre as well as take ...\n[Sports stars call for federal royal commission into antisemitism and ...] More than 60 Australian sport stars have penned a letter calling for a royal commission into antisemitism and the events leading up to the Bondi terror attack.\n[Aussie sport legends call for Royal Commission] \"A Royal Commission is the most credible and unifying pathway to understanding what went wrong, ensuring accountability, restoring social harmony and taking Australia forward with a meaningful, practical plan of action.\" Dawn Fraser speaking at the press conference at Bondi Beach on January 4, 2026."
+    }
+  ],
+  "final_answer": "Prominent sportspeople in Australia called for a federal royal commission on January 4, 2026.",
+  "steps_taken": 9
+}

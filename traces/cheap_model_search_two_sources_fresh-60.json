@@ -1,0 +1,53 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-60",
+  "question": "What is the number of people arrested in Ankara in June 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_anqFdTXWMsvsUamJfVeBbEjr",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Ankara arrests June 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_anqFdTXWMsvsUamJfVeBbEjr",
+      "content": "[Preventive arrests targeting anti-war activists ahead of the ...] Jun 12, 2026 · The NATO summit in Ankara and the government’s repression of anti-war opposition is taking place under conditions of intensifying class struggle.\n[As Capital's Global Guardians Arrive — A Chronicle of Ankara ...] Jun 26, 2026 · A Report to Global Masters: In Turkey of 2026, dominant politics, struggling in the whirlpool of economic crisis, must offer assurance to international capital. These arrests are a \"loyalty and public order\" report submitted to Western imperialism and NATO chiefs.\n[Turkey arrests 103 ahead of NATO summit, including ...] Jun 26, 2026 · A Turkish court has ordered the arrest of 103 people, including environmental volunteers, an academic, lawyers and a journalist, in sweeping security operations in Ankara ahead of next month’s NATO summit, Turkish media reported."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_QPOyp7pL4qJUwHyEzbNIePIH",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Ankara June 2026 arrests number details\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_QPOyp7pL4qJUwHyEzbNIePIH",
+      "content": "[Number of arrests rises to 178 in Ankara ahead of NATO summit] An Ankara court has formally arrested 178 people following mass police operations conducted ahead of the upcoming NATO summit in Turkey. A total of 225 people were initially detained on Jun 23 during simultaneous raids across the capital as part of a \"terrorism\" investigation led by the Ankara Chief Public Prosecutor's Office.\n[Turkey arrests 103 ahead of NATO summit, including environmental ...] A Turkish court has ordered the arrest of 103 people, including environmental volunteers, an academic, lawyers and a journalist, in sweeping security operations in Ankara ahead of next month's NATO summit, Turkish media reported.\n[Another 78 people sent to prison ahead of the NATO summit in Ankara] Turkish court ordered the pretrial detention of another 78 people arrested during mass police operations carried out ahead of the NATO summit in Ankara. The latest rulings bring the total number of people placed in pretrial detention to 181. ANF ANKARA Saturday, 27 June 2026, 13:42"
+    },
+    {
+      "role": "assistant",
+      "content": "In June 2026, a total of 178 people were formally arrested in Ankara following mass police operations conducted ahead of the NATO summit. Initially, 225 individuals were detained during these operations, but the number of formal arrests was later confirmed to be 178. \n\nFINAL: 178 people were arrested in Ankara in June 2026.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "178 people were arrested in Ankara in June 2026.",
+  "steps_taken": 3
+}

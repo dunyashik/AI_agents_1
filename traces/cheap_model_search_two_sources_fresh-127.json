@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-127",
+  "question": "What title did the Oklahoma Sooners baseball team win on June 22, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_7crGsnSEfv26Nzga1a5F7c8D",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Oklahoma Sooners baseball team title June 22 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_7crGsnSEfv26Nzga1a5F7c8D",
+      "content": "[2026 Oklahoma Sooners baseball team - Wikipedia] The 2025 Oklahoma Sooners baseball team finished the season 38–22, and 14–16 in SEC play. In the 2025 Southeastern Conference baseball tournament, they won their first two games before ultimately losing to Vanderbilt 1–6 in the quarterfinals. The team received an at-large bid in the Chapel Hill Regional. The Sooners defeated Nebraska 7–4 in their opener. Subsequently, they lost in the ...\n[Who won the 2026 College World Series title? Recap of CWS] The 2026 NCAA college baseball season has officially concluded, as a champion was crowned on June 22 in Omaha. Oklahoma, a team that didn’t have the hottest team entering the tourney, wound up catching fire and ultimately took a national title to Norman.\n[Oklahoma 13-2 North Carolina (Jun 22, 2026) Final Score - ESPN] Game summary of the Oklahoma Sooners vs. North Carolina Tar Heels College Baseball game, final score 13-2, from June 22, 2026 on ESPN."
+    },
+    {
+      "role": "assistant",
+      "content": "On June 22, 2026, the Oklahoma Sooners baseball team won the NCAA College World Series title, defeating North Carolina with a final score of 13-2. \n\nFINAL: NCAA College World Series title",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "NCAA College World Series title",
+  "steps_taken": 2
+}

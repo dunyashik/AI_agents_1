@@ -1,0 +1,47 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-82",
+  "question": "What was the death toll from the fire at a shoe factory in China in July 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about a shoe factory fire in China in July 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01758gvDgFzzaPJpBTZsAKQN",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"shoe factory fire China July 2026\"}"
+          }
+        },
+        {
+          "type": "function",
+          "index": 1,
+          "id": "toolu_bdrk_01SAmY3JJB18VBtFoKA1h86C",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"shoe factory fire China July 2026 death toll\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01758gvDgFzzaPJpBTZsAKQN",
+      "content": "[Huiteng Shoes factory fire] At 12:04 pm (CST) on 9 July 2026, a fire erupted on the first floor in a flammable material storage area at the Huiteng Shoe Company factory in Jinjiang, Fujian, China. Founded in 2015, Huiteng produces shoes for international companies Fila, Beppi, Slazenger and Hi-Tec. Just after noon, a fire quickly spread on the ground floor of the five-storey concrete building. The fire spread quickly due to highly flammable adhesives and raw materials for shoes. Twenty-eight deaths have been confirmed. The facility had 237 employees and two delivery personnel onsite at the time of the fire and many of them stranded on the roof while rescuers attempted to access them. According to the city fire chief, exits and stairwells were blocked with shoe materials slowing rescue personnel from reaching the upper levels of the building. General Secretary of the Chinese Communist Party Xi Jinping and Premier Li Qiang stated \"[t]he cause of the accident should be identified as soon as possible and... those responsible must be strictly held accountable.\" Following the incident, several employees of the factory owners were arrested, while the firm's bank account was frozen. | other articles: 2026 in China, Nike, Inc."
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01SAmY3JJB18VBtFoKA1h86C",
+      "content": "ddg_search error: No results found."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, I found information about the shoe factory fire in China in July 2026.\n\nFINAL: The death toll from the fire at the Huiteng Shoe Company factory in Jinjiang, Fujian, China on July 9, 2026 was 28 deaths.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "The death toll from the fire at the Huiteng Shoe Company factory in Jinjiang, Fujian, China on July 9, 2026 was 28 deaths.",
+  "steps_taken": 2
+}

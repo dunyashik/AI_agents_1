@@ -1,0 +1,33 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-42",
+  "question": "Who inaugurated the Noida International Airport in India in March 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_RYlKbQUatWIAx7Haup5hoWlI",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"Noida International Airport inauguration March 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_RYlKbQUatWIAx7Haup5hoWlI",
+      "content": "[Noida International Airport Inauguration: PM Narendra Modi to ...] Mar 26, 2026 · According to a freeport published by ANI on March 26, 2026, Prime Minister Narendra Modi is set to inaugurate the first phase of the airport on March 28, marking a milestone not just for infrastructure, but for the future of travel in India.\n[Noida International Airport Inauguration Today: Time, Flight ...] Mar 28, 2026 · Today, March 28, 2026, marks a historic milestone as Prime Minister Narendra Modi arrives in Gautam Buddha Nagar to formally inaugurate Phase 1 of the Noida International Airport in Jewar.\n[Noida International Airport Jewar Inauguration 2026 | Delhi ...] Mar 27, 2026 · Noida International Airport in Jewar will be inaugurated on March 28, 2026 by PM Narendra Modi, enhancing Delhi-NCR connectivity and boosting tourism."
+    },
+    {
+      "role": "assistant",
+      "content": "The Noida International Airport in India was inaugurated by Prime Minister Narendra Modi on March 28, 2026. FINAL: Prime Minister Narendra Modi.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Prime Minister Narendra Modi.",
+  "steps_taken": 2
+}

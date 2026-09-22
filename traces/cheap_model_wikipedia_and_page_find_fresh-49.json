@@ -1,0 +1,168 @@
+{
+  "task_id": "cheap_model_wikipedia_and_page_find_fresh-49",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_pDKPzrVmPpJlbX9DH67KUY1B",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Asiya Andrabi sentence March 24 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_pDKPzrVmPpJlbX9DH67KUY1B",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_maJWbLA7vnznr2rC7bWBSDka",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Asiya Andrabi sentence March 24 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_maJWbLA7vnznr2rC7bWBSDka",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_1P5FCdon9sdadoQlrVMqoyDr",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Asiya Andrabi March 24 2026 sentence news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_1P5FCdon9sdadoQlrVMqoyDr",
+      "content": "web_search error: Wikipedia is unreachable"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_p3A6fmo76AuvylooDSWyg9Xy",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Asiya Andrabi sentenced March 24 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_p3A6fmo76AuvylooDSWyg9Xy",
+      "content": "[Asiya Andrabi] Asiya Andrabi is a Kashmiri separatist and founding leader of Dukhtaran-e-Millat. This group is part of the separatist organisation All Parties Hurriyat Conference in the Kashmir Valley. Government of India has declared it as a banned organization. The organisation claims that it aims for the freedom of Kashmir from India. Until her arrest, she was one of the most important women separatists in the valley. She is married to Ashiq Hussain Faktoo (a founding member of the Hizbul Mujahideen) in 1990. Her husband has been in jail since 1992, convicted of murder. Asiya Andrabi had a major role in starting and backing-up various protests in the Kashmir Valley. She is best known for supporting Masarat Alam in the 2010 Kashmir unrest across Kashmir by using her village network of Dukhtaran-e-Millat operatives for rally support. She hoisted the Pakistan flag and sang the Pakistani national anthem in Kashmir on 25 March 2015. Later on, she was booked for that. On 12 September 2015, she slaughtered a cow and released a video in a bid to defy the ban on sale of beef in Jammu and Kashmir. On 6 July 2018, Asiya was taken into custody by the National Investigation Agency (NIA). | other articles: 2026 in India, Yasin Malik"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_VWQsWzjydyiOHR5ipyyNwgbg",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Asiya Andrabi March 2026 news sentence\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_VWQsWzjydyiOHR5ipyyNwgbg",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: Unlawful Activities (Prevention) Act, 1967, Yasin Malik"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_rTD62W6feV7Y8t7ZqNYDjOlX",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Asiya Andrabi sentenced March 2026 news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_rTD62W6feV7Y8t7ZqNYDjOlX",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: Unlawful Activities (Prevention) Act, 1967, Yasin Malik"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_B7HUVT90VAAy9eYEs4JJhcRW",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Asiya Andrabi sentenced March 2026 details\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_B7HUVT90VAAy9eYEs4JJhcRW",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: Ashraf Sehrai"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_yVd26xzRHgLEj6G4WABKQsnc",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Asiya Andrabi March 2026 sentence news report\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_yVd26xzRHgLEj6G4WABKQsnc",
+      "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: Unlawful Activities (Prevention) Act, 1967, Yasin Malik"
+    }
+  ],
+  "final_answer": "I was unable to find specific information regarding the sentence given to Asiya Andrabi on March 24, 2026. Please check reliable news sources for the most accurate and up-to-date information.",
+  "steps_taken": 9
+}

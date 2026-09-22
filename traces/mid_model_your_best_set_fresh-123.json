@@ -1,0 +1,33 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-123",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about a country breaking off diplomatic relations with France in June 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_016PEDRsssviPkdC92jMLB4c",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"country broke diplomatic relations France June 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_016PEDRsssviPkdC92jMLB4c",
+      "content": "[Burkina Faso breaks off diplomatic relations with France] Jun 26, 2026 · June 26 (Reuters) - Burkina Faso has broken off diplomatic relations with France, the government said on state television on Friday, widening a rupture with its former colonial ruler after years...\n[France considers measures after Burkina Faso breaks off ...] Jun 27, 2026 · France said on Saturday it was considering taking reciprocal measures after Burkina Faso broke off diplomatic relations.\n[Burkina Faso cuts diplomatic relations with France, once a ...] Jun 27, 2026 · Ouagadougou, Burkina Faso — Burkina Faso’s military government severed diplomatic ties with France, its former colonial ruler that had been a key security partner for the West African nation..."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Burkina Faso broke off diplomatic relations with France in June 2026.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "Burkina Faso broke off diplomatic relations with France in June 2026.",
+  "steps_taken": 2
+}

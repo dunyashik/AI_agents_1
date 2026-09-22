@@ -1,0 +1,73 @@
+{
+  "task_id": "cheap_model_search_two_sources_fresh-82",
+  "question": "What was the death toll from the fire at a shoe factory in China in July 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_0f41q068s9lJfQhlEdamWiLe",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"China shoe factory fire July 2026 death toll\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_0f41q068s9lJfQhlEdamWiLe",
+      "content": "ddg_search error: No results found."
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_1kOrfJNbXgp3hMXwuxyGjwjI",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"China shoe factory fire July 2026 death toll\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_1kOrfJNbXgp3hMXwuxyGjwjI",
+      "content": "[2026 in China] Events in the year 2026 in China. | other articles: List of explosions, List of disasters in the United States by death toll"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_BWQMKEtJA8IWBg3oJ6ebup0u",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"July 2026 China shoe factory fire news\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_BWQMKEtJA8IWBg3oJ6ebup0u",
+      "content": "[Factory Blaze in China’s ‘Shoe Capital’ Kills 28 - The New ...Shoe factory fire in China highlights persisting problems for ...A shoe factory fire that killed 28 highlights China's ...Factory fire kills at least 28 in China's 'shoe capital' - BBCShoe Factory Fire in China Kills At Least 28 - WWDFire kills 28 at Huiteng Shoes factory in JinjiangA shoe factory fire that killed 28 highlights China's ...] Jul 9, 2026 · At least 28 people have died in a fire at a shoe factory in southeastern China on Thursday, according to Chinese state media. The latest in a string of deadly workplace accidents to rock... Authorities are investigating a blaze at a shoe factory in southeastern China's Fujian province that killed 28 people, raising renewed concern over worker safety. Jul 10, 2026 · Authorities are investigating a blaze at a shoe factory in southeastern China's Fujian province that killed 28 people, raising renewed concern over worker safety. Jul 10, 2026 · Jinjiang reportedly manufactures 20% of the world's sports shoes. A fire at a shoe factory in the south-eastern Chinese city of Jinjiang has killed at least 28 people, according to the state news ... Jul 9, 2026 · A shoe factory in the Fujian province in China has killed at least 28 people after a fire broke out on the ground floor where flammable materials were stored, according to the state news... Jul 13, 2026 · A fire at Huiteng Shoes Co., Ltd. in Jinjiang, Fujian Province, killed 28 workers on July 10, 2026. Nearly 240 people were inside the facility when flames broke out on the ground floor, where flammable materials were stored. Jul 10, 2026 · BEIJING (AP) — Authorities were investigating a blaze at a shoe factory in southeastern China’s Fujian province that killed 28 people, raising renewed concern over worker safety. What happened at a shoe factory in China? Xinhua News Agency via Getty Images A shoe factory in the Fujian province in China has killed at least 28 people after a fire broke out on the ground floor where flammable materials were stored, according to the state news agency Xinhua. How many people died in a shoe factory fire in China? At least 28 people have died in a fire at a shoe factory in southeastern China on Thursday, according to Chinese state media. The latest in a string of deadly workplace accidents to rock the country this year, it prompted an immediate response from China’s leader. How many people died in workplace accidents in China in 2026? China has a long history of deadly "
+    },
+    {
+      "role": "assistant",
+      "content": "The fire at a shoe factory in Jinjiang, Fujian Province, China, on July 10, 2026, resulted in the deaths of at least 28 people. The blaze broke out on the ground floor of the factory, where flammable materials were stored, and there were nearly 240 people inside the facility at the time. \n\nFINAL: 28",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "28",
+  "steps_taken": 4
+}

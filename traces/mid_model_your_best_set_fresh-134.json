@@ -1,0 +1,33 @@
+{
+  "task_id": "mid_model_your_best_set_fresh-134",
+  "question": "How many metric tons of hashish were seized by Spanish police in March 2026?",
+  "steps": [
+    {
+      "role": "assistant",
+      "content": "I'll search for information about hashish seizures by Spanish police in March 2026.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01WzrtdnYCKjLHvGf5SUum6V",
+          "function": {
+            "name": "ddg_search",
+            "arguments": "{\"query\": \"Spanish police hashish seized March 2026 metric tons\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01WzrtdnYCKjLHvGf5SUum6V",
+      "content": "[Spanish police bust underground hashish route from Morocco] Mar 31, 2026 · Authorities seized 17 metric tons of the drug, 1.4 million euros ($1.6 million) in cash, and arrested 27 people in connection with the operation.\n[Spanish Police Bust Underground Hashish Route From Morocco] Mar 31, 2026 · Authorities seized 17 metric tons of the drug, 1.4 million euros ($1.6 million) in cash, and arrested 27 people in connection with the operation.\n[Spanish police bust underground hashish route from Morocco] Mar 31, 2026 · Authorities seized 17 metric tons of the drug, 1.4 million euros ($1.6 million) in cash, and arrested 27 people in connection with the operation. The police did not disclose the street value of the haul."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results, Spanish police seized **17 metric tons** of hashish in March 2026. This seizure was part of a major operation that busted an underground hashish route from Morocco. The operation also resulted in the seizure of 1.4 million euros in cash and the arrest of 27 people.\n\nFINAL: 17 metric tons of hashish were seized by Spanish police in March 2026.",
+      "tool_calls": null
+    }
+  ],
+  "final_answer": "17 metric tons of hashish were seized by Spanish police in March 2026.",
+  "steps_taken": 2
+}

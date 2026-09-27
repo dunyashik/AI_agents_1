@@ -5,3 +5,9 @@ pydantic==2.13.5
 python-dotenv==1.2.3
 ddgs==9.16.0
 ipython==9.17.1
+numpy==2.5.3
+pymilvus==3.0.2
+pypdf==6.19.0
+jupyter
+nbconvert
+ipykernel

@@ -1,6 +1,6 @@
 {
   "task_id": "cheap_model_search_two_sources_fresh-139",
-  "question": "On what date were Milan and Cortina d'Ampezzo selected as host cities for the 2026 Winter Olympics?",
+  "question": "Which skier became the first athlete representing Brazil to win a Winter Olympics medal, at the 2026 Winter Olympics?",
   "steps": [
     {
       "role": "assistant",
@@ -9,25 +9,25 @@
         {
           "type": "function",
           "index": 0,
-          "id": "call_YJerK6CsgFjN39UzvSlodAa8",
+          "id": "call_dhluhTKSSS1WtsXheGM1mCaz",
           "function": {
-            "name": "web_search",
-            "arguments": "{\"query\":\"Milan Cortina d'Ampezzo selected host cities 2026 Winter Olympics date\"}"
+            "name": "ddg_search",
+            "arguments": "{\"query\":\"2026 Winter Olympics Brazil first medal skier\"}"
           }
         }
       ]
     },
     {
       "role": "tool",
-      "tool_call_id": "call_YJerK6CsgFjN39UzvSlodAa8",
-      "content": "[2026 Winter Olympics] The 2026 Winter Olympics (Italian: Olimpiadi invernali del 2026), officially the XXV Olympic Winter Games and commonly known as Milano Cortina 2026, were an international winter multi-sport event held from 6 to 22 February 2026, at multiple sites across Lombardy, Veneto and Trentino-Alto Adige/Südtirol, with competition in selected events beginning on 4 February 2026. Featuring the debut of ski mountaineering as a Winter Olympic event, Milano Cortina 2026 was the first Olympic Games under the IOC presidency of Kirsty Coventry. A joint bid by Milan and Cortina d'Ampezzo was awarded on 24 June 2019, at the 134th IOC Session in Lausanne, Switzerland, in preference to another joint bid made by Stockholm and Åre, Sweden. The 2026 Olympic Games were the first to be officially co-hosted by two cities. Milan primarily hosted the ice events, while the remaining events were hosted in clusters around Cortina, Livigno, and Fiemme. These were the third Winter Olympics, and the fourth Olympics overall, to be hosted by Italy, as Cortina d'Ampezzo had previously hosted the 1956 Winter Olympics and Torino hosted the 2006 Winter Olympics. Norway finished at the top of the medal table for the fourth successive Winter Olympics with 18 gold and 41 medals overall, setting a new record for the largest number of gold and total medals won at a single Winter Olympics. The United States finished second with 12 gold and 33 medals overall, making this the team's most successful Winter Olympics in terms o | other articles: 2026 Winter Paralympics, Bids for the 2026 Winter Olympics"
+      "tool_call_id": "call_dhluhTKSSS1WtsXheGM1mCaz",
+      "content": "[Brazil at the 2026 Winter Olympics - Wikipedia] Brazil competed at the 2026 Winter Olympics in Milan and Cortina d'Ampezzo, Italy, from 6 to 22 February 2026. Alpine skier Lucas Pinheiro Braathen and skeleton racer Nicole Silveira were the country's opening ceremony flagbearers. [1] Bobsleder Edson Bindilatti was the flagbearer during the closing ceremony. [2][3] On 14 February 2026, Braathen became the first Latin American and Brazilian as ...\n[Lucas Pinheiro Braathen - Wikipedia] Lucas Pinheiro Braathen (/ˈluːkəs piˈɲeɾu brah-ten/ ⓘ, born 19 April 2000) is a Norwegian and Brazilian alpine ski racer who specializes in the technical events of slalom and giant slalom. He is the men's giant slalom champion at the 2026 Winter Olympics, becoming the first Brazilian and South American in history to win a medal at the Winter Olympics, as well as the first athlete ...\n[Lucas Pinheiro Braathen wins giant slalom gold for Brazil’s ...] Feb 14, 2026 · Lucas Pinheiro Braathen won Alpine skiing giant slalom gold in a thrilling competition on Saturday (14 February) at Milano Cortina 2026. The 25-year-old’s victory at the Stelvio Ski Centre makes him the first Brazilian and first South American ever to claim a medal at the Winter Games."
     },
     {
       "role": "assistant",
-      "content": "Milan and Cortina d'Ampezzo were selected as host cities for the 2026 Winter Olympics on June 24, 2019, during the 134th IOC Session in Lausanne, Switzerland. \n\nFINAL: June 24, 2019",
+      "content": "The skier who became the first athlete representing Brazil to win a Winter Olympics medal at the 2026 Winter Olympics is Lucas Pinheiro Braathen. He won a gold medal in the men's giant slalom event on February 14, 2026. This achievement made him the first Brazilian and South American to win a medal at the Winter Olympics. \n\nFINAL: Lucas Pinheiro Braathen",
       "tool_calls": null
     }
   ],
-  "final_answer": "June 24, 2019",
+  "final_answer": "Lucas Pinheiro Braathen",
   "steps_taken": 2
 }
